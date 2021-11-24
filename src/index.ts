@@ -1,5 +1,9 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
+import child_process from 'child_process';
+import fs from 'fs';
+import path from 'path';
+
 import type { Hooks } from '@yarnpkg/core';
 
 module.exports = {
@@ -41,30 +45,38 @@ module.exports = {
       }
     }
 
+    function writePackageHash(hash: string): void {
+      const hashDir = path.join('.yarn', 'plugins', 'plugin-auto-install');
+      fs.mkdirSync(hashDir, { recursive: true });
+      fs.writeFileSync(path.join(hashDir, 'hash'), hash);
+    }
+
     return {
       hooks: {
         afterAllInstalled() {
           try {
             const hash = calcPackageHash();
-            if (!hash) return;
-
-            const hashDir = path.join('.yarn', 'plugins', 'plugin-auto-install');
-            fs.mkdirSync(hashDir, { recursive: true });
-            fs.writeFileSync(path.join(hashDir, 'hash'), hash);
+            if (hash) writePackageHash(hash);
           } catch (_) {
             // do nothing
           }
         },
         async wrapScriptExecution(executor): Promise<() => Promise<number>> {
           try {
-            const hashDir = path.join('.yarn', 'plugins', 'plugin-auto-install');
-            const hash = fs.readFileSync(path.join(hashDir, 'hash'), 'utf-8');
-            if (hash && hash === calcPackageHash()) return executor;
+            const hash = calcPackageHash();
+            try {
+              const hashDir = path.join('.yarn', 'plugins', 'plugin-auto-install');
+              const storedHash = fs.readFileSync(path.join(hashDir, 'hash'), 'utf-8');
+              if (storedHash && storedHash === hash) return executor;
+            } catch (_) {
+              // do nothing
+            }
+            console.info('plugin-auto-install detects changes in package.json and/or yarn.lock.');
+            if (hash) writePackageHash(hash);
+            child_process.spawnSync('yarn', ['install'], { env: process.env, stdio: 'inherit' });
           } catch (_) {
             // do nothing
           }
-          console.info('plugin-auto-install detects changes in package.json and/or yarn.lock.');
-          child_process.spawnSync('yarn', ['install'], { env: process.env, stdio: 'inherit' });
           return executor;
         },
       } as Hooks,
