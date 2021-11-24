@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [14, 16]
+        node: 16
     steps:
       - uses: fkirc/skip-duplicate-actions@master
         with:
@@ -51,7 +51,4 @@ jobs:
             ${{ runner.os }}-yarn-
       - run: yarn install
       - run: yarn typecheck
-        if: ${{ matrix.node == 16 }}
       - run: yarn lint
-        if: ${{ matrix.node == 16 }}
-      - run: yarn test

@@ -41,6 +41,7 @@ module.exports = {
       const hashDir = getHashDirPath(project);
       fs.mkdirSync(hashDir, { recursive: true });
       fs.writeFileSync(path.join(hashDir, 'hash'), hash);
+      fs.writeFileSync(path.join(hashDir, '.gitignore'), 'hash');
     }
 
     function getHashDirPath(project: Project): string {
