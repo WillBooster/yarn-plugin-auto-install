@@ -2748,7 +2748,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:3.2.7, fast-glob@npm:^3.0.3, fast-glob@npm:^3.1.1, fast-glob@npm:^3.2.2":
+"fast-glob@npm:^3.0.3, fast-glob@npm:^3.1.1, fast-glob@npm:^3.2.2":
   version: 3.2.7
   resolution: "fast-glob@npm:3.2.7"
   dependencies:
@@ -7156,7 +7156,6 @@ __metadata:
     eslint-config-prettier: 8.3.0
     eslint-import-resolver-node: 0.3.6
     eslint-plugin-import: 2.25.3
-    fast-glob: 3.2.7
     husky: 7.0.4
     lint-staged: 12.1.2
     micromatch: 4.0.4
