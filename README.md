@@ -2,7 +2,7 @@
 
 :strawberry: A yarn (berry) plugin for running `yarn install` automatically.
 
-## What is this
+## What is This
 
 This plugin intends to be an alternative of [Zero-Installs](https://yarnpkg.com/features/zero-installs).
 It automatically invokes `yarn install` when any script is invoked with changes in `package.json` or `yarn.lock`.
