@@ -13,7 +13,7 @@ module.exports = {
 
     function calcPackageHash(project: Project): string | void {
       try {
-        const packageAndLockFiles: string[] = [];
+        const packageAndLockFiles: string[] = [path.join(project.cwd, 'yarn.lock')];
         for (const workspace of project.workspaces) {
           packageAndLockFiles.push(path.join(workspace.cwd, 'package.json'));
         }
@@ -25,7 +25,6 @@ module.exports = {
           if (!stat) continue;
           hash.update(stat.mtimeMs.toString());
         }
-        hash.update(project.lockFileChecksum);
         return hash.digest('hex');
       } catch (_) {
         // do nothing
