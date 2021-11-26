@@ -36,7 +36,7 @@
     "@willbooster/eslint-config-ts": "6.5.0",
     "@willbooster/prettier-config": "6.5.0",
     "@willbooster/renovate-config": "6.5.0",
-    "@yarnpkg/core": "3.2.0-rc.5",
+    "@yarnpkg/core": "3.2.0-rc.6",
     "conventional-changelog-conventionalcommits": "4.6.1",
     "esbuild": "0.13.15",
     "eslint": "8.3.0",
@@ -47,10 +47,10 @@
     "lint-staged": "12.1.2",
     "micromatch": "4.0.4",
     "pinst": "2.1.6",
-    "prettier": "2.4.1",
+    "prettier": "2.5.0",
     "semantic-release": "18.0.1",
     "sort-package-json": "1.53.1",
     "typescript": "4.5.2"
   },
-  "packageManager": "yarn@3.1.0"
+  "packageManager": "yarn@3.2.0-rc.6"
 }
