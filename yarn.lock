@@ -181,15 +181,15 @@ __metadata:
   linkType: hard
 
 "@npmcli/config@npm:*":
-  version: 2.3.1
-  resolution: "@npmcli/config@npm:2.3.1"
+  version: 2.3.2
+  resolution: "@npmcli/config@npm:2.3.2"
   dependencies:
     ini: ^2.0.0
     mkdirp-infer-owner: ^2.0.0
     nopt: ^5.0.0
     semver: ^7.3.4
     walk-up-path: ^1.0.0
-  checksum: c4f3cb192ef4cb39857184f6b2cc3d008a3ecfa9743569edf126747e48a998d6530651aaf1c0c194188534395d56be59b2b0636b4ccc770d73d72ce409b743f2
+  checksum: 7a93c4a8b76c22d5f5cf4614d58da58e21bcb3f0a4d202a4796a1860f99c97e66920f752aad0a95d86a477a4337be70259ac6956db838b3c237a95a01ef209a2
   languageName: node
   linkType: hard
 
@@ -542,13 +542,13 @@ __metadata:
   linkType: hard
 
 "@semantic-release/release-notes-generator@npm:^10.0.0":
-  version: 10.0.2
-  resolution: "@semantic-release/release-notes-generator@npm:10.0.2"
+  version: 10.0.3
+  resolution: "@semantic-release/release-notes-generator@npm:10.0.3"
   dependencies:
     conventional-changelog-angular: ^5.0.0
     conventional-changelog-writer: ^5.0.0
     conventional-commits-filter: ^2.0.0
-    conventional-commits-parser: ^3.0.0
+    conventional-commits-parser: ^3.2.3
     debug: ^4.0.0
     get-stream: ^6.0.0
     import-from: ^4.0.0
@@ -557,7 +557,7 @@ __metadata:
     read-pkg-up: ^7.0.0
   peerDependencies:
     semantic-release: ">=18.0.0-beta.1"
-  checksum: 6e71e8be33383fa71f68f5ca99f3143078678d7ba482fc277fcb4dc64f84f9ebaffbc798d8738a9e650f73d32ba1d0a3cf0413c25d428719a0a39238224223ce
+  checksum: 0237e7e6ebf41b7c6a72eea704b007442cfd05910ded7059235a5684a0e4a233b2ca3c3e39923901131e7f0a4dcb5e95737af469081529acc393223c04715505
   languageName: node
   linkType: hard
 
@@ -1526,13 +1526,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:*, chalk@npm:^4.0.0, chalk@npm:^4.1.0":
-  version: 4.1.2
-  resolution: "chalk@npm:4.1.2"
-  dependencies:
-    ansi-styles: ^4.1.0
-    supports-color: ^7.1.0
-  checksum: fe75c9d5c76a7a98d45495b91b2172fa3b7a09e0cc9370e5c8feb1c567b85c4288e2b3fded7cfdd7359ac28d6b3844feb8b82b8686842e93d23c827c417e83fc
+"chalk@npm:*":
+  version: 5.0.0
+  resolution: "chalk@npm:5.0.0"
+  checksum: 6eba7c518b9aa5fe882ae6d14a1ffa58c418d72a3faa7f72af56641f1bbef51b645fca1d6e05d42357b7d3c846cd504c0b7b64d12309cdd07867e3b4411e0d01
   languageName: node
   linkType: hard
 
@@ -1554,6 +1551,16 @@ __metadata:
     ansi-styles: ^4.1.0
     supports-color: ^7.1.0
   checksum: 8e3ddf3981c4da405ddbd7d9c8d91944ddf6e33d6837756979f7840a29272a69a5189ecae0ff84006750d6d1e92368d413335eab4db5476db6e6703a1d1e0505
+  languageName: node
+  linkType: hard
+
+"chalk@npm:^4.0.0, chalk@npm:^4.1.0":
+  version: 4.1.2
+  resolution: "chalk@npm:4.1.2"
+  dependencies:
+    ansi-styles: ^4.1.0
+    supports-color: ^7.1.0
+  checksum: fe75c9d5c76a7a98d45495b91b2172fa3b7a09e0cc9370e5c8feb1c567b85c4288e2b3fded7cfdd7359ac28d6b3844feb8b82b8686842e93d23c827c417e83fc
   languageName: node
   linkType: hard
 
@@ -1867,7 +1874,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-commits-parser@npm:^3.0.0, conventional-commits-parser@npm:^3.2.3":
+"conventional-commits-parser@npm:^3.2.3":
   version: 3.2.3
   resolution: "conventional-commits-parser@npm:3.2.3"
   dependencies:
@@ -1945,14 +1952,14 @@ __metadata:
   linkType: hard
 
 "debug@npm:4, debug@npm:^4.0.0, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1, debug@npm:^4.3.2":
-  version: 4.3.2
-  resolution: "debug@npm:4.3.2"
+  version: 4.3.3
+  resolution: "debug@npm:4.3.3"
   dependencies:
     ms: 2.1.2
   peerDependenciesMeta:
     supports-color:
       optional: true
-  checksum: 820ea160e267e23c953c9ed87e7ad93494d8cda2f7349af5e7e3bb236d23707ee3022f477d5a7d2ee86ef2bf7d60aa9ab22d1f58080d7deb9dccd073585e1e43
+  checksum: 14472d56fe4a94dbcfaa6dbed2dd3849f1d72ba78104a1a328047bb564643ca49df0224c3a17fa63533fd11dd3d4c8636cd861191232a2c6735af00cc2d4de16
   languageName: node
   linkType: hard
 
@@ -6547,9 +6554,9 @@ __metadata:
   linkType: hard
 
 "supports-color@npm:^9.0.2":
-  version: 9.1.0
-  resolution: "supports-color@npm:9.1.0"
-  checksum: 90794e2a31c03fd84bd3eee83a1310d4d4d415624d4747d6bdc847f7ae786b0ebf7c03b9e7ba7be1cd0733d9456be998ff5fb32410d787ee4fb145f5ad104c99
+  version: 9.2.1
+  resolution: "supports-color@npm:9.2.1"
+  checksum: 8a2bfeb64c1512d21a1a998c1f64acdaa85cf1f6a101627286548f19785524b329d7b28d567a28fc2d708fc7aba32f4c82a9b224f76b30a337a39d3e53418ff7
   languageName: node
   linkType: hard
 
