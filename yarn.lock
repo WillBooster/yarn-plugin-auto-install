@@ -617,13 +617,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.2.0":
-  version: 8.2.0
-  resolution: "@types/eslint@npm:8.2.0"
+"@types/eslint@npm:8.2.1":
+  version: 8.2.1
+  resolution: "@types/eslint@npm:8.2.1"
   dependencies:
     "@types/estree": "*"
     "@types/json-schema": "*"
-  checksum: 18f37790afc57412c74c9a0ef9a8cc44c1237a3f3d70e3e4e3daad38ed501f1a70395ff3955d3e4b481a5d04e6819ad2c377cd287c7315b3b633f0f1bda7b4a2
+  checksum: f32753ba184c212056f2bb7ee16937150a36e01da7eed15e2e179b7df76d0bbcbfa49972f30e9336f22be471c7f67fd91bcc8c25ff532462598de0f489df0cd8
   languageName: node
   linkType: hard
 
@@ -7174,7 +7174,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "yarn-plugin-auto-install@workspace:."
   dependencies:
-    "@types/eslint": 8.2.0
+    "@types/eslint": 8.2.1
     "@types/micromatch": 4.0.2
     "@types/node": 16.11.11
     "@types/prettier": 2.4.2
