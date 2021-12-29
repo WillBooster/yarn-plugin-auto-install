@@ -1,5 +1,9 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
+import crypto from 'crypto';
+import fs from 'fs';
+import path from 'path';
+
 import type { Hooks, Project } from '@yarnpkg/core';
 
 module.exports = {
@@ -13,17 +17,21 @@ module.exports = {
 
     function calcPackageHash(project: Project): string | void {
       try {
-        const packageAndLockFiles: string[] = [path.join(project.cwd, 'yarn.lock')];
-        for (const workspace of project.workspaces) {
-          packageAndLockFiles.push(path.join(workspace.cwd, 'package.json'));
-        }
-        packageAndLockFiles.sort();
-
         const hash = crypto.createHash('sha256');
-        for (const file of packageAndLockFiles) {
-          const stat = fs.statSync(file, { throwIfNoEntry: false });
-          if (!stat) continue;
+        const stat = fs.statSync(path.join(project.cwd, 'yarn.lock'), { throwIfNoEntry: false });
+        if (stat) {
           hash.update(stat.mtimeMs.toString());
+        }
+
+        for (const workspacePath of project.workspaces.map((w) => w.cwd).sort()) {
+          const packageJsonFile = path.join(workspacePath, 'package.json');
+          const packageJson = JSON.parse(fs.readFileSync(packageJsonFile, 'utf-8'));
+          const depsKeys = Object.keys(packageJson).filter((key) => key.endsWith('ependencies'));
+          const deps: string[] = [];
+          for (const key of depsKeys) {
+            deps.push(...Object.entries(packageJson[key]).map(([name, ver]) => `${name}: ${ver}`));
+          }
+          hash.update(deps.sort().join(','));
         }
         return hash.digest('hex');
       } catch (_) {
@@ -66,6 +74,7 @@ module.exports = {
             // do nothing
           }
           console.info('plugin-auto-install detects changes in package.json and/or yarn.lock.');
+          // Update hash to avoid a infinite loop
           if (hash) writePackageHash(hash, project);
           child_process.spawnSync('yarn', ['install'], { env: process.env, stdio: 'inherit' });
         } catch (_) {
