@@ -44,7 +44,7 @@ module.exports = {
       const hashDir = getHashDirPath(project);
       fs.mkdirSync(hashDir, { recursive: true });
       fs.writeFileSync(path.join(hashDir, 'hash'), hash);
-      fs.writeFileSync(path.join(hashDir, '.gitignore'), 'hash');
+      fs.writeFileSync(path.join(hashDir, '.gitignore'), '.gitignore\nhash');
       console.info(`plugin-auto-install updated hash: ${hash}`);
     }
 
