@@ -72,11 +72,13 @@ module.exports = {
           console.info('plugin-auto-install detects changes in package.json and/or yarn.lock.');
           // Update hash to avoid a infinite loop
           if (hash) writePackageHash(hash, project);
-          return () => {
-            child_process.spawnSync('yarn', ['install'], extra);
-            const ret = child_process.spawnSync('yarn', [extra.script, extra.args], extra);
-            return ret.status || 0;
-          };
+          child_process.spawnSync('yarn', ['install'], { cwd: extra.cwd, env: extra.env });
+          const ret = child_process.spawnSync('yarn', [scriptName, extra.args], {
+            cwd: extra.cwd,
+            env: extra.env,
+            stdio: 'inherit',
+          });
+          return () => ret.status || 0;
         } catch (_) {
           // do nothing
         }
