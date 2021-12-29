@@ -4,7 +4,7 @@ import type { Hooks, Project } from '@yarnpkg/core';
 
 module.exports = {
   name: 'plugin-auto-install',
-  factory: () => {
+  factory: (require: any) => {
     // eslint-disable-next-line @typescript-eslint/naming-convention
     const child_process = require('child_process');
     const crypto = require('crypto');
