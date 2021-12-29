@@ -1,15 +1,16 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
+import child_process from 'child_process';
+import crypto from 'crypto';
+import fs from 'fs';
+import path from 'path';
+
 import type { Hooks, Project } from '@yarnpkg/core';
 
 module.exports = {
   name: 'plugin-auto-install',
   factory: () => {
     // eslint-disable-next-line @typescript-eslint/naming-convention
-    const child_process = require('child_process');
-    const crypto = require('crypto');
-    const fs = require('fs');
-    const path = require('path');
 
     function calcPackageHash(project: Project): string | void {
       try {
@@ -73,13 +74,13 @@ module.exports = {
           // Update hash to avoid a infinite loop
           if (hash) writePackageHash(hash, project);
           child_process.spawnSync('yarn', ['install'], { cwd: extra.cwd, env: extra.env });
-          const ret = child_process.spawnSync('yarn', [scriptName, extra.args], {
+          const ret = child_process.spawnSync('yarn', [scriptName, ...extra.args], {
             cwd: extra.cwd,
             env: extra.env,
             stdio: 'inherit',
-            shell: 'true', // Required to avoid the tsc error (TS6231)
+            shell: true, // Required to avoid the tsc error (TS6231)
           });
-          return () => ret.status || 0;
+          return async () => ret.status || 0;
         } catch (_) {
           // do nothing
         }
