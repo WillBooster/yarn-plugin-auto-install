@@ -1,9 +1,5 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
-import crypto from 'crypto';
-import fs from 'fs';
-import path from 'path';
-
 import type { Hooks, Project } from '@yarnpkg/core';
 
 module.exports = {
@@ -65,7 +61,7 @@ module.exports = {
           // do nothing
         }
       },
-      async wrapScriptExecution(executor, project): Promise<() => Promise<number>> {
+      async wrapScriptExecution(executor, project, locator, scriptName, extra): Promise<() => Promise<number>> {
         try {
           const hash = calcPackageHash(project);
           try {
@@ -76,7 +72,11 @@ module.exports = {
           console.info('plugin-auto-install detects changes in package.json and/or yarn.lock.');
           // Update hash to avoid a infinite loop
           if (hash) writePackageHash(hash, project);
-          child_process.spawnSync('yarn', ['install'], { env: process.env, stdio: 'inherit' });
+          return () => {
+            child_process.spawnSync('yarn', ['install'], extra);
+            const ret = child_process.spawnSync('yarn', [extra.script, extra.args], extra);
+            return ret.status || 0;
+          };
         } catch (_) {
           // do nothing
         }
