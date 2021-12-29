@@ -77,6 +77,7 @@ module.exports = {
             cwd: extra.cwd,
             env: extra.env,
             stdio: 'inherit',
+            shell: 'true', // Required to avoid the tsc error (TS6231)
           });
           return () => ret.status || 0;
         } catch (_) {
