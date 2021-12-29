@@ -1,16 +1,15 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
-import child_process from 'child_process';
-import crypto from 'crypto';
-import fs from 'fs';
-import path from 'path';
-
 import type { Hooks, Project } from '@yarnpkg/core';
 
 module.exports = {
   name: 'plugin-auto-install',
   factory: () => {
     // eslint-disable-next-line @typescript-eslint/naming-convention
+    const child_process = require('child_process');
+    const crypto = require('crypto');
+    const fs = require('fs');
+    const path = require('path');
 
     function calcPackageHash(project: Project): string | void {
       try {
