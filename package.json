@@ -14,7 +14,7 @@
   "author": "WillBooster Inc.",
   "main": "dist/index.cjs",
   "scripts": {
-    "build": "node esbuild.js",
+    "build": "node esbuild.js && cp dist/index.cjs .yarn/plugins/plugin-auto-install.cjs",
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",
     "postinstall": "husky install",

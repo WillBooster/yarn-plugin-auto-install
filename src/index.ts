@@ -2,6 +2,9 @@
 
 import type { Hooks, Project } from '@yarnpkg/core';
 
+let installing = false;
+let lastHash = '';
+
 module.exports = {
   name: 'plugin-auto-install',
   factory: (require: any) => {
@@ -11,7 +14,49 @@ module.exports = {
     const fs = require('fs');
     const path = require('path');
 
-    function calcPackageHash(project: Project): string | void {
+    const hooks: Hooks = {
+      validateProject() {
+        installing = true;
+      },
+      afterAllInstalled(project) {
+        installing = false;
+        try {
+          const hash = calcPackageHash(project);
+          writePackageHash(hash, project);
+        } catch (_) {
+          // do nothing
+        }
+      },
+      async wrapScriptExecution(executor, project, locator, scriptName, extra): Promise<() => Promise<number>> {
+        if (installing) return executor;
+
+        try {
+          const hash = calcPackageHash(project);
+          try {
+            if (hash && hash === readPackageHash(project)) return executor;
+          } catch (_) {
+            // do nothing
+          }
+          // Update hash to avoid a infinite loop
+          if (!writePackageHash(hash, project)) return executor;
+          console.info(`plugin-auto-install is running 'yarn install' due to dependency changes.`);
+          child_process.spawnSync('yarn', ['install'], { cwd: extra.cwd, env: extra.env });
+          console.info(`plugin-auto-install finished 'yarn install'.`);
+          const ret = child_process.spawnSync('yarn', [scriptName, ...extra.args], {
+            cwd: extra.cwd,
+            env: extra.env,
+            stdio: 'inherit',
+            shell: true, // Required to avoid the tsc error (TS6231)
+          });
+          return async () => ret.status || 0;
+        } catch (_) {
+          // do nothing
+        }
+        return executor;
+      },
+    };
+
+    function calcPackageHash(project: Project): string | undefined {
       try {
         const hash = crypto.createHash('sha256');
         const yarnLockFile = path.join(project.cwd, 'yarn.lock');
@@ -41,54 +86,21 @@ module.exports = {
       return fs.readFileSync(path.join(hashDir, 'hash'), 'utf-8');
     }
 
-    function writePackageHash(hash: string, project: Project): void {
+    function writePackageHash(hash: string | undefined, project: Project): boolean {
+      if (!hash || hash === lastHash) return false;
+
       const hashDir = getHashDirPath(project);
       fs.mkdirSync(hashDir, { recursive: true });
       fs.writeFileSync(path.join(hashDir, 'hash'), hash);
       fs.writeFileSync(path.join(hashDir, '.gitignore'), '.gitignore\nhash');
-      console.info(`plugin-auto-install updated hash: ${hash}`);
+      console.info(`plugin-auto-install updated dependency hash: ${hash}`);
+      lastHash = hash;
+      return true;
     }
 
     function getHashDirPath(project: Project): string {
       return path.join(project.cwd, '.yarn', 'plugins', 'plugin-auto-install');
     }
-
-    const hooks: Hooks = {
-      afterAllInstalled(project) {
-        try {
-          const hash = calcPackageHash(project);
-          if (hash) writePackageHash(hash, project);
-        } catch (_) {
-          // do nothing
-        }
-      },
-      async wrapScriptExecution(executor, project, locator, scriptName, extra): Promise<() => Promise<number>> {
-        try {
-          const hash = calcPackageHash(project);
-          try {
-            if (hash && hash === readPackageHash(project)) return executor;
-          } catch (_) {
-            // do nothing
-          }
-          console.info('plugin-auto-install detects changes in package.json and/or yarn.lock.');
-          // Update hash to avoid a infinite loop
-          if (hash) writePackageHash(hash, project);
-          console.info(`plugin-auto-install is running 'yarn install'`);
-          child_process.spawnSync('yarn', ['install'], { cwd: extra.cwd, env: extra.env });
-          console.info(`plugin-auto-install finished 'yarn install'`);
-          const ret = child_process.spawnSync('yarn', [scriptName, ...extra.args], {
-            cwd: extra.cwd,
-            env: extra.env,
-            stdio: 'inherit',
-            shell: true, // Required to avoid the tsc error (TS6231)
-          });
-          return async () => ret.status || 0;
-        } catch (_) {
-          // do nothing
-        }
-        return executor;
-      },
-    };
     return { hooks };
   },
 };
