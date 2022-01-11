@@ -8,4 +8,4 @@ build({
   outfile: 'dist/index.cjs',
   platform: 'node',
   sourcemap: true,
-}).then();
+}).catch(() => process.exit(1));

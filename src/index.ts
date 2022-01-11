@@ -15,17 +15,15 @@ module.exports = {
     const path = require('path');
 
     const hooks: Hooks = {
-      validateProject() {
+      validateProject(project: Project) {
         installing = true;
+        const hash = calcPackageHash(project);
+        writePackageHash(hash, project);
       },
       afterAllInstalled(project) {
         installing = false;
-        try {
-          const hash = calcPackageHash(project);
-          writePackageHash(hash, project);
-        } catch (_) {
-          // do nothing
-        }
+        const hash = calcPackageHash(project);
+        writePackageHash(hash, project);
       },
       async wrapScriptExecution(executor, project, locator, scriptName, extra): Promise<() => Promise<number>> {
         if (installing) return executor;
@@ -89,12 +87,16 @@ module.exports = {
     function writePackageHash(hash: string | undefined, project: Project): boolean {
       if (!hash || hash === lastHash) return false;
 
-      const hashDir = getHashDirPath(project);
-      fs.mkdirSync(hashDir, { recursive: true });
-      fs.writeFileSync(path.join(hashDir, 'hash'), hash);
-      fs.writeFileSync(path.join(hashDir, '.gitignore'), '.gitignore\nhash');
-      console.info(`plugin-auto-install updated dependency hash: ${hash}`);
-      lastHash = hash;
+      try {
+        const hashDir = getHashDirPath(project);
+        fs.mkdirSync(hashDir, { recursive: true });
+        fs.writeFileSync(path.join(hashDir, 'hash'), hash);
+        fs.writeFileSync(path.join(hashDir, '.gitignore'), '.gitignore\nhash');
+        console.info(`plugin-auto-install updated dependency hash: ${hash}`);
+        lastHash = hash;
+      } catch (_) {
+        // do nothing
+      }
       return true;
     }
 
