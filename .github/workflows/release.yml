@@ -7,7 +7,7 @@ on:
 
 jobs:
   release:
-    uses: WillBooster/reusable-workflows/.github/workflows/semantic-release.yml@main
+    uses: WillBooster/reusable-workflows/.github/workflows/release.yml@main
     with:
       non_self_hosted: true
     secrets:
