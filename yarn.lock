@@ -181,15 +181,15 @@ __metadata:
   linkType: hard
 
 "@npmcli/config@npm:*":
-  version: 2.3.2
-  resolution: "@npmcli/config@npm:2.3.2"
+  version: 2.4.0
+  resolution: "@npmcli/config@npm:2.4.0"
   dependencies:
     ini: ^2.0.0
     mkdirp-infer-owner: ^2.0.0
     nopt: ^5.0.0
     semver: ^7.3.4
     walk-up-path: ^1.0.0
-  checksum: 7a93c4a8b76c22d5f5cf4614d58da58e21bcb3f0a4d202a4796a1860f99c97e66920f752aad0a95d86a477a4337be70259ac6956db838b3c237a95a01ef209a2
+  checksum: 46373eaeedff91b6d6450954d64f440bd325f49c49caa6c3378f2aaa44b3b27305693db82d1a59d861712b70286a114db519147e368e66905f72504c7ffaf897
   languageName: node
   linkType: hard
 
@@ -1598,13 +1598,13 @@ __metadata:
   linkType: hard
 
 "clipanion@npm:^3.2.0-rc.4":
-  version: 3.2.0-rc.4
-  resolution: "clipanion@npm:3.2.0-rc.4"
+  version: 3.2.0-rc.5
+  resolution: "clipanion@npm:3.2.0-rc.5"
   dependencies:
     typanion: ^3.3.1
   peerDependencies:
     typanion: "*"
-  checksum: c9d8ba9e16dca3016c32f42107a7602c52c9176626e0c815113c32b614ca125a9707221ec9df9c0a06e9741a23e0664153db1522c4f80b29f4b4d427fba002be
+  checksum: aee6b7be439258ac14045906a4d43085811b935505f7aeeb8e62a1d36d0a1b94b989ebb89987133c8c43bf790ee73950f7dfee1af566f4d57754b78c3e61b01a
   languageName: node
   linkType: hard
 
@@ -2515,9 +2515,9 @@ __metadata:
   linkType: hard
 
 "eslint-visitor-keys@npm:^3.0.0, eslint-visitor-keys@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "eslint-visitor-keys@npm:3.1.0"
-  checksum: fd2d613bb315bc549068ca97771d868437fb60c8f13ef8d6d54669773ff53f814b759fa9e57966f15e4c50a5f5e11c6ba47060b8f201f9776311f6c5d5c11b70
+  version: 3.2.0
+  resolution: "eslint-visitor-keys@npm:3.2.0"
+  checksum: fdadbb26f9e6417d3db7ad4f00bb0d573b6031c32fa72e8cdae32d038223faaeddff2ee443c90cb489bf774e75bff765c00912b8f9106d65e4f202ccd78c1b18
   languageName: node
   linkType: hard
 
@@ -2661,15 +2661,15 @@ __metadata:
   linkType: hard
 
 "fast-glob@npm:^3.0.3, fast-glob@npm:^3.2.2, fast-glob@npm:^3.2.9":
-  version: 3.2.10
-  resolution: "fast-glob@npm:3.2.10"
+  version: 3.2.11
+  resolution: "fast-glob@npm:3.2.11"
   dependencies:
     "@nodelib/fs.stat": ^2.0.2
     "@nodelib/fs.walk": ^1.2.3
     glob-parent: ^5.1.2
     merge2: ^1.3.0
     micromatch: ^4.0.4
-  checksum: dee958d95638c8d00d200c55af5884dda513cfef96f674caab5a289a4436936ee26d603841a9ab85a6a4d9f7914558bce78dbf1088d3b8ec64b255422eea840b
+  checksum: f473105324a7780a20c06de842e15ddbb41d3cb7e71d1e4fe6e8373204f22245d54f5ab9e2061e6a1c613047345954d29b022e0e76f5c28b1df9858179a0e6d7
   languageName: node
   linkType: hard
 
@@ -4446,11 +4446,16 @@ __metadata:
   linkType: hard
 
 "node-fetch@npm:^2.6.1":
-  version: 2.6.6
-  resolution: "node-fetch@npm:2.6.6"
+  version: 2.6.7
+  resolution: "node-fetch@npm:2.6.7"
   dependencies:
     whatwg-url: ^5.0.0
-  checksum: ee8290626bdb73629c59722b75dcf4b9b6a67c1ed7eb9102e368479c4a13b56a48c2bb3ad71571e378e98c8b2c64c820e11f9cd39e4b8557dd138ad571ef9a42
+  peerDependencies:
+    encoding: ^0.1.0
+  peerDependenciesMeta:
+    encoding:
+      optional: true
+  checksum: 8d816ffd1ee22cab8301c7756ef04f3437f18dace86a1dae22cf81db8ef29c0bf6655f3215cb0cdb22b420b6fe141e64b26905e7f33f9377a7fa59135ea3e10b
   languageName: node
   linkType: hard
 
@@ -5574,11 +5579,11 @@ __metadata:
   linkType: hard
 
 "rxjs@npm:^7.5.1":
-  version: 7.5.1
-  resolution: "rxjs@npm:7.5.1"
+  version: 7.5.2
+  resolution: "rxjs@npm:7.5.2"
   dependencies:
     tslib: ^2.1.0
-  checksum: 78e3eecb1644dd83adabc8d956f879dca62eb19c8afcd6acac71cf6d94534c33ea201e65387494fdeb1332395cba081e194f5a9699d58a5d48e416b8b52372aa
+  checksum: daf1fe7289de500b25d822fd96cde3c138c7902e8bf0e6aa12a3e70847a5cabeeb4d677f10e19387e1db44b12c5b1be0ff5c79b8cd63ed6ce891d765e566cf4d
   languageName: node
   linkType: hard
 
