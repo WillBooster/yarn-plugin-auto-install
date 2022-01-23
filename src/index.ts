@@ -19,11 +19,15 @@ module.exports = {
       validateProject(project: Project) {
         installing = true;
         const hash = calcPackageHash(project);
+        if (hash && hash === readPackageHash(project)) return;
+
         writePackageHash(hash, project);
       },
       afterAllInstalled(project) {
         installing = false;
         const hash = calcPackageHash(project);
+        if (hash && hash === readPackageHash(project)) return;
+
         writePackageHash(hash, project);
       },
       async wrapScriptExecution(executor, project, locator, scriptName, extra): Promise<() => Promise<number>> {
@@ -31,11 +35,8 @@ module.exports = {
 
         try {
           const hash = calcPackageHash(project);
-          try {
-            if (hash && hash === readPackageHash(project)) return executor;
-          } catch (_) {
-            // do nothing
-          }
+          if (hash && hash === readPackageHash(project)) return executor;
+
           // Update hash to avoid a infinite loop
           if (!writePackageHash(hash, project)) return executor;
           console.info(`${prefix} is running 'yarn install' due to dependency changes.`);
@@ -80,9 +81,13 @@ module.exports = {
       }
     }
 
-    function readPackageHash(project: Project): string {
-      const hashDir = getHashDirPath(project);
-      return fs.readFileSync(path.join(hashDir, 'hash'), 'utf-8');
+    function readPackageHash(project: Project): string | undefined {
+      try {
+        const hashDir = getHashDirPath(project);
+        return fs.readFileSync(path.join(hashDir, 'hash'), 'utf-8');
+      } catch (_) {
+        // do nothing
+      }
     }
 
     function writePackageHash(hash: string | undefined, project: Project): boolean {
