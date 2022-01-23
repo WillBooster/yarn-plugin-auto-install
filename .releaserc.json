@@ -22,7 +22,7 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "./my-build-script.sh ${nextRelease.version}"
+        "prepareCmd": "scripts/build.sh ${nextRelease.version}"
       }
     ]
   ]
