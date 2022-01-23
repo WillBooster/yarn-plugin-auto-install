@@ -6707,5 +6707,7 @@ __metadata:
     semantic-release: 18.0.1
     sort-package-json: 1.53.1
     typescript: 4.5.5
+  bin:
+    yarn-plugin-auto-install: ./bin/install-plugin.cjs
   languageName: unknown
   linkType: soft
