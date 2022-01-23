@@ -2,9 +2,6 @@
 
 import type { Hooks, Project } from '@yarnpkg/core';
 
-let installing = false;
-let lastHash = '';
-
 module.exports = {
   name: 'plugin-auto-install',
   factory: (require: any) => {
@@ -13,6 +10,10 @@ module.exports = {
     const crypto = require('crypto');
     const fs = require('fs');
     const path = require('path');
+
+    const prefix = `plugin-auto-install v${process.env.VERSION}`;
+    let installing = false;
+    let lastHash = '';
 
     const hooks: Hooks = {
       validateProject(project: Project) {
@@ -37,9 +38,9 @@ module.exports = {
           }
           // Update hash to avoid a infinite loop
           if (!writePackageHash(hash, project)) return executor;
-          console.info(`plugin-auto-install is running 'yarn install' due to dependency changes.`);
+          console.info(`${prefix} is running 'yarn install' due to dependency changes.`);
           child_process.spawnSync('yarn', ['install'], { cwd: extra.cwd, env: extra.env });
-          console.info(`plugin-auto-install finished 'yarn install'.`);
+          console.info(`${prefix} finished 'yarn install'.`);
           const ret = child_process.spawnSync('yarn', [scriptName, ...extra.args], {
             cwd: extra.cwd,
             env: extra.env,
@@ -92,7 +93,7 @@ module.exports = {
         fs.mkdirSync(hashDir, { recursive: true });
         fs.writeFileSync(path.join(hashDir, 'hash'), hash);
         fs.writeFileSync(path.join(hashDir, '.gitignore'), '.gitignore\nhash');
-        console.info(`plugin-auto-install updated dependency hash: ${hash}`);
+        console.info(`${prefix} updated dependency hash: ${hash}`);
         lastHash = hash;
       } catch (_) {
         // do nothing

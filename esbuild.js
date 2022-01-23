@@ -1,7 +1,14 @@
 const { build } = require('esbuild');
 
+const define = {};
+const varNames = ['VERSION'];
+for (const name of varNames) {
+  define[`process.env.${name}`] = JSON.stringify(process.env[name]);
+}
+
 build({
   bundle: true,
+  define,
   entryPoints: ['src/index.ts'],
   format: 'cjs',
   minify: true,
