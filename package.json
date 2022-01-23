@@ -12,7 +12,10 @@
   "repository": "git@github.com:WillBooster/yarn-plugin-auto-install.git",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
-  "main": "dist/index.cjs",
+  "bin": "./bin/install-plugin.cjs",
+  "files": [
+    "bin/"
+  ],
   "scripts": {
     "build": "node esbuild.js && cp dist/index.cjs .yarn/plugins/plugin-auto-install.cjs",
     "cleanup": "yarn format && yarn lint-fix",

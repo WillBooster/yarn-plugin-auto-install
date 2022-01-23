@@ -11,5 +11,5 @@ It could be an alternative of [Zero-Installs](https://yarnpkg.com/features/zero-
 ## How to Install
 
 ```sh
-yarn plugin import https://raw.githubusercontent.com/WillBooster/yarn-plugin-auto-install/main/dist/index.cjs
+yarn dlx yarn-plugin-auto-install
 ```
