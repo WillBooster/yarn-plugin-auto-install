@@ -31,24 +31,24 @@
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@semantic-release/exec": "6.0.3",
-    "@types/eslint": "8.4.0",
+    "@types/eslint": "8.4.1",
     "@types/micromatch": "4.0.2",
     "@types/node": "16.11.21",
     "@types/prettier": "2.4.3",
-    "@typescript-eslint/eslint-plugin": "5.10.0",
-    "@typescript-eslint/parser": "5.10.0",
+    "@typescript-eslint/eslint-plugin": "5.10.1",
+    "@typescript-eslint/parser": "5.10.1",
     "@willbooster/eslint-config-ts": "6.5.0",
     "@willbooster/prettier-config": "6.5.0",
     "@willbooster/renovate-config": "6.5.0",
-    "@yarnpkg/core": "3.2.0-rc.11",
+    "@yarnpkg/core": "3.2.0-rc.12",
     "conventional-changelog-conventionalcommits": "4.6.3",
-    "esbuild": "0.14.12",
+    "esbuild": "0.14.14",
     "eslint": "8.7.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-import-resolver-node": "0.3.6",
     "eslint-plugin-import": "2.25.4",
     "husky": "7.0.4",
-    "lint-staged": "12.2.2",
+    "lint-staged": "12.3.2",
     "micromatch": "4.0.4",
     "pinst": "2.1.6",
     "prettier": "2.5.1",
@@ -56,5 +56,5 @@
     "sort-package-json": "1.53.1",
     "typescript": "4.5.5"
   },
-  "packageManager": "yarn@3.2.0-rc.11"
+  "packageManager": "yarn@3.2.0-rc.12"
 }
