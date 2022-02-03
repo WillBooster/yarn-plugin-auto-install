@@ -890,9 +890,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/eslint-config-ts@npm:6.5.0":
-  version: 6.5.0
-  resolution: "@willbooster/eslint-config-ts@npm:6.5.0"
+"@willbooster/eslint-config-ts@npm:6.5.1":
+  version: 6.5.1
+  resolution: "@willbooster/eslint-config-ts@npm:6.5.1"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ">=5"
     "@typescript-eslint/parser": ">=5"
@@ -900,24 +900,26 @@ __metadata:
     eslint: ">=8"
     eslint-config-prettier: ">=8"
     eslint-plugin-import: ">=2"
+    eslint-plugin-sort-class-members: ">=1.14"
+    eslint-plugin-sort-destructure-keys: ">=1.4"
     typescript: ">=4"
-  checksum: 082db8bddabaabdc19d842b99c254d3013a9c2046ee04a81fe70a67ed20a195ad494a47830de348c29492a12234a9287b47f8c226a0a28f4bca0837ccb44afc9
+  checksum: 2fe715f4dc46b81cdc4b1ed2c77434ad79524bcd86e7044fa35e10a56e3152d6cb73082628e97d5625ac413f1aacbc7b5a2c9a79d2405be63d803052a9601009
   languageName: node
   linkType: hard
 
-"@willbooster/prettier-config@npm:6.5.0":
-  version: 6.5.0
-  resolution: "@willbooster/prettier-config@npm:6.5.0"
+"@willbooster/prettier-config@npm:6.5.1":
+  version: 6.5.1
+  resolution: "@willbooster/prettier-config@npm:6.5.1"
   peerDependencies:
     prettier: ">=2"
-  checksum: 42e634bd4dd8778d1c7cac8db39ec69982d3032e5056650431e2d2ed38a95bcbe53cb35a5a834be51f062e2976ef7077084647993744de04aa4602f162bba1b4
+  checksum: 5edcde5ece467e7882474ca3e91e4f7c6830cfb3d966a3b81f3b1d8a4bb814baf3955e8249246efa5f70acae5e1816531f9845482bdec0145e007f3ab66c6ba4
   languageName: node
   linkType: hard
 
-"@willbooster/renovate-config@npm:6.5.0":
-  version: 6.5.0
-  resolution: "@willbooster/renovate-config@npm:6.5.0"
-  checksum: 57caae54cd20572500259c69a0950510f859df7113b94447bafddeeee8907e9ac96990ad6bca20fbc2ef618a859934281c3ae06d8d99346d883241afa6003e4f
+"@willbooster/renovate-config@npm:6.5.1":
+  version: 6.5.1
+  resolution: "@willbooster/renovate-config@npm:6.5.1"
+  checksum: 4a35c51d05a7a1667f645ab27d30fd88f818fc072726c83ff15c9bb6d4366f6246d19ab68d7648eca36fcf770c3b9b6fef60db853b6d2d145fb79dd36e8509fc
   languageName: node
   linkType: hard
 
@@ -6663,9 +6665,9 @@ __metadata:
     "@types/prettier": 2.4.3
     "@typescript-eslint/eslint-plugin": 5.10.1
     "@typescript-eslint/parser": 5.10.1
-    "@willbooster/eslint-config-ts": 6.5.0
-    "@willbooster/prettier-config": 6.5.0
-    "@willbooster/renovate-config": 6.5.0
+    "@willbooster/eslint-config-ts": 6.5.1
+    "@willbooster/prettier-config": 6.5.1
+    "@willbooster/renovate-config": 6.5.1
     "@yarnpkg/core": 3.2.0-rc.12
     conventional-changelog-conventionalcommits: 4.6.3
     esbuild: 0.14.14
