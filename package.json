@@ -47,6 +47,8 @@
     "eslint-config-prettier": "8.3.0",
     "eslint-import-resolver-node": "0.3.6",
     "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-sort-class-members": "1.14.1",
+    "eslint-plugin-sort-destructure-keys": "1.4.0",
     "husky": "7.0.4",
     "lint-staged": "12.3.4",
     "micromatch": "4.0.4",
