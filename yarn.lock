@@ -2482,6 +2482,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-sort-class-members@npm:1.14.1":
+  version: 1.14.1
+  resolution: "eslint-plugin-sort-class-members@npm:1.14.1"
+  peerDependencies:
+    eslint: ">=0.8.0"
+  checksum: 8def863d7658535f7879701f831c517ddc5947cef549a190f5216e1087dd01b2e02ef984dd68b7a8c16d4dbcc31d1a7392c49f71f3baa6bd644446d888746a8a
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-sort-destructure-keys@npm:1.4.0":
+  version: 1.4.0
+  resolution: "eslint-plugin-sort-destructure-keys@npm:1.4.0"
+  dependencies:
+    natural-compare-lite: ^1.4.0
+  peerDependencies:
+    eslint: 3 - 8
+  checksum: 6ff004c1eb59f9902f5f64d8453c45ba550b8894450401c496da80eed0058cd52b9ad8a43a485f2638f5601c5d4a965a96d2f72a5f1d6d0f5255a26b4df6fe8f
+  languageName: node
+  linkType: hard
+
 "eslint-scope@npm:^5.1.1":
   version: 5.1.1
   resolution: "eslint-scope@npm:5.1.1"
@@ -4432,6 +4452,13 @@ __metadata:
   version: 0.0.8
   resolution: "mute-stream@npm:0.0.8"
   checksum: ff48d251fc3f827e5b1206cda0ffdaec885e56057ee86a3155e1951bc940fd5f33531774b1cc8414d7668c10a8907f863f6561875ee6e8768931a62121a531a1
+  languageName: node
+  linkType: hard
+
+"natural-compare-lite@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "natural-compare-lite@npm:1.4.0"
+  checksum: 5222ac3986a2b78dd6069ac62cbb52a7bf8ffc90d972ab76dfe7b01892485d229530ed20d0c62e79a6b363a663b273db3bde195a1358ce9e5f779d4453887225
   languageName: node
   linkType: hard
 
@@ -6678,6 +6705,8 @@ __metadata:
     eslint-config-prettier: 8.3.0
     eslint-import-resolver-node: 0.3.6
     eslint-plugin-import: 2.25.4
+    eslint-plugin-sort-class-members: 1.14.1
+    eslint-plugin-sort-destructure-keys: 1.4.0
     husky: 7.0.4
     lint-staged: 12.3.3
     micromatch: 4.0.4
