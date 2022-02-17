@@ -1,17 +1,17 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "importHelpers": false,
     "module": "esnext",
     "moduleResolution": "node",
-    "alwaysStrict": true,
-    "strict": true,
-    "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
+    "outDir": "dist",
     "resolveJsonModule": true,
+    "skipLibCheck": true,
     "sourceMap": true,
-    "importHelpers": false,
-    "outDir": "dist"
+    "strict": true,
+    "target": "esnext"
   },
   "include": ["src/**/*", "__tests__/**/*", "./node_modules/@types", "./@types"]
 }
