@@ -45,7 +45,7 @@
     "@willbooster/renovate-config": "9.2.0",
     "@yarnpkg/core": "3.2.0-rc.15",
     "conventional-changelog-conventionalcommits": "4.6.3",
-    "esbuild": "0.14.22",
+    "esbuild": "0.14.23",
     "eslint": "8.9.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-import-resolver-typescript": "2.5.0",
