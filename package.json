@@ -55,7 +55,7 @@
     "husky": "7.0.4",
     "lint-staged": "12.3.4",
     "micromatch": "4.0.4",
-    "pinst": "2.1.6",
+    "pinst": "3.0.0",
     "prettier": "2.5.1",
     "semantic-release": "18.0.1",
     "sort-package-json": "1.54.0",
