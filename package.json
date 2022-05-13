@@ -42,7 +42,7 @@
     "@typescript-eslint/parser": "5.23.0",
     "@willbooster/eslint-config-ts": "9.0.0",
     "@willbooster/prettier-config": "9.0.0",
-    "@willbooster/renovate-config": "9.2.0",
+    "@willbooster/renovate-config": "9.3.0",
     "@yarnpkg/core": "3.2.2",
     "conventional-changelog-conventionalcommits": "4.6.3",
     "esbuild": "0.14.39",
