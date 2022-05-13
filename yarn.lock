@@ -930,10 +930,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/renovate-config@npm:9.2.0":
-  version: 9.2.0
-  resolution: "@willbooster/renovate-config@npm:9.2.0"
-  checksum: 27291f8c7e2b32e80fa85e64a6c01b05b26f7634f0f09581093277c7a7cb2f4242e3f74e19df3e65b1c812f1f36b7d073e0e2a3ed268d5052ee4482c4057911e
+"@willbooster/renovate-config@npm:9.3.0":
+  version: 9.3.0
+  resolution: "@willbooster/renovate-config@npm:9.3.0"
+  checksum: d5d8ba1ed8e70ff283cffc68c823212daac5a14b5977ffa0bf581da90abb2d00ff2b4c8c8ec1a4c5bfcb85142702e5ef984145424e682004fba5ab6a72bac9ac
   languageName: node
   linkType: hard
 
@@ -6781,7 +6781,7 @@ __metadata:
     "@typescript-eslint/parser": 5.23.0
     "@willbooster/eslint-config-ts": 9.0.0
     "@willbooster/prettier-config": 9.0.0
-    "@willbooster/renovate-config": 9.2.0
+    "@willbooster/renovate-config": 9.3.0
     "@yarnpkg/core": 3.2.2
     conventional-changelog-conventionalcommits: 4.6.3
     esbuild: 0.14.39
