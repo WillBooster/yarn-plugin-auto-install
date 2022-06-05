@@ -44,7 +44,7 @@
     "@willbooster/prettier-config": "9.0.0",
     "@willbooster/renovate-config": "9.3.0",
     "@yarnpkg/core": "3.2.2",
-    "conventional-changelog-conventionalcommits": "4.6.3",
+    "conventional-changelog-conventionalcommits": "5.0.0",
     "esbuild": "0.14.42",
     "eslint": "8.17.0",
     "eslint-config-prettier": "8.5.0",
