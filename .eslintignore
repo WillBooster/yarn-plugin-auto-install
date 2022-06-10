@@ -86,6 +86,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
 # End of https://www.toptal.com/developers/gitignore/api/macos
 
 # Created by https://www.toptal.com/developers/gitignore/api/linux
@@ -220,6 +224,10 @@ fabric.properties
 # https://plugins.jetbrains.com/plugin/12206-codestream
 .idea/codestream.xml
 
+# Azure Toolkit for IntelliJ plugin
+# https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
+.idea/**/azureSettings.xml
+
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
@@ -245,6 +253,10 @@ fabric.properties
 .ionide
 
 # Support for Project snippet scope
+.vscode/*.code-snippets
+
+# Ignore code-workspaces
+*.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
 
