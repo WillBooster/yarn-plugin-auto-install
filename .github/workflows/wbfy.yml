@@ -2,7 +2,7 @@ name: Willboosterify
 on:
   workflow_dispatch:
   schedule:
-    - cron: 2 16 * * *
+    - cron: 29 14 * * *
 jobs:
   wbfy:
     uses: WillBooster/reusable-workflows/.github/workflows/wbfy.yml@main
