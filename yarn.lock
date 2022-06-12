@@ -740,9 +740,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 17.0.40
-  resolution: "@types/node@npm:17.0.40"
-  checksum: 1204f5cae9be50ee8230e2b6a95c7836060a3c1411470e03b66772d840137c2ee65357c59f1f559205a3f3137d036df3fdf1a741d92caea175447cdf40409bc9
+  version: 17.0.42
+  resolution: "@types/node@npm:17.0.42"
+  checksum: 1acc211c79de75174bf7fa2b6ac71dcef5896f99a28d434077f47e5f47a3dd37f169665aac70e0b73c81743cb8eb48dc4f47290646bbb5dee0c948c56ee224f4
   languageName: node
   linkType: hard
 
@@ -2939,13 +2939,13 @@ __metadata:
   linkType: hard
 
 "get-intrinsic@npm:^1.0.2, get-intrinsic@npm:^1.1.0, get-intrinsic@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "get-intrinsic@npm:1.1.1"
+  version: 1.1.2
+  resolution: "get-intrinsic@npm:1.1.2"
   dependencies:
     function-bind: "npm:^1.1.1"
     has: "npm:^1.0.3"
-    has-symbols: "npm:^1.0.1"
-  checksum: a48e9ce484bb1960deb4450d6252ceda885babbb502012783b97a0c3cd9caf114c7e7cc251d1b1958fb3ea749c1a4f710b25eee2f383b7b2e41af91e1efcff99
+    has-symbols: "npm:^1.0.3"
+  checksum: aad9801d8fc731719523431e68e40f9b65ca281822dbf403861a5fe08e66f7a58992734b7dea975b31655f78c22364e0ec8aa850abfca0cbd67572b34bd2af88
   languageName: node
   linkType: hard
 
@@ -4473,11 +4473,11 @@ __metadata:
   linkType: hard
 
 "minipass@npm:*, minipass@npm:^3.0.0, minipass@npm:^3.1.0, minipass@npm:^3.1.1, minipass@npm:^3.1.3, minipass@npm:^3.1.6":
-  version: 3.1.6
-  resolution: "minipass@npm:3.1.6"
+  version: 3.2.1
+  resolution: "minipass@npm:3.2.1"
   dependencies:
     yallist: "npm:^4.0.0"
-  checksum: 352a2f87eca475d11c9a486233a2d2c19ce1425309370f42545ca934345bb95ec42a6f0b1e9ac4ee81b7f0046d6cc701feccf7243571d34e655b50c2534ffca6
+  checksum: 6e95247bcf1d5a311bca997732db357c2d4bd48bb990ff3a8f0970fc9e382c07af9c358d9a66b1074e70c66426daa32001e6b390ec5d0812d91b4bbf18acf972
   languageName: node
   linkType: hard
 
@@ -6484,11 +6484,11 @@ __metadata:
   linkType: hard
 
 "uglify-js@npm:^3.1.4":
-  version: 3.15.5
-  resolution: "uglify-js@npm:3.15.5"
+  version: 3.16.0
+  resolution: "uglify-js@npm:3.16.0"
   bin:
     uglifyjs: bin/uglifyjs
-  checksum: bf649808585047ea6b67c23030f6a601ab2532a49b46e99af57594f705dd7a51b0606ac9f48706c7eb88ceec72a9e1abb0b65d9f877ce2073f801966d959b24c
+  checksum: dc8f445e75dbc700151ba65b10887fa7ef975a5b45029b945e0d5263340ca82f1275457a78b30873ffbcb97bea71481330ca0525846ef2f5e4e080eb83380d19
   languageName: node
   linkType: hard
 
