@@ -36,16 +36,16 @@
     "@semantic-release/exec": "6.0.3",
     "@types/eslint": "8.4.6",
     "@types/micromatch": "4.0.2",
-    "@types/node": "16.11.64",
+    "@types/node": "16.11.65",
     "@types/prettier": "2.7.1",
-    "@typescript-eslint/eslint-plugin": "5.39.0",
-    "@typescript-eslint/parser": "5.39.0",
+    "@typescript-eslint/eslint-plugin": "5.40.0",
+    "@typescript-eslint/parser": "5.40.0",
     "@willbooster/eslint-config-ts": "9.2.1",
     "@willbooster/prettier-config": "9.1.1",
     "@willbooster/renovate-config": "9.4.1",
-    "@yarnpkg/core": "4.0.0-rc.22",
+    "@yarnpkg/core": "4.0.0-rc.25",
     "conventional-changelog-conventionalcommits": "5.0.0",
-    "esbuild": "0.15.10",
+    "esbuild": "0.15.11",
     "eslint": "8.25.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-import-resolver-typescript": "3.5.1",
@@ -61,5 +61,5 @@
     "sort-package-json": "1.57.0",
     "typescript": "4.8.4"
   },
-  "packageManager": "yarn@4.0.0-rc.22"
+  "packageManager": "yarn@4.0.0-rc.25"
 }
