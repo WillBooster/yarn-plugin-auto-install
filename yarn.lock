@@ -1563,9 +1563,9 @@ __metadata:
   linkType: hard
 
 "ci-info@npm:^3.2.0":
-  version: 3.6.0
-  resolution: "ci-info@npm:3.6.0"
-  checksum: 4078c5c300c052884f534a0f6c49ad6b8cdb345de57ab1dc4a6d44e4befc76ee9883817a54ebb4cd179e5180f8ff13144b93455c672fc565501a36a43ac8e2d7
+  version: 3.6.1
+  resolution: "ci-info@npm:3.6.1"
+  checksum: e38ac8154e2cfcd5bee537113de0604ba152778c9b3da69c2f1f781ee9b0f0781820a5c05cd8423738739c932e8e6a2187037e3ba8c7f66f82d5435983792936
   languageName: node
   linkType: hard
 
