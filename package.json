@@ -36,7 +36,7 @@
     "@semantic-release/exec": "6.0.3",
     "@types/eslint": "8.4.10",
     "@types/micromatch": "4.0.2",
-    "@types/node": "16.18.4",
+    "@types/node": "18.11.10",
     "@types/prettier": "2.7.1",
     "@typescript-eslint/eslint-plugin": "5.45.0",
     "@typescript-eslint/parser": "5.45.0",
