@@ -10,13 +10,24 @@ android/
 ios/
 no-format/
 test-fixtures/
-*.config.js
+*.config.*js
 *.d.ts
-*.min.js
+*.min.*js
 .yarn/
 .pnp.js
 
-
+3rd-party/
+@types/
+__generated__/
+android/
+ios/
+no-format/
+test-fixtures/
+*.config.*js
+*.d.ts
+*.min.*js
+.yarn/
+.pnp.js
 .devcontainer/
 dist/
 temp/
@@ -250,12 +261,6 @@ fabric.properties
 # Ignore all local history of files
 .history
 .ionide
-
-# Support for Project snippet scope
-.vscode/*.code-snippets
-
-# Ignore code-workspaces
-*.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
 
@@ -506,3 +511,5 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+
+# Project-specific settings (tail)

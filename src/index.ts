@@ -2,14 +2,14 @@
 
 import type { Hooks, Project } from '@yarnpkg/core';
 
-module.exports = {
+export default {
   name: 'plugin-auto-install',
   factory: (require: any) => {
     // eslint-disable-next-line @typescript-eslint/naming-convention
-    const child_process = require('child_process');
-    const crypto = require('crypto');
-    const fs = require('fs');
-    const path = require('path');
+    const child_process = require('node:child_process');
+    const crypto = require('node:crypto');
+    const fs = require('node:fs');
+    const path = require('node:path');
 
     const prefix = `plugin-auto-install v${process.env.VERSION}`;
     let installing = false;
@@ -49,7 +49,7 @@ module.exports = {
             shell: true, // Required to avoid the tsc error (TS6231)
           });
           return async () => ret.status || 0;
-        } catch (_) {
+        } catch {
           // do nothing
         }
         return executor;
@@ -62,12 +62,12 @@ module.exports = {
         const yarnLockFile = path.join(project.cwd, 'yarn.lock');
         const stat = fs.statSync(yarnLockFile, { throwIfNoEntry: false });
         if (stat) {
-          hash.update(fs.readFileSync(yarnLockFile, 'utf-8'));
+          hash.update(fs.readFileSync(yarnLockFile, 'utf8'));
         }
 
         for (const workspacePath of project.workspaces.map((w) => w.cwd).sort()) {
           const packageJsonFile = path.join(workspacePath, 'package.json');
-          const packageJson = JSON.parse(fs.readFileSync(packageJsonFile, 'utf-8'));
+          const packageJson = JSON.parse(fs.readFileSync(packageJsonFile, 'utf8'));
           const depsKeys = Object.keys(packageJson).filter((key) => key.endsWith('ependencies'));
           const deps: string[] = [];
           for (const key of depsKeys) {
@@ -76,7 +76,7 @@ module.exports = {
           hash.update(deps.sort().join(','));
         }
         return hash.digest('hex');
-      } catch (_) {
+      } catch {
         // do nothing
       }
     }
@@ -84,8 +84,8 @@ module.exports = {
     function readPackageHash(project: Project): string | undefined {
       try {
         const hashDir = getHashDirPath(project);
-        return fs.readFileSync(path.join(hashDir, 'hash'), 'utf-8');
-      } catch (_) {
+        return fs.readFileSync(path.join(hashDir, 'hash'), 'utf8');
+      } catch {
         // do nothing
       }
     }
@@ -100,7 +100,7 @@ module.exports = {
         fs.writeFileSync(path.join(hashDir, '.gitignore'), '.gitignore\nhash');
         console.info(`${prefix} updated dependency hash: ${hash}`);
         lastHash = hash;
-      } catch (_) {
+      } catch {
         // do nothing
       }
       return true;

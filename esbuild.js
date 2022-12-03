@@ -15,4 +15,5 @@ build({
   outfile: 'dist/index.cjs',
   platform: 'node',
   sourcemap: true,
+  target: 'node14',
 }).catch(() => process.exit(1));
