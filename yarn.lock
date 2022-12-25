@@ -991,44 +991,44 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^3.0.0-rc.32, @yarnpkg/fslib@npm:^3.0.0-rc.33":
-  version: 3.0.0-rc.33
-  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.33"
+"@yarnpkg/fslib@npm:^3.0.0-rc.32, @yarnpkg/fslib@npm:^3.0.0-rc.34":
+  version: 3.0.0-rc.34
+  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.34"
   dependencies:
     tslib: "npm:^2.4.0"
-  checksum: b116a2b33c5ee874cd4b46efa552d04a0ec3c6390ee7fc5334206a6cda79fca04d70d5eaf19c07437bbe80a371f4d4596b4cb9c3bc019b5fe6aa2a5c1dbd1516
+  checksum: cea7c1e2a33facd80cde6131bab16916533aa2d27e0d493ca60171b5aafd1b84fc5e822b34cdadb8a04d5dd111a7a24173ab1a6d98f4a8b8a295df0bc3931fb5
   languageName: node
   linkType: hard
 
 "@yarnpkg/libzip@npm:^3.0.0-rc.32":
-  version: 3.0.0-rc.33
-  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.33"
+  version: 3.0.0-rc.34
+  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.34"
   dependencies:
     "@types/emscripten": "npm:^1.39.6"
-    "@yarnpkg/fslib": "npm:^3.0.0-rc.33"
+    "@yarnpkg/fslib": "npm:^3.0.0-rc.34"
     tslib: "npm:^2.4.0"
   peerDependencies:
-    "@yarnpkg/fslib": ^3.0.0-rc.33
-  checksum: cc8d01c305b410c08365a7e16bbe434c4bce4a5dfa939dbf845d9f48d6de0955bd64150d17957671ecf5fd0a9138f36a341248863c8c4cb65f1fbcd89f80b5f0
+    "@yarnpkg/fslib": ^3.0.0-rc.34
+  checksum: 7bdb328d15662c3c2f3be62985a467c3bc50b50a62fba58ffbdf7e0230de1b9d2940dd4c629f614cb4cdbb8e69f086a8b6d65c782b706271aee5d7a3e759ac26
   languageName: node
   linkType: hard
 
-"@yarnpkg/parsers@npm:^3.0.0-rc.32, @yarnpkg/parsers@npm:^3.0.0-rc.33":
-  version: 3.0.0-rc.33
-  resolution: "@yarnpkg/parsers@npm:3.0.0-rc.33"
+"@yarnpkg/parsers@npm:^3.0.0-rc.32, @yarnpkg/parsers@npm:^3.0.0-rc.34":
+  version: 3.0.0-rc.34
+  resolution: "@yarnpkg/parsers@npm:3.0.0-rc.34"
   dependencies:
     js-yaml: "npm:^3.10.0"
     tslib: "npm:^2.4.0"
-  checksum: 74691e30f1e1e840b33369f42713cc966d6efd2e501599ea8d09c943f8e37271e8b53dc237fba512673f43f2ffbcca7dee8f6a9fbc17f8708d0ef869aa18b9a7
+  checksum: 9f623c5789158127ae476668ae229e60bff39a7b054cc134895310f79c853420cc0058770b85738f55cd9f51eef9151c3cf49f7bd0748228985dcfa9679a8569
   languageName: node
   linkType: hard
 
 "@yarnpkg/shell@npm:^4.0.0-rc.32":
-  version: 4.0.0-rc.33
-  resolution: "@yarnpkg/shell@npm:4.0.0-rc.33"
+  version: 4.0.0-rc.34
+  resolution: "@yarnpkg/shell@npm:4.0.0-rc.34"
   dependencies:
-    "@yarnpkg/fslib": "npm:^3.0.0-rc.33"
-    "@yarnpkg/parsers": "npm:^3.0.0-rc.33"
+    "@yarnpkg/fslib": "npm:^3.0.0-rc.34"
+    "@yarnpkg/parsers": "npm:^3.0.0-rc.34"
     chalk: "npm:^3.0.0"
     clipanion: "npm:^3.2.0-rc.10"
     cross-spawn: "npm:7.0.3"
@@ -1037,7 +1037,7 @@ __metadata:
     tslib: "npm:^2.4.0"
   bin:
     shell: ./lib/cli.js
-  checksum: 77a8c576ca07b6058e986e03d999becda195e883074a6a6e3975d807e7f8952fa39b16db745c9866af48cc0216f70f4133b87561caa3d0fc57c3eb7eeeaafcb2
+  checksum: c49ceffeaa290d8dc95da0531b08dad5596038525558bfb4636b32dc75077c02a95f4def85feb8fe16b1404d55418988e1c7bf0afd1226814409d897e1d7b04a
   languageName: node
   linkType: hard
 
@@ -3521,9 +3521,9 @@ __metadata:
   linkType: hard
 
 "ignore@npm:^5.2.0":
-  version: 5.2.1
-  resolution: "ignore@npm:5.2.1"
-  checksum: 6b24bc1067595721e6158dd4d0f88e9ebf5f9542e8b69156a93400cc2d1428102e8437b851883c3da2d2c70842330efd4d90519c2027113ee2c8142745cfb357
+  version: 5.2.4
+  resolution: "ignore@npm:5.2.4"
+  checksum: 55c58d848bb753a2b7e0b4a19352f9212eae2e4a05e4a12753e90b921108a6caa140adf958a5084b144bedd886b44e3bc93f6b4839e5aba1fb4a72c6625da4c1
   languageName: node
   linkType: hard
 
@@ -4626,11 +4626,11 @@ __metadata:
   linkType: hard
 
 "minimatch@npm:^5.0.1, minimatch@npm:^5.1.1":
-  version: 5.1.1
-  resolution: "minimatch@npm:5.1.1"
+  version: 5.1.2
+  resolution: "minimatch@npm:5.1.2"
   dependencies:
     brace-expansion: "npm:^2.0.1"
-  checksum: ba23a8bda78e0210e5f12e66f57b087bf20620154aaceb48473cd0d2eca88fbc2dffec4931a43dd69173ef86ac933f25a285a4920161713577419880a3a61ab8
+  checksum: db22781a7b993641742f075b499f5fee04b64177fe6ed0fd6859aff2fd7f6b2de2c7a4c7728fa15c5b4638589da8bd2a1cdac3ee2976a3ffe92cb146f3999b4a
   languageName: node
   linkType: hard
 
@@ -4877,8 +4877,8 @@ __metadata:
   linkType: hard
 
 "node-gyp@npm:*, node-gyp@npm:^9.0.0":
-  version: 9.3.0
-  resolution: "node-gyp@npm:9.3.0"
+  version: 9.3.1
+  resolution: "node-gyp@npm:9.3.1"
   dependencies:
     env-paths: "npm:^2.2.0"
     glob: "npm:^7.1.4"
@@ -4892,7 +4892,7 @@ __metadata:
     which: "npm:^2.0.2"
   bin:
     node-gyp: bin/node-gyp.js
-  checksum: 986e171f91cedd913800b4f272f9c22258a15bc8f44d2426630dc68d98281614004d4da1a8aec7a70a6171056425a95828cd68d8433b89d0e16ed973507ecccf
+  checksum: 40aca5b9b3cc5715d5407101d69826927db9a2cf140f113ac52e239a10b15fbae277844ff815c05bcaa9c9fc5256e4e23b3ce3bdace573429d929e3b5df99845
   languageName: node
   linkType: hard
 
@@ -7175,9 +7175,9 @@ __metadata:
   linkType: hard
 
 "yaml@npm:^2.1.3":
-  version: 2.1.3
-  resolution: "yaml@npm:2.1.3"
-  checksum: 2747f51351cbf5f0d8b1cdd0e25ddfbf3cf3b7604822a1f4024f059af90679f0f6a51943f75dcac6ba119c26c58cf29ce4326aed175c2c17071414c724582389
+  version: 2.2.0
+  resolution: "yaml@npm:2.2.0"
+  checksum: 0c12c2250e0842f4ff6427685914feac78b7032e2c1bfdb505baacd73968bd96f369322f2591325044cb2a23ed0ecfb80763f6929689c3ac01d65154c17cc842
   languageName: node
   linkType: hard
 
