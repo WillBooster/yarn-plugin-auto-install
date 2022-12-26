@@ -18,7 +18,7 @@
     "bin/"
   ],
   "scripts": {
-    "build": "NODE_ENV=production yarn build-ts app && cp dist/index.min.cjs .yarn/plugins/plugin-auto-install.cjs",
+    "build": "NODE_ENV=production yarn build-ts app --no-core-js && cp dist/index.min.cjs .yarn/plugins/plugin-auto-install.cjs",
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",
     "postinstall": "husky install",
@@ -45,7 +45,7 @@
     "@willbooster/prettier-config": "9.1.1",
     "@willbooster/renovate-config": "9.4.2",
     "@yarnpkg/core": "4.0.0-rc.34",
-    "build-ts": "1.0.2",
+    "build-ts": "1.1.1",
     "conventional-changelog-conventionalcommits": "5.0.0",
     "eslint": "8.30.0",
     "eslint-config-prettier": "8.5.0",
