@@ -6,7 +6,12 @@
     "@semantic-release/npm",
     [
       "@semantic-release/github",
-      { "successComment": false, "labels": ["r: semantic-release"], "releasedLabels": ["released :bookmark:"] }
+      {
+        "assets": [{ "path": "dist/index.cjs" }],
+        "successComment": false,
+        "labels": ["r: semantic-release"],
+        "releasedLabels": ["released :bookmark:"]
+      }
     ],
     ["@semantic-release/exec", { "prepareCmd": "scripts/build.sh ${nextRelease.version}" }]
   ]
