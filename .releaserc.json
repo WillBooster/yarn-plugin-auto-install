@@ -7,7 +7,7 @@
     [
       "@semantic-release/github",
       {
-        "assets": [{ "path": "dist/index.cjs" }],
+        "assets": [{ "path": "dist/index.min.cjs" }],
         "successComment": false,
         "labels": ["r: semantic-release"],
         "releasedLabels": ["released :bookmark:"]
