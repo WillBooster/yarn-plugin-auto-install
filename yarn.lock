@@ -1944,17 +1944,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-terser@npm:0.1.0":
-  version: 0.1.0
-  resolution: "@rollup/plugin-terser@npm:0.1.0"
+"@rollup/plugin-terser@npm:0.2.1":
+  version: 0.2.1
+  resolution: "@rollup/plugin-terser@npm:0.2.1"
   dependencies:
+    serialize-javascript: "npm:^6.0.0"
+    smob: "npm:^0.0.6"
     terser: "npm:^5.15.1"
   peerDependencies:
     rollup: ^2.x || ^3.x
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: 32e34fd2e635fb1685a374227c4cb93efde2640e4e33ccc37f8741469487d56f877a1cfb9596bb74d568b4aa0dd3ba018ea3bb6fad3597fbdf17c9c74ade5ed8
+  checksum: 12506c0d6a8cbfd43f80a34723437c272c34e2af1e4bd01cf13e3184bf759fa26602ad9a627c2fff7223e6352ff7d0377ab020baf99ad0b191997caa5fc1324f
   languageName: node
   linkType: hard
 
@@ -3008,9 +3010,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"build-ts@npm:3.1.1":
-  version: 3.1.1
-  resolution: "build-ts@npm:3.1.1"
+"build-ts@npm:3.1.2":
+  version: 3.1.2
+  resolution: "build-ts@npm:3.1.2"
   dependencies:
     "@babel/core": "npm:7.20.7"
     "@babel/plugin-proposal-class-properties": "npm:7.18.6"
@@ -3023,14 +3025,14 @@ __metadata:
     "@rollup/plugin-json": "npm:6.0.0"
     "@rollup/plugin-node-resolve": "npm:15.0.1"
     "@rollup/plugin-replace": "npm:5.0.2"
-    "@rollup/plugin-terser": "npm:0.1.0"
+    "@rollup/plugin-terser": "npm:0.2.1"
     "@rollup/pluginutils": "npm:5.0.2"
     babel-plugin-polyfill-corejs3: "npm:0.6.0"
     babel-plugin-transform-remove-console: "npm:6.9.4"
-    core-js: "npm:3.27.0"
-    core-js-pure: "npm:3.27.0"
+    core-js: "npm:3.27.1"
+    core-js-pure: "npm:3.27.1"
     dotenv: "npm:16.0.3"
-    rollup: "npm:3.8.1"
+    rollup: "npm:3.9.0"
     rollup-plugin-analyzer: "npm:4.0.0"
     rollup-plugin-node-externals: "npm:5.0.3"
     rollup-plugin-string: "npm:3.0.0"
@@ -3039,7 +3041,7 @@ __metadata:
     yargs: "npm:17.6.2"
   bin:
     build-ts: bin/index.mjs
-  checksum: da229da3919fde4986ee6ccbe2c27202b1f1b2f5fab1754d73b7d2184104263d182af95f2213a4ed6b365ffebe7e1ba978f95225e1cb4796c40d72d60434f7d6
+  checksum: 81fcf09694a75f58b3d2eefe7efa05cf5bfa76e092436e18e40108e286c7191adeae217aac442c0d9d1e73eaeba017de45ca4f3a9c2fe219a797eb9d08d955db
   languageName: node
   linkType: hard
 
@@ -3551,17 +3553,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js-pure@npm:3.27.0":
-  version: 3.27.0
-  resolution: "core-js-pure@npm:3.27.0"
-  checksum: 0bf8ceba9764de91ebfed12b514ea6552d0cdbbe73e2194b56c9abe015fd3939ca045fbda6c2e1723b1a2e66f37a9ddcf8bdc11b4680202a63deaa000c8217ca
+"core-js-pure@npm:3.27.1":
+  version: 3.27.1
+  resolution: "core-js-pure@npm:3.27.1"
+  checksum: 7edb734c3b77c6ee118b699f195aae59abd72e6ce1a0e4454ac32b2390c92c6b7f3fcee0b3be002e64d84a73d2020444e378b145b0bac8eb00d3bf97ab4261c1
   languageName: node
   linkType: hard
 
-"core-js@npm:3.27.0":
-  version: 3.27.0
-  resolution: "core-js@npm:3.27.0"
-  checksum: aecaf0865386d73b1d9245739b437602af3cb883b9d8e5b66be82f44ee94e5cb895d621586e7787d9bf71d5be0c0b3287e79238e13b98d39fdc47f9f69c07e78
+"core-js@npm:3.27.1":
+  version: 3.27.1
+  resolution: "core-js@npm:3.27.1"
+  checksum: eacca0971dcb9402e91f4933772acd56bdb4aaf32cc77c60445e17909b1275190ea4b9ef1cc8eb09569f5bd64ef447ec5be1fdbdf5be6222ba0a1307a2ad6e35
   languageName: node
   linkType: hard
 
@@ -7316,6 +7318,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"randombytes@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "randombytes@npm:2.1.0"
+  dependencies:
+    safe-buffer: "npm:^5.1.0"
+  checksum: 5d8b58cc7c397c4e23e4ef7d64ecd4a84d4a12781964b5cbd329a92f77f55beef58dda2e8d2f7582aceaf0fd41dac2a9665c630882af1937be8f2fbb5f69d037
+  languageName: node
+  linkType: hard
+
 "rc@npm:1.2.8, rc@npm:^1.2.8":
   version: 1.2.8
   resolution: "rc@npm:1.2.8"
@@ -7737,9 +7748,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:3.8.1":
-  version: 3.8.1
-  resolution: "rollup@npm:3.8.1"
+"rollup@npm:3.9.0":
+  version: 3.9.0
+  resolution: "rollup@npm:3.9.0"
   dependencies:
     fsevents: "npm:~2.3.2"
   dependenciesMeta:
@@ -7747,7 +7758,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: e6df7611f6a2b80db687526748614dfbf4f1e4540ea0e8fe86d9d062b2432cc39df0294a0e22eb63e52a8ed7b626854e213581745e26611176c87ef254cde45d
+  checksum: 99588b6d2b3c31dcf26df4841c3335e7b57911707b3c7dfbdb31b27d55f350204b5245242fc43cce86c60e671fa47cbd408a9a47c237dc909e9af06dc234202a
   languageName: node
   linkType: hard
 
@@ -7769,17 +7780,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"safe-buffer@npm:^5.1.0, safe-buffer@npm:~5.2.0":
+  version: 5.2.1
+  resolution: "safe-buffer@npm:5.2.1"
+  checksum: da8a21b3336a21c152eb3ba8ab41acde5772644f026d4b6e5f9fd8afa4f0cf407c113b19a362580fab9aea8beea295465432fc7684f9ff38aac559bb1b5528cd
+  languageName: node
+  linkType: hard
+
 "safe-buffer@npm:~5.1.0, safe-buffer@npm:~5.1.1":
   version: 5.1.2
   resolution: "safe-buffer@npm:5.1.2"
   checksum: 86939c6de6b62c1d39b7da860a56d5e50ede9b0ab35a91b0620bff8a96f1f798084ff910059f605087c2c500dc23dfdf77ff5bc3bcc8d4d38e3d634de2e3e426
-  languageName: node
-  linkType: hard
-
-"safe-buffer@npm:~5.2.0":
-  version: 5.2.1
-  resolution: "safe-buffer@npm:5.2.1"
-  checksum: da8a21b3336a21c152eb3ba8ab41acde5772644f026d4b6e5f9fd8afa4f0cf407c113b19a362580fab9aea8beea295465432fc7684f9ff38aac559bb1b5528cd
   languageName: node
   linkType: hard
 
@@ -7893,6 +7904,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"serialize-javascript@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "serialize-javascript@npm:6.0.0"
+  dependencies:
+    randombytes: "npm:^2.1.0"
+  checksum: c54759aaf8581cc1509e838a9a1eb340b0addaf8103f1d7795af0cd2319475e43cc31793fbe2db72aa8059a93218dc22b79ae8277b0e69de474a4f79800cf54f
+  languageName: node
+  linkType: hard
+
 "set-blocking@npm:^2.0.0":
   version: 2.0.0
   resolution: "set-blocking@npm:2.0.0"
@@ -7995,6 +8015,13 @@ __metadata:
   version: 4.2.0
   resolution: "smart-buffer@npm:4.2.0"
   checksum: 898a5ce4651108164625916aa54b6f7c13e86279a31dd321737d27c4b795cfaaeb1c30417f8809029d80d20710d8a5045998afd35e0f1080b32648f5670aa99b
+  languageName: node
+  linkType: hard
+
+"smob@npm:^0.0.6":
+  version: 0.0.6
+  resolution: "smob@npm:0.0.6"
+  checksum: 4c26639bebfa3f59d12f89d812049f4c935495cf42006f95d79b129fe68979281259e30c83546a8d68aeb4bddc8588eeb08bdd3375fe40896793f2dd2002dbf4
   languageName: node
   linkType: hard
 
@@ -9067,7 +9094,7 @@ __metadata:
     "@willbooster/prettier-config": "npm:9.1.1"
     "@willbooster/renovate-config": "npm:9.4.2"
     "@yarnpkg/core": "npm:4.0.0-rc.34"
-    build-ts: "npm:3.1.1"
+    build-ts: "npm:3.1.2"
     conventional-changelog-conventionalcommits: "npm:5.0.0"
     eslint: "npm:8.30.0"
     eslint-config-prettier: "npm:8.5.0"
