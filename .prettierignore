@@ -26,8 +26,7 @@ test-fixtures/
 dist/
 temp/
 Icon[]
-*.sqlite3
-*.sqlite3-journal
+!.keep
 # Created by https://www.toptal.com/developers/gitignore/api/windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows
 
