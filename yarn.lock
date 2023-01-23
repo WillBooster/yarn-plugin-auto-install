@@ -8243,9 +8243,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sort-package-json@npm:2.1.0":
-  version: 2.1.0
-  resolution: "sort-package-json@npm:2.1.0"
+"sort-package-json@npm:2.2.0":
+  version: 2.2.0
+  resolution: "sort-package-json@npm:2.2.0"
   dependencies:
     detect-indent: "npm:^7.0.1"
     detect-newline: "npm:^4.0.0"
@@ -8255,7 +8255,7 @@ __metadata:
     sort-object-keys: "npm:^1.1.3"
   bin:
     sort-package-json: cli.js
-  checksum: 11051ac4071565a57f5cf7c0e027ee4779e4d787def3e1de12354c0dd64ef59f969f7e46115b67fc2f736f260effd0120e630373b5a6dadf26dec3fe3a416511
+  checksum: 48ef89cb2fafb2fe8ddaad6fac3bb60e38363e676c5d2a2a01eead4089f36298d176ebf52cf52eaed6ac69aec1da43cc7a4386379f84c9cf26bc82b38af72099
   languageName: node
   linkType: hard
 
@@ -9309,7 +9309,7 @@ __metadata:
     pinst: "npm:3.0.0"
     prettier: "npm:2.8.3"
     semantic-release: "npm:20.0.2"
-    sort-package-json: "npm:2.1.0"
+    sort-package-json: "npm:2.2.0"
     typescript: "npm:4.9.4"
   bin:
     yarn-plugin-auto-install: ./bin/install-plugin.cjs
