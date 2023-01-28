@@ -4,6 +4,7 @@ import type { Hooks, Project } from '@yarnpkg/core';
 
 export default {
   name: 'plugin-auto-install',
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   factory: (importPackage: (name: string) => any) => {
     // eslint-disable-next-line @typescript-eslint/naming-convention
     const child_process = importPackage('child_process');
