@@ -13,13 +13,13 @@
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
   "type": "module",
-  "main": "dist/index.min.cjs",
+  "main": "dist/index.cjs",
   "bin": "./bin/install-plugin.cjs",
   "files": [
     "bin/"
   ],
   "scripts": {
-    "build": "build-ts app -e VERSION && cp dist/index.min.cjs .yarn/plugins/plugin-auto-install.cjs",
+    "build": "build-ts app -e VERSION && cp dist/index.cjs .yarn/plugins/plugin-auto-install.cjs",
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",
     "postinstall": "husky install",
