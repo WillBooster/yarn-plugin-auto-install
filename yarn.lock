@@ -3096,9 +3096,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"build-ts@npm:5.0.0":
-  version: 5.0.0
-  resolution: "build-ts@npm:5.0.0"
+"build-ts@npm:5.1.0":
+  version: 5.1.0
+  resolution: "build-ts@npm:5.1.0"
   dependencies:
     "@babel/core": "npm:7.20.12"
     "@babel/plugin-proposal-class-properties": "npm:7.18.6"
@@ -3128,7 +3128,7 @@ __metadata:
     yargs: "npm:17.6.2"
   bin:
     build-ts: bin/index.mjs
-  checksum: 30f16c5ccedc2feb5d3eec4bb6cf0ea82bd5b257b822b562aadb6e1e49ce829509bed721ad207ade632f7f0236bd58d72a6b2c6fed4325777e7fc4d74b4fbd5f
+  checksum: 6a4185db10ef5d0c77b242844fe1c099076faf48a03fde627b61d3a4347fe4ec9eb0e40c0fb23ce5f8b861b714604ed0222eb4fde3695bd2060eab17298a185b
   languageName: node
   linkType: hard
 
@@ -4330,9 +4330,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.32.0":
-  version: 8.32.0
-  resolution: "eslint@npm:8.32.0"
+"eslint@npm:8.33.0":
+  version: 8.33.0
+  resolution: "eslint@npm:8.33.0"
   dependencies:
     "@eslint/eslintrc": "npm:^1.4.1"
     "@humanwhocodes/config-array": "npm:^0.11.8"
@@ -4375,7 +4375,7 @@ __metadata:
     text-table: "npm:^0.2.0"
   bin:
     eslint: bin/eslint.js
-  checksum: cc00214baef7655ccf19f65017910e6f24786958a19f481fbbc9595060aad7437646ffde1d123d13aef60a0ff61ab09573bff0319679d632e87dd1d0f9878c3e
+  checksum: 616877cf98325f619070e6c85b1bb4734fe99202871f5f43cbb9c56b13d7cacf8caa499c61c0a112541067be3b6143cd0497d1319950a4a1d355adeff8504596
   languageName: node
   linkType: hard
 
@@ -9344,9 +9344,9 @@ __metadata:
     "@willbooster/prettier-config": "npm:9.1.1"
     "@willbooster/renovate-config": "npm:9.5.0"
     "@yarnpkg/core": "npm:4.0.0-rc.36"
-    build-ts: "npm:5.0.0"
+    build-ts: "npm:5.1.0"
     conventional-changelog-conventionalcommits: "npm:5.0.0"
-    eslint: "npm:8.32.0"
+    eslint: "npm:8.33.0"
     eslint-config-prettier: "npm:8.6.0"
     eslint-import-resolver-typescript: "npm:3.5.3"
     eslint-plugin-import: "npm:2.27.5"
