@@ -33,7 +33,6 @@ export default {
       },
       async wrapScriptExecution(executor, project, locator, scriptName, extra): Promise<() => Promise<number>> {
         if (installing) return executor;
-        console.log(executor, project, locator, scriptName, extra);
 
         try {
           const hash = calcPackageHash(project);
