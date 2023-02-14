@@ -33,17 +33,18 @@ export default {
       },
       async wrapScriptExecution(executor, project, locator, scriptName, extra): Promise<() => Promise<number>> {
         if (installing) return executor;
+        console.log(executor, project, locator, scriptName, extra);
 
         try {
           const hash = calcPackageHash(project);
           if (hash && hash === readPackageHash(project)) return executor;
 
-          // Update hash to avoid a infinite loop
+          // Update hash to avoid an infinite loop
           if (!writePackageHash(hash, project)) return executor;
           console.info(`${prefix} is running 'yarn install' due to dependency changes.`);
           child_process.spawnSync('yarn', ['install'], { cwd: extra.cwd, env: extra.env });
           console.info(`${prefix} finished 'yarn install'.`);
-          const ret = child_process.spawnSync('yarn', [scriptName, ...extra.args], {
+          const ret = child_process.spawnSync('yarn', ['run', scriptName, ...extra.args], {
             cwd: extra.cwd,
             env: extra.env,
             stdio: 'inherit',
