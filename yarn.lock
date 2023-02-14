@@ -3104,9 +3104,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"build-ts@npm:5.5.0":
-  version: 5.5.0
-  resolution: "build-ts@npm:5.5.0"
+"build-ts@npm:5.5.1":
+  version: 5.5.1
+  resolution: "build-ts@npm:5.5.1"
   dependencies:
     "@babel/core": "npm:7.20.12"
     "@babel/plugin-proposal-class-properties": "npm:7.18.6"
@@ -3130,17 +3130,18 @@ __metadata:
     date-time: "npm:4.0.0"
     dotenv: "npm:16.0.3"
     pretty-ms: "npm:8.0.0"
-    rollup: "npm:3.14.0"
+    rollup: "npm:3.15.0"
     rollup-plugin-analyzer: "npm:4.0.0"
     rollup-plugin-node-externals: "npm:5.1.2"
     rollup-plugin-string: "npm:3.0.0"
     rollup-plugin-ts: "npm:3.2.0"
     signal-exit: "npm:3.0.7"
     ts-node: "npm:10.9.1"
+    typescript: "npm:4.9.5"
     yargs: "npm:17.6.2"
   bin:
     build-ts: bin/index.mjs
-  checksum: 6852d604156af75a6537fadf9b4053386f2a25ff93ef0bdc8eff42b52e432d7ae29ae98aba08a2bf508e7ba9dc58a23d1cda225315ce7632927d60c169271708
+  checksum: fc5e67607ae7d5de4c8b799adc5a6aec22d073ee248afec49436dec6e0495dc34e48a3c565073c283f3465cedf72d8c5f3da2ceed8203b63e032705458511981
   languageName: node
   linkType: hard
 
@@ -8025,9 +8026,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:3.14.0":
-  version: 3.14.0
-  resolution: "rollup@npm:3.14.0"
+"rollup@npm:3.15.0":
+  version: 3.15.0
+  resolution: "rollup@npm:3.15.0"
   dependencies:
     fsevents: "npm:~2.3.2"
   dependenciesMeta:
@@ -8035,7 +8036,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 9fa7c283f048e6709d6b452cb7d66b8186e6859cdb0fe2d3268ff36fc9e85aeaaf4ffdb710ab03b01e1016262e7614f63e83aba9c7c2732dbdb9ea390b637d2b
+  checksum: 52a395d98cecc9971dc3c2322aa037dffbb1c7f548023f08bb2011ad9aceca5e302ccd0e00260621debc95363b99c6804f679d49b1cdb164c97ce9b3574f5dc6
   languageName: node
   linkType: hard
 
@@ -9005,11 +9006,11 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=ad5954"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=23ec76"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 4b4cb92afdc90f15413ef84d30de0a09649d1e795ac4c10e391c2cde92ef6444f6a34081e4536dc9ce5694a65f2424923871275c7e7d422537b0c09f18ed3fb4
+  checksum: 09f82f25664c79d5cccc389502175093becf51d691b443c79294303681544a399fb42f8384b535ddeba48cadb64e7d14b42de40d8ade4418bb43174989dd8685
   languageName: node
   linkType: hard
 
@@ -9388,7 +9389,7 @@ __metadata:
     "@willbooster/prettier-config": "npm:9.1.1"
     "@willbooster/renovate-config": "npm:9.5.0"
     "@yarnpkg/core": "npm:4.0.0-rc.39"
-    build-ts: "npm:5.5.0"
+    build-ts: "npm:5.5.1"
     conventional-changelog-conventionalcommits: "npm:5.0.0"
     eslint: "npm:8.34.0"
     eslint-config-prettier: "npm:8.6.0"
