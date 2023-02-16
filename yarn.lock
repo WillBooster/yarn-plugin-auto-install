@@ -4263,14 +4263,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sort-destructure-keys@npm:1.4.0":
-  version: 1.4.0
-  resolution: "eslint-plugin-sort-destructure-keys@npm:1.4.0"
+"eslint-plugin-sort-destructure-keys@npm:1.5.0":
+  version: 1.5.0
+  resolution: "eslint-plugin-sort-destructure-keys@npm:1.5.0"
   dependencies:
     natural-compare-lite: "npm:^1.4.0"
   peerDependencies:
     eslint: 3 - 8
-  checksum: 6350fca710ac27b5c50b826ce3ab4edfbd11e7c5536fcb1f44bda8ddc55905a67eceb0b970f4b1b5131697fd5e61db2db853264eb53d23b82f708ceb4ef15337
+  checksum: fedbb40fe90da0d4dcf9699b5d37e9847534a8e4e61126a88f3a9dff55fb439a5baf6ab3e4b62c6c8dad1598ab98ab4c9f9b82bf5ec1e1f87efd4873e52bcea9
   languageName: node
   linkType: hard
 
@@ -9373,7 +9373,7 @@ __metadata:
     eslint-import-resolver-typescript: "npm:3.5.3"
     eslint-plugin-import: "npm:2.27.5"
     eslint-plugin-sort-class-members: "npm:1.16.0"
-    eslint-plugin-sort-destructure-keys: "npm:1.4.0"
+    eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:45.0.2"
     husky: "npm:8.0.3"
     lint-staged: "npm:13.1.2"
