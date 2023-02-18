@@ -626,7 +626,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-syntax-import-assertions@npm:^7.20.0":
+"@babel/plugin-syntax-import-assertions@npm:7.20.0, @babel/plugin-syntax-import-assertions@npm:^7.20.0":
   version: 7.20.0
   resolution: "@babel/plugin-syntax-import-assertions@npm:7.20.0"
   dependencies:
@@ -2265,13 +2265,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.21.0":
-  version: 8.21.0
-  resolution: "@types/eslint@npm:8.21.0"
+"@types/eslint@npm:8.21.1":
+  version: 8.21.1
+  resolution: "@types/eslint@npm:8.21.1"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: ddb802f77b1a850666704019704588c0e3e1a5971865dc56a87b2722f3d5aa7290ccfff39ba59d7a13ee7c1c93150470029343e51b198a22d1596237fb9e5b95
+  checksum: fc622414a543e4553012144feaeeacec2ec17b21c544c764be36a22088ac4608d505e48030ecc3c168e37d00b07c7de8fdfeeaf0284c30056fb1c80da71c1b1f
   languageName: node
   linkType: hard
 
@@ -2328,10 +2328,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:18.13.0":
+"@types/node@npm:*":
   version: 18.13.0
   resolution: "@types/node@npm:18.13.0"
   checksum: 591b7b9a97dbeaa155c3fe1a00e22fc13241781bda02f4e96935811723e7719fe18ed003301551cfa3273488cc7cf2f99146b752abc9b60aaab57bcbc67da830
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:18.14.0":
+  version: 18.14.0
+  resolution: "@types/node@npm:18.14.0"
+  checksum: d17dff07c712379d67af7750f1586b4840ade31ab814d04987aa25850f1d4ef29b63b9ed03a7a9dccee8c86106ca75ae3b6f8cdd17be3ef3f693e700b1ea437b
   languageName: node
   linkType: hard
 
@@ -3104,13 +3111,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"build-ts@npm:5.5.1":
-  version: 5.5.1
-  resolution: "build-ts@npm:5.5.1"
+"build-ts@npm:5.7.2":
+  version: 5.7.2
+  resolution: "build-ts@npm:5.7.2"
   dependencies:
     "@babel/core": "npm:7.20.12"
     "@babel/plugin-proposal-class-properties": "npm:7.18.6"
     "@babel/plugin-proposal-numeric-separator": "npm:7.18.6"
+    "@babel/plugin-syntax-import-assertions": "npm:7.20.0"
     "@babel/plugin-transform-runtime": "npm:7.19.6"
     "@babel/preset-env": "npm:7.20.2"
     "@babel/preset-react": "npm:7.18.6"
@@ -3125,8 +3133,8 @@ __metadata:
     babel-plugin-polyfill-corejs3: "npm:0.6.0"
     babel-plugin-transform-remove-console: "npm:6.9.4"
     chalk: "npm:5.2.0"
-    core-js: "npm:3.27.2"
-    core-js-pure: "npm:3.27.2"
+    core-js: "npm:3.28.0"
+    core-js-pure: "npm:3.28.0"
     date-time: "npm:4.0.0"
     dotenv: "npm:16.0.3"
     pretty-ms: "npm:8.0.0"
@@ -3140,8 +3148,8 @@ __metadata:
     typescript: "npm:4.9.5"
     yargs: "npm:17.6.2"
   bin:
-    build-ts: bin/index.mjs
-  checksum: fc5e67607ae7d5de4c8b799adc5a6aec22d073ee248afec49436dec6e0495dc34e48a3c565073c283f3465cedf72d8c5f3da2ceed8203b63e032705458511981
+    build-ts: bin/index.js
+  checksum: 5647115d79d98dc813e61498e79d95b45dfb4af4c785c6e02f38d9b1f677d4eea0c9e97f7d31028e9694a89b9ecc2d583198b19b612166f0526e88a89824d057
   languageName: node
   linkType: hard
 
@@ -3661,17 +3669,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js-pure@npm:3.27.2":
-  version: 3.27.2
-  resolution: "core-js-pure@npm:3.27.2"
-  checksum: 2382f1b3d02a903758a332f952ef9648b6224ec08918d041134cd1f407717cbea2d37d60f62dfec46732fd4c95f4dd73c9e9b509b38c824775f6b0fc1c32c65f
+"core-js-pure@npm:3.28.0":
+  version: 3.28.0
+  resolution: "core-js-pure@npm:3.28.0"
+  checksum: 1e301d8275ced4595bb9a532691f1ffa594f9f56f7e34fdf0c57c0d66fcd01ab7cd7bf4d86f3f4d2afa10815b4d682eb33080fc5de2e4c57abd54f444cca0e7e
   languageName: node
   linkType: hard
 
-"core-js@npm:3.27.2":
-  version: 3.27.2
-  resolution: "core-js@npm:3.27.2"
-  checksum: a65178818013cb4f90d96b8ff899fea5cd5bb884f993888ad5da34b89ff199bd6732bca6acc1a0ef21d36f2955e0389bd58a2141ce5234900d42d5c636b1cd92
+"core-js@npm:3.28.0":
+  version: 3.28.0
+  resolution: "core-js@npm:3.28.0"
+  checksum: abf716bd6ad1278e3423e7daee3d268e050489e3115fd7f13095d160a1556c248c51fcc57ca6bd282986f877f4674840f7bbffcca7d11c564c644212ede1b14e
   languageName: node
   linkType: hard
 
@@ -9356,9 +9364,9 @@ __metadata:
   resolution: "yarn-plugin-auto-install@workspace:."
   dependencies:
     "@semantic-release/exec": "npm:6.0.3"
-    "@types/eslint": "npm:8.21.0"
+    "@types/eslint": "npm:8.21.1"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.13.0"
+    "@types/node": "npm:18.14.0"
     "@types/prettier": "npm:2.7.2"
     "@typescript-eslint/eslint-plugin": "npm:5.52.0"
     "@typescript-eslint/parser": "npm:5.52.0"
@@ -9366,7 +9374,7 @@ __metadata:
     "@willbooster/prettier-config": "npm:9.1.1"
     "@willbooster/renovate-config": "npm:9.5.0"
     "@yarnpkg/core": "npm:4.0.0-rc.39"
-    build-ts: "npm:5.5.1"
+    build-ts: "npm:5.7.2"
     conventional-changelog-conventionalcommits: "npm:5.0.0"
     eslint: "npm:8.34.0"
     eslint-config-prettier: "npm:8.6.0"
