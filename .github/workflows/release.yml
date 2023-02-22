@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - main
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
 jobs:
   release:
     uses: WillBooster/reusable-workflows/.github/workflows/release.yml@main
