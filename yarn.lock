@@ -2288,13 +2288,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.21.1":
-  version: 8.21.1
-  resolution: "@types/eslint@npm:8.21.1"
+"@types/eslint@npm:8.21.2":
+  version: 8.21.2
+  resolution: "@types/eslint@npm:8.21.2"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: fc622414a543e4553012144feaeeacec2ec17b21c544c764be36a22088ac4608d505e48030ecc3c168e37d00b07c7de8fdfeeaf0284c30056fb1c80da71c1b1f
+  checksum: 97c19aa759ea06a2afd27ac566f404d99b59bd831cbc924a53ebe843e1e926dd0d1d345d6560b00f8cdb42c7f2122946ac3cf340651fc9a697c4d7d29bbf63cd
   languageName: node
   linkType: hard
 
@@ -2351,10 +2351,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:18.15.0":
+"@types/node@npm:*":
   version: 18.15.0
   resolution: "@types/node@npm:18.15.0"
   checksum: 3d8e41b54a715a4d69fced5ef10af7e41f640d343cac09bcd538d28dc1cfdc9495091a66b0e3eb1292ca4656715e87c2e129ab05130c6c592b67ce641780c804
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:18.15.3":
+  version: 18.15.3
+  resolution: "@types/node@npm:18.15.3"
+  checksum: 658d687cb6d88ccbb7d073fc583a0c88eb75936b64a6d43a6f06e320bf39384e35e3f5f4c88aa65c833a25cbe76080414bbfde54207050399b350e08aea70ada
   languageName: node
   linkType: hard
 
@@ -9380,9 +9387,9 @@ __metadata:
   resolution: "yarn-plugin-auto-install@workspace:."
   dependencies:
     "@semantic-release/exec": "npm:6.0.3"
-    "@types/eslint": "npm:8.21.1"
+    "@types/eslint": "npm:8.21.2"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.15.0"
+    "@types/node": "npm:18.15.3"
     "@types/prettier": "npm:2.7.2"
     "@typescript-eslint/eslint-plugin": "npm:5.55.0"
     "@typescript-eslint/parser": "npm:5.55.0"
