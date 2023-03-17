@@ -33,9 +33,9 @@
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@semantic-release/exec": "6.0.3",
-    "@types/eslint": "8.21.1",
+    "@types/eslint": "8.21.2",
     "@types/micromatch": "4.0.2",
-    "@types/node": "18.15.0",
+    "@types/node": "18.15.3",
     "@types/prettier": "2.7.2",
     "@typescript-eslint/eslint-plugin": "5.55.0",
     "@typescript-eslint/parser": "5.55.0",
