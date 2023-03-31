@@ -33,21 +33,21 @@
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@semantic-release/exec": "6.0.3",
-    "@types/eslint": "8.21.3",
+    "@types/eslint": "8.37.0",
     "@types/micromatch": "4.0.2",
-    "@types/node": "18.15.7",
+    "@types/node": "18.15.11",
     "@types/prettier": "2.7.2",
-    "@typescript-eslint/eslint-plugin": "5.56.0",
-    "@typescript-eslint/parser": "5.56.0",
+    "@typescript-eslint/eslint-plugin": "5.57.0",
+    "@typescript-eslint/parser": "5.57.0",
     "@willbooster/eslint-config-ts": "10.1.0",
     "@willbooster/prettier-config": "9.1.1",
     "@willbooster/renovate-config": "9.5.0",
-    "@yarnpkg/core": "4.0.0-rc.40",
-    "build-ts": "5.7.6",
+    "@yarnpkg/core": "4.0.0-rc.42",
+    "build-ts": "5.7.7",
     "conventional-changelog-conventionalcommits": "5.0.0",
-    "eslint": "8.36.0",
+    "eslint": "8.37.0",
     "eslint-config-prettier": "8.8.0",
-    "eslint-import-resolver-typescript": "3.5.3",
+    "eslint-import-resolver-typescript": "3.5.4",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-sort-class-members": "1.16.0",
     "eslint-plugin-sort-destructure-keys": "1.5.0",
@@ -59,9 +59,9 @@
     "prettier": "2.8.7",
     "semantic-release": "21.0.0",
     "sort-package-json": "2.4.1",
-    "typescript": "5.0.2"
+    "typescript": "5.0.3"
   },
-  "packageManager": "yarn@4.0.0-rc.40",
+  "packageManager": "yarn@4.0.0-rc.42",
   "publishConfig": {
     "access": "public"
   }
