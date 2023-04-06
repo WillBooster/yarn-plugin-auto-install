@@ -4389,12 +4389,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:3.5.4":
-  version: 3.5.4
-  resolution: "eslint-import-resolver-typescript@npm:3.5.4"
+"eslint-import-resolver-typescript@npm:3.5.5":
+  version: 3.5.5
+  resolution: "eslint-import-resolver-typescript@npm:3.5.5"
   dependencies:
     debug: "npm:^4.3.4"
     enhanced-resolve: "npm:^5.12.0"
+    eslint-module-utils: "npm:^2.7.4"
     get-tsconfig: "npm:^4.5.0"
     globby: "npm:^13.1.3"
     is-core-module: "npm:^2.11.0"
@@ -4403,7 +4404,7 @@ __metadata:
   peerDependencies:
     eslint: "*"
     eslint-plugin-import: "*"
-  checksum: 63c46e28f5c7aa7c37bf581184535251a291949f9cbd44ff65101cb1ff70767ac8a3a303d5c3ac5543e966182235a75b31bba5dd7641487537dcaa5c0f230221
+  checksum: 4a398b14440ddc3aab1b300defceeea32f70798c8fbe4dfaadbc329ad0965ab85ba91beb5c100bb8e546f8aba996161ac8d73dfde3f26dc168805c02fb54b1ee
   languageName: node
   linkType: hard
 
@@ -4444,12 +4445,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sort-class-members@npm:1.16.0":
-  version: 1.16.0
-  resolution: "eslint-plugin-sort-class-members@npm:1.16.0"
+"eslint-plugin-sort-class-members@npm:1.17.0":
+  version: 1.17.0
+  resolution: "eslint-plugin-sort-class-members@npm:1.17.0"
   peerDependencies:
     eslint: ">=0.8.0"
-  checksum: c36d7a09bfd9ce6c7cb824f50084299883d8f6f4316097d994085eb5f6ab957c04a62c510606e7225b460313b6709830ee7b2ddac7cce172eab3f32ff63a5c5a
+  checksum: b94c32ec3591429306333af2b2671c655d3a3b86839eb208ed63f5258323dd2b4316734c4a8f117102ae14b25246425e1b506951e16ca9cebf26e59637e66b03
   languageName: node
   linkType: hard
 
@@ -9740,9 +9741,9 @@ __metadata:
     conventional-changelog-conventionalcommits: "npm:5.0.0"
     eslint: "npm:8.37.0"
     eslint-config-prettier: "npm:8.8.0"
-    eslint-import-resolver-typescript: "npm:3.5.4"
+    eslint-import-resolver-typescript: "npm:3.5.5"
     eslint-plugin-import: "npm:2.27.5"
-    eslint-plugin-sort-class-members: "npm:1.16.0"
+    eslint-plugin-sort-class-members: "npm:1.17.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:46.0.0"
     husky: "npm:8.0.3"
