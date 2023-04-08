@@ -45,7 +45,7 @@
     "@yarnpkg/core": "4.0.0-rc.42",
     "build-ts": "5.7.7",
     "conventional-changelog-conventionalcommits": "5.0.0",
-    "eslint": "8.37.0",
+    "eslint": "8.38.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-import-resolver-typescript": "3.5.5",
     "eslint-plugin-import": "2.27.5",
@@ -57,9 +57,9 @@
     "micromatch": "4.0.5",
     "pinst": "3.0.0",
     "prettier": "2.8.7",
-    "semantic-release": "21.0.0",
+    "semantic-release": "21.0.1",
     "sort-package-json": "2.4.1",
-    "typescript": "5.0.3"
+    "typescript": "5.0.4"
   },
   "packageManager": "yarn@4.0.0-rc.42",
   "publishConfig": {

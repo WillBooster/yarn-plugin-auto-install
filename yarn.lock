@@ -1556,10 +1556,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:8.37.0":
-  version: 8.37.0
-  resolution: "@eslint/js@npm:8.37.0"
-  checksum: 4c2ec3cc0eed454e101d91402334cbb75c96e326960fab0326e2fb9a7d2fb137fd9047bcf5bf6114204dc1d43e7027bf02fd676f2806aa95bd5714c79cfdd821
+"@eslint/js@npm:8.38.0":
+  version: 8.38.0
+  resolution: "@eslint/js@npm:8.38.0"
+  checksum: 9b03caa314853d1c3f9b66cc214adf4dcd1fa4799b6889cd936020008138f1e2a8f23b1674b9a5aa283b6ffbb8b9f9530c84237f559f75097050f14209bba16c
   languageName: node
   linkType: hard
 
@@ -4233,13 +4233,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"env-ci@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "env-ci@npm:8.0.0"
+"env-ci@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "env-ci@npm:9.0.0"
   dependencies:
-    execa: "npm:^6.1.0"
+    execa: "npm:^7.0.0"
     java-properties: "npm:^1.0.2"
-  checksum: 895b3bd26c83954d4b3708075fdb1cd4c3a7530c1fbf5d19f70cbb2f60648273cf76482cc9aeb8798f65f4fa967edb66fb1aafe760eb9be9bed8948fa33db2e5
+  checksum: 8bd63e0b62bd61dc2051b4193a7903cc98ca3c9502ac7651d11525f69cb2dc0e659f8b3089241ea7cf6020aebac474ed459db97a353f20879168bb317d9a2c09
   languageName: node
   linkType: hard
 
@@ -4525,14 +4525,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.37.0":
-  version: 8.37.0
-  resolution: "eslint@npm:8.37.0"
+"eslint@npm:8.38.0":
+  version: 8.38.0
+  resolution: "eslint@npm:8.38.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     "@eslint-community/regexpp": "npm:^4.4.0"
     "@eslint/eslintrc": "npm:^2.0.2"
-    "@eslint/js": "npm:8.37.0"
+    "@eslint/js": "npm:8.38.0"
     "@humanwhocodes/config-array": "npm:^0.11.8"
     "@humanwhocodes/module-importer": "npm:^1.0.1"
     "@nodelib/fs.walk": "npm:^1.2.8"
@@ -4571,7 +4571,7 @@ __metadata:
     text-table: "npm:^0.2.0"
   bin:
     eslint: bin/eslint.js
-  checksum: b2a3a4d5bca66dd8df2af7f5fbc2d983c065d958ee7682cd54ee17902dc3016c2cddddad593d56e6357fe863f65fe44c0996886f369d142026f3c1a8b95530be
+  checksum: 277f46f6f8bed527214fb720ac8dd840484add1eea235b5ee432944316793d51e566e712a676cd9ebed22b743d35cbf9b920a0946bb9e3b302dc8556d4cb2009
   languageName: node
   linkType: hard
 
@@ -4677,23 +4677,6 @@ __metadata:
     signal-exit: "npm:^3.0.3"
     strip-final-newline: "npm:^2.0.0"
   checksum: 62053808e15136a18481d24d14f33a8fbf191b15120d5a6f390bedfded1d1980735c92ba49194d03ad818d18bf7aded5f64f4de4129eb180743e7ec563d21d45
-  languageName: node
-  linkType: hard
-
-"execa@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "execa@npm:6.1.0"
-  dependencies:
-    cross-spawn: "npm:^7.0.3"
-    get-stream: "npm:^6.0.1"
-    human-signals: "npm:^3.0.1"
-    is-stream: "npm:^3.0.0"
-    merge-stream: "npm:^2.0.0"
-    npm-run-path: "npm:^5.1.0"
-    onetime: "npm:^6.0.0"
-    signal-exit: "npm:^3.0.7"
-    strip-final-newline: "npm:^3.0.0"
-  checksum: ebe384facfb5c4e7007828a518fedb2d7704bd10e69d4584de4427d47ceadf1e9377203f4ca754c17e1a82a492b5eefad64dda65fa473bf756ab6de62124651e
   languageName: node
   linkType: hard
 
@@ -5424,13 +5407,6 @@ __metadata:
   version: 2.1.0
   resolution: "human-signals@npm:2.1.0"
   checksum: 505db4e7615aec0ebeb6c191f7e7347091348a5ceb057d5926cf458f3081a1bdd3728902874de65c446143e5b9020f7a24147060dbe52b53e9602a5a40301118
-  languageName: node
-  linkType: hard
-
-"human-signals@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "human-signals@npm:3.0.1"
-  checksum: 00cff8f78516e925bef0d0bc65dfbf8bfad876ef3dc1aeec98f2ba845b56e9a58972a9e002323ef7e6de08b2a2fc0cb9a27ddadf7fae608b2828d241d6ae32b3
   languageName: node
   linkType: hard
 
@@ -8390,9 +8366,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:21.0.0":
-  version: 21.0.0
-  resolution: "semantic-release@npm:21.0.0"
+"semantic-release@npm:21.0.1":
+  version: 21.0.1
+  resolution: "semantic-release@npm:21.0.1"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^9.0.2"
     "@semantic-release/error": "npm:^3.0.0"
@@ -8402,7 +8378,7 @@ __metadata:
     aggregate-error: "npm:^4.0.1"
     cosmiconfig: "npm:^8.0.0"
     debug: "npm:^4.0.0"
-    env-ci: "npm:^8.0.0"
+    env-ci: "npm:^9.0.0"
     execa: "npm:^7.0.0"
     figures: "npm:^5.0.0"
     find-versions: "npm:^5.1.0"
@@ -8424,7 +8400,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 9ef522a5830e13cfc335dcff5ffe6f33c812db71dffa46aacd49eba70c7ad2b71be741d484a511dbde7d47b704452a17d785eef267fdd1dbd7c9880eef76fb4b
+  checksum: 67a57a63b07ad8da1f56ee9c3882c5b28b50e0f497477b56fcefa1b24288bf423f82b5008d87cf88985f46ab4519f6b29245246129dfe99ba27c8394dee86d86
   languageName: node
   linkType: hard
 
@@ -9323,6 +9299,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript@npm:5.0.4":
+  version: 5.0.4
+  resolution: "typescript@npm:5.0.4"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 56649de784c427e8f3f63d4ebfcada4fcf03bb2a301f3327342111798db7f26f8a86285f979f376cf6cec4774bd96b4650f2693a07fc409f4544ad4c4d9fe4c9
+  languageName: node
+  linkType: hard
+
 "typescript@patch:typescript@npm%3A5.0.3#optional!builtin<compat/typescript>":
   version: 5.0.3
   resolution: "typescript@patch:typescript@npm%3A5.0.3#optional!builtin<compat/typescript>::version=5.0.3&hash=b5f058"
@@ -9330,6 +9316,16 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 66967b1418927f8c780bcec443e6e1572d0c88314e3b45797d22bffc8981b3c8e687a37f24bcad00e2d349722df225e758678559e810a6673f4773b8f44eb5d2
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A5.0.4#optional!builtin<compat/typescript>":
+  version: 5.0.4
+  resolution: "typescript@patch:typescript@npm%3A5.0.4#optional!builtin<compat/typescript>::version=5.0.4&hash=b5f058"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: e4296a207d18264eb9b17a912b0929c4e8be5a4e48aefa016e952eaa445e5a4ed363a72d9023f151dc7f100d48d4bfa35480aec199f123a664ef8a622355ae4f
   languageName: node
   linkType: hard
 
@@ -9739,7 +9735,7 @@ __metadata:
     "@yarnpkg/core": "npm:4.0.0-rc.42"
     build-ts: "npm:5.7.7"
     conventional-changelog-conventionalcommits: "npm:5.0.0"
-    eslint: "npm:8.37.0"
+    eslint: "npm:8.38.0"
     eslint-config-prettier: "npm:8.8.0"
     eslint-import-resolver-typescript: "npm:3.5.5"
     eslint-plugin-import: "npm:2.27.5"
@@ -9751,9 +9747,9 @@ __metadata:
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
     prettier: "npm:2.8.7"
-    semantic-release: "npm:21.0.0"
+    semantic-release: "npm:21.0.1"
     sort-package-json: "npm:2.4.1"
-    typescript: "npm:5.0.3"
+    typescript: "npm:5.0.4"
   bin:
     yarn-plugin-auto-install: ./bin/install-plugin.cjs
   languageName: unknown
