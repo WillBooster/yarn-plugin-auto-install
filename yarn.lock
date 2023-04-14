@@ -2037,14 +2037,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-node-resolve@npm:15.0.1":
-  version: 15.0.1
-  resolution: "@rollup/plugin-node-resolve@npm:15.0.1"
+"@rollup/plugin-node-resolve@npm:15.0.2":
+  version: 15.0.2
+  resolution: "@rollup/plugin-node-resolve@npm:15.0.2"
   dependencies:
     "@rollup/pluginutils": "npm:^5.0.1"
     "@types/resolve": "npm:1.20.2"
     deepmerge: "npm:^4.2.2"
-    is-builtin-module: "npm:^3.2.0"
+    is-builtin-module: "npm:^3.2.1"
     is-module: "npm:^1.0.0"
     resolve: "npm:^1.22.1"
   peerDependencies:
@@ -2052,7 +2052,7 @@ __metadata:
   peerDependenciesMeta:
     rollup:
       optional: true
-  checksum: 5f709d14dfd1f22af02d087098f2c2136ebb7f5d57a34fb91978168e4cce7852a4f0338ec951f7f96b47d0da1d443c024fdbaf99093ffb8107ac18369e65bc5c
+  checksum: dc7a4d47e8389c5c12d49bbf636b8e502dfae7d5b6b8d1744d94fd02c43e880eb29017f1c2fa195996242b3b0ebf4a012615a37a348058ae5b152d7ea10a14b9
   languageName: node
   linkType: hard
 
@@ -3200,9 +3200,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"build-ts@npm:5.7.7":
-  version: 5.7.7
-  resolution: "build-ts@npm:5.7.7"
+"build-ts@npm:5.7.8":
+  version: 5.7.8
+  resolution: "build-ts@npm:5.7.8"
   dependencies:
     "@babel/core": "npm:7.21.4"
     "@babel/plugin-proposal-class-properties": "npm:7.18.6"
@@ -3215,15 +3215,15 @@ __metadata:
     "@rollup/plugin-babel": "npm:6.0.3"
     "@rollup/plugin-commonjs": "npm:24.0.1"
     "@rollup/plugin-json": "npm:6.0.0"
-    "@rollup/plugin-node-resolve": "npm:15.0.1"
+    "@rollup/plugin-node-resolve": "npm:15.0.2"
     "@rollup/plugin-replace": "npm:5.0.2"
     "@rollup/plugin-terser": "npm:0.4.0"
     "@rollup/pluginutils": "npm:5.0.2"
     babel-plugin-polyfill-corejs3: "npm:0.7.1"
     babel-plugin-transform-remove-console: "npm:6.9.4"
     chalk: "npm:5.2.0"
-    core-js: "npm:3.29.1"
-    core-js-pure: "npm:3.29.1"
+    core-js: "npm:3.30.0"
+    core-js-pure: "npm:3.30.0"
     date-time: "npm:4.0.0"
     dotenv: "npm:16.0.3"
     pretty-ms: "npm:8.0.0"
@@ -3234,11 +3234,11 @@ __metadata:
     rollup-plugin-ts: "npm:3.2.0"
     signal-exit: "npm:3.0.7"
     ts-node: "npm:10.9.1"
-    typescript: "npm:5.0.3"
+    typescript: "npm:5.0.4"
     yargs: "npm:17.7.1"
   bin:
     build-ts: bin/index.js
-  checksum: b17e35e1521e28c05aaec2c6baf8d1c25b2ceaf4ac0d4372f8e21fafdddc4b8339e00eb1788a972132d23ed57d501dbfd78dbb7ce483265a52256b36d83b67f8
+  checksum: 19677957281f914d426bd27fcae930c4854a6f63124f5412916f4bd7b1d52ca82424eb78c7bd09d98f1c262c14f8a9b8fb5f305c4b492b3ecb064d45e0588b4c
   languageName: node
   linkType: hard
 
@@ -3777,17 +3777,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js-pure@npm:3.29.1":
-  version: 3.29.1
-  resolution: "core-js-pure@npm:3.29.1"
-  checksum: 220324a6e4bd8e9f2e7a675b1e3bb13808383f62984d0ad2aad3621ef102527bf789c5205d78b94e67fa55e32afe1300f0c0dcfcf2759bb6148a305e519ab466
+"core-js-pure@npm:3.30.0":
+  version: 3.30.0
+  resolution: "core-js-pure@npm:3.30.0"
+  checksum: da1369da504a1fb52e1a75c47f2f92b38221b2d8bd3690363f0a4328946f9381af7bd31e0be80e449909ff419e012faec5122f28401789253cfa21e48e129437
   languageName: node
   linkType: hard
 
-"core-js@npm:3.29.1":
-  version: 3.29.1
-  resolution: "core-js@npm:3.29.1"
-  checksum: fbd25ff7315423b67cd5c37f55a8f3623ededa86b6e90615f7892c0f1718d2bc0827d80c717fd27437155505cd1fbd96bd9d03e8b3c06b6d1e2e11270897ff0a
+"core-js@npm:3.30.0":
+  version: 3.30.0
+  resolution: "core-js@npm:3.30.0"
+  checksum: c064eeb6f8d61059a4355081940ffa7dd0c9c00cd4dfb84b11642acd2312718afe7444bd41de89c1f5060263ec6faa50b7e9da106206afd6e085758a3be9b039
   languageName: node
   linkType: hard
 
@@ -5519,7 +5519,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-builtin-module@npm:^3.2.0":
+"is-builtin-module@npm:^3.2.0, is-builtin-module@npm:^3.2.1":
   version: 3.2.1
   resolution: "is-builtin-module@npm:3.2.1"
   dependencies:
@@ -9217,16 +9217,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.0.3":
-  version: 5.0.3
-  resolution: "typescript@npm:5.0.3"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 45ee631503499861d77d7a7b1d49fb5c62ae6bb5a99cdf5110f3e21c627397f5f76cf3d67ee0b223a33cfad469ea18de7650cab7a529b1376f5218a27b81671e
-  languageName: node
-  linkType: hard
-
 "typescript@npm:5.0.4":
   version: 5.0.4
   resolution: "typescript@npm:5.0.4"
@@ -9234,16 +9224,6 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 56649de784c427e8f3f63d4ebfcada4fcf03bb2a301f3327342111798db7f26f8a86285f979f376cf6cec4774bd96b4650f2693a07fc409f4544ad4c4d9fe4c9
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@npm%3A5.0.3#optional!builtin<compat/typescript>":
-  version: 5.0.3
-  resolution: "typescript@patch:typescript@npm%3A5.0.3#optional!builtin<compat/typescript>::version=5.0.3&hash=b5f058"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 66967b1418927f8c780bcec443e6e1572d0c88314e3b45797d22bffc8981b3c8e687a37f24bcad00e2d349722df225e758678559e810a6673f4773b8f44eb5d2
   languageName: node
   linkType: hard
 
@@ -9661,7 +9641,7 @@ __metadata:
     "@willbooster/prettier-config": "npm:9.1.1"
     "@willbooster/renovate-config": "npm:9.5.0"
     "@yarnpkg/core": "npm:4.0.0-rc.42"
-    build-ts: "npm:5.7.7"
+    build-ts: "npm:5.7.8"
     conventional-changelog-conventionalcommits: "npm:5.0.0"
     eslint: "npm:8.38.0"
     eslint-config-prettier: "npm:8.8.0"
