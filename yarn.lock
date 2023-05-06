@@ -1433,7 +1433,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-community/eslint-utils@npm:^4.1.2, @eslint-community/eslint-utils@npm:^4.2.0":
+"@eslint-community/eslint-utils@npm:^4.2.0, @eslint-community/eslint-utils@npm:^4.4.0":
   version: 4.4.0
   resolution: "@eslint-community/eslint-utils@npm:4.4.0"
   dependencies:
@@ -4396,29 +4396,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:46.0.1":
-  version: 46.0.1
-  resolution: "eslint-plugin-unicorn@npm:46.0.1"
+"eslint-plugin-unicorn@npm:47.0.0":
+  version: 47.0.0
+  resolution: "eslint-plugin-unicorn@npm:47.0.0"
   dependencies:
     "@babel/helper-validator-identifier": "npm:^7.19.1"
-    "@eslint-community/eslint-utils": "npm:^4.1.2"
-    ci-info: "npm:^3.6.1"
+    "@eslint-community/eslint-utils": "npm:^4.4.0"
+    ci-info: "npm:^3.8.0"
     clean-regexp: "npm:^1.0.0"
-    esquery: "npm:^1.4.0"
+    esquery: "npm:^1.5.0"
     indent-string: "npm:^4.0.0"
-    is-builtin-module: "npm:^3.2.0"
+    is-builtin-module: "npm:^3.2.1"
     jsesc: "npm:^3.0.2"
     lodash: "npm:^4.17.21"
     pluralize: "npm:^8.0.0"
     read-pkg-up: "npm:^7.0.1"
     regexp-tree: "npm:^0.1.24"
-    regjsparser: "npm:^0.9.1"
+    regjsparser: "npm:^0.10.0"
     safe-regex: "npm:^2.1.1"
     semver: "npm:^7.3.8"
     strip-indent: "npm:^3.0.0"
   peerDependencies:
-    eslint: ">=8.28.0"
-  checksum: 8e2a0fe71346b51af15d08f6bf8e54548e3bf873ccda11766c0a7dcef8338aaf86fd1e541598708de837b190315b1a0ff741d9d29d1a99f04c69cb5b5d73e5ff
+    eslint: ">=8.38.0"
+  checksum: c86fae39a4bb9376fae2dc3a62956b7f832e8d85d81539532bf10696d19765bf16b9d153cf4d5bc019371ea28362a988d128eda70d62482cc1b8e1c086cd49e7
   languageName: node
   linkType: hard
 
@@ -4527,7 +4527,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esquery@npm:^1.4.0, esquery@npm:^1.4.2":
+"esquery@npm:^1.4.2, esquery@npm:^1.5.0":
   version: 1.5.0
   resolution: "esquery@npm:1.5.0"
   dependencies:
@@ -5586,7 +5586,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-builtin-module@npm:^3.2.0, is-builtin-module@npm:^3.2.1":
+"is-builtin-module@npm:^3.2.1":
   version: 3.2.1
   resolution: "is-builtin-module@npm:3.2.1"
   dependencies:
@@ -8117,6 +8117,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"regjsparser@npm:^0.10.0":
+  version: 0.10.0
+  resolution: "regjsparser@npm:0.10.0"
+  dependencies:
+    jsesc: "npm:~0.5.0"
+  bin:
+    regjsparser: bin/parser
+  checksum: 2ba8c24548b0a69ea1858d2d84c69090a7873e8f9ff3272356fd76e880a20dc8a317730897e864d36999432712819a5551412d8d4e4e8b62210340cbce4a5133
+  languageName: node
+  linkType: hard
+
 "regjsparser@npm:^0.9.1":
   version: 0.9.1
   resolution: "regjsparser@npm:0.9.1"
@@ -9759,7 +9770,7 @@ __metadata:
     eslint-plugin-import: "npm:2.27.5"
     eslint-plugin-sort-class-members: "npm:1.17.1"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
-    eslint-plugin-unicorn: "npm:46.0.1"
+    eslint-plugin-unicorn: "npm:47.0.0"
     husky: "npm:8.0.3"
     lint-staged: "npm:13.2.2"
     micromatch: "npm:4.0.5"
