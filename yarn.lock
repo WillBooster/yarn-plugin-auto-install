@@ -4427,12 +4427,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sort-class-members@npm:1.17.1":
-  version: 1.17.1
-  resolution: "eslint-plugin-sort-class-members@npm:1.17.1"
+"eslint-plugin-sort-class-members@npm:1.18.0":
+  version: 1.18.0
+  resolution: "eslint-plugin-sort-class-members@npm:1.18.0"
   peerDependencies:
     eslint: ">=0.8.0"
-  checksum: e75747e3a0ccc928a2a474f075d7c2fb58cda70e22c5725acaf8ff677138f4842dcc92338f2dd5e129a71bf18c9083d312f1baa7c55dfb2efbb2d22a44d31b60
+  checksum: 6463b53af0002836b181c4c87d68afdadfa50216775e25677c44462356a40ab112de55cebd5516065bfee54248259f4b58d4330cc295702d9d80dccf90c9f181
   languageName: node
   linkType: hard
 
@@ -9808,7 +9808,7 @@ __metadata:
     eslint-config-prettier: "npm:8.8.0"
     eslint-import-resolver-typescript: "npm:3.5.5"
     eslint-plugin-import: "npm:2.27.5"
-    eslint-plugin-sort-class-members: "npm:1.17.1"
+    eslint-plugin-sort-class-members: "npm:1.18.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:47.0.0"
     husky: "npm:8.0.3"
