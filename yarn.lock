@@ -2408,10 +2408,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.16.5":
-  version: 18.16.5
-  resolution: "@types/node@npm:18.16.5"
-  checksum: 0c4ad24cc35669dd6ad8c4e7fcb12362235e8be3a8daf1c095ebe0ab4a2cf35f6b2c041808d3c5743eeddb8756b3aac03427868754c4ed90122c3e646af46fc7
+"@types/node@npm:18.16.8":
+  version: 18.16.8
+  resolution: "@types/node@npm:18.16.8"
+  checksum: d53d0a89c2574f08f6ee2fb075404e3fb0a4d94c920dfc7bf45a98c54f5ee5806496782fe70ff3a9eccf8560ac108c2d974fa0bfab2b08dac0042f7463ae3ac4
   languageName: node
   linkType: hard
 
@@ -3256,9 +3256,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"build-ts@npm:5.7.13":
-  version: 5.7.13
-  resolution: "build-ts@npm:5.7.13"
+"build-ts@npm:5.7.14":
+  version: 5.7.14
+  resolution: "build-ts@npm:5.7.14"
   dependencies:
     "@babel/core": "npm:7.21.8"
     "@babel/plugin-proposal-class-properties": "npm:7.18.6"
@@ -3294,7 +3294,7 @@ __metadata:
     yargs: "npm:17.7.2"
   bin:
     build-ts: bin/index.js
-  checksum: b7c024702fafc1f2ec17910512ed21576d301f90aba3c89e719acefebc7155a65ee4aa6bf582e4d7231a39112a5fd2c0774b56f7b1575f9dc5ac6466ac51721f
+  checksum: 75795e8401a2dbdc18b23b6d182d779b99abb94c9bd64d3c30e10f302ecad57896fc206b533149e438bbc7d068af863a204b41caea5c96c0500fc315ed154072
   languageName: node
   linkType: hard
 
@@ -9794,7 +9794,7 @@ __metadata:
     "@semantic-release/exec": "npm:6.0.3"
     "@types/eslint": "npm:8.37.0"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.16.5"
+    "@types/node": "npm:18.16.8"
     "@types/prettier": "npm:2.7.2"
     "@typescript-eslint/eslint-plugin": "npm:5.59.5"
     "@typescript-eslint/parser": "npm:5.59.5"
@@ -9802,7 +9802,7 @@ __metadata:
     "@willbooster/prettier-config": "npm:9.1.1"
     "@willbooster/renovate-config": "npm:9.5.0"
     "@yarnpkg/core": "npm:4.0.0-rc.43"
-    build-ts: "npm:5.7.13"
+    build-ts: "npm:5.7.14"
     conventional-changelog-conventionalcommits: "npm:5.0.0"
     eslint: "npm:8.40.0"
     eslint-config-prettier: "npm:8.8.0"
