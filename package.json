@@ -61,7 +61,7 @@
     "sort-package-json": "2.4.1",
     "typescript": "5.0.4"
   },
-  "packageManager": "yarn@4.0.0-rc.43",
+  "packageManager": "yarn@4.0.0-rc.44",
   "publishConfig": {
     "access": "public"
   }
