@@ -59,9 +59,9 @@
     "prettier": "2.8.8",
     "semantic-release": "21.0.5",
     "sort-package-json": "2.4.1",
-    "typescript": "5.1.5"
+    "typescript": "5.1.6"
   },
-  "packageManager": "yarn@4.0.0-rc.46",
+  "packageManager": "yarn@4.0.0-rc.47",
   "publishConfig": {
     "access": "public"
   }
