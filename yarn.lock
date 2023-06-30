@@ -2741,23 +2741,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:4.0.0-rc.46":
-  version: 4.0.0-rc.46
-  resolution: "@yarnpkg/core@npm:4.0.0-rc.46"
+"@yarnpkg/core@npm:4.0.0-rc.47":
+  version: 4.0.0-rc.47
+  resolution: "@yarnpkg/core@npm:4.0.0-rc.47"
   dependencies:
     "@arcanis/slice-ansi": "npm:^1.1.1"
     "@types/semver": "npm:^7.1.0"
     "@types/treeify": "npm:^1.0.0"
-    "@yarnpkg/fslib": "npm:^3.0.0-rc.46"
-    "@yarnpkg/libzip": "npm:^3.0.0-rc.46"
-    "@yarnpkg/parsers": "npm:^3.0.0-rc.46"
-    "@yarnpkg/shell": "npm:^4.0.0-rc.46"
+    "@yarnpkg/fslib": "npm:^3.0.0-rc.47"
+    "@yarnpkg/libzip": "npm:^3.0.0-rc.47"
+    "@yarnpkg/parsers": "npm:^3.0.0-rc.47"
+    "@yarnpkg/shell": "npm:^4.0.0-rc.47"
     camelcase: "npm:^5.3.1"
     chalk: "npm:^3.0.0"
     ci-info: "npm:^3.2.0"
     clipanion: "npm:^3.2.1"
     cross-spawn: "npm:7.0.3"
     diff: "npm:^5.1.0"
+    dotenv: "npm:^16.3.1"
     globby: "npm:^11.0.1"
     got: "npm:^11.7.0"
     lodash: "npm:^4.17.15"
@@ -2770,48 +2771,48 @@ __metadata:
     treeify: "npm:^1.1.0"
     tslib: "npm:^2.4.0"
     tunnel: "npm:^0.0.6"
-  checksum: d7b60cf0c09dc7a426f6658837f27b91acbf4884861e48ea7d17a29cb576f41c3ce5c15d6b8c052b77dd17ed2c6062f068201a8beca58333b13cfc800bfabcdf
+  checksum: 9788368f50217fdafb25988d0c03fa8886d3f01e395db34509b0e5acec0301a091edf0be5c64703581f08240693d7277c1efc8f29fcccd36b7c7e1ed6738696c
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^3.0.0-rc.46":
-  version: 3.0.0-rc.46
-  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.46"
+"@yarnpkg/fslib@npm:^3.0.0-rc.47":
+  version: 3.0.0-rc.47
+  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.47"
   dependencies:
     tslib: "npm:^2.4.0"
-  checksum: 6b768a511ef65fe2d503580bc5e1b8810c61b0e37b05672f4dcfcdca4c9f515bd08cb26f269f65a56efe6f3ebdba26489f8ac09e4882aa58d3eede50ee472fdc
+  checksum: dc7f284d5abafab28c55644ca05bd2ca54d742b6e676f26ae4505419ca8c2b70ad2887f6c193a167c910cfd0ff5fb651f2d2b233cae036ba214730f407d14cd4
   languageName: node
   linkType: hard
 
-"@yarnpkg/libzip@npm:^3.0.0-rc.46":
-  version: 3.0.0-rc.46
-  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.46"
+"@yarnpkg/libzip@npm:^3.0.0-rc.47":
+  version: 3.0.0-rc.47
+  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.47"
   dependencies:
     "@types/emscripten": "npm:^1.39.6"
-    "@yarnpkg/fslib": "npm:^3.0.0-rc.46"
+    "@yarnpkg/fslib": "npm:^3.0.0-rc.47"
     tslib: "npm:^2.4.0"
   peerDependencies:
-    "@yarnpkg/fslib": ^3.0.0-rc.46
-  checksum: 6217994646e25d64a04e8ad34693fdadeee57979bb61f44031537758950206219c3e201f9c7d6fa724296dcfa2e26072289cb00e5d8bb7232176eea8e2b87841
+    "@yarnpkg/fslib": ^3.0.0-rc.47
+  checksum: 15ef17e846b3da8e473230c2e38b2931bbe2c31e57652be9f160db8ef30de459868d1906bc5dcc47acebcf417a40229bca00febacca2e9a833b94f9409f6679e
   languageName: node
   linkType: hard
 
-"@yarnpkg/parsers@npm:^3.0.0-rc.46":
-  version: 3.0.0-rc.46
-  resolution: "@yarnpkg/parsers@npm:3.0.0-rc.46"
+"@yarnpkg/parsers@npm:^3.0.0-rc.47":
+  version: 3.0.0-rc.47.1
+  resolution: "@yarnpkg/parsers@npm:3.0.0-rc.47.1"
   dependencies:
     js-yaml: "npm:^3.10.0"
     tslib: "npm:^2.4.0"
-  checksum: c7f421c6885142f351459031c093fb2e79abcce6f4a89765a10e600bb7ab122949c54bcea2b23de9572a2b34ba29f822b17831c1c43ba50373ceb8cb5b336667
+  checksum: f06da6653a79c6eeaabaddbc73c120c49362fdffcbc00993c3c706e2362094881b19c960d6b0ae22a06b81a1d8ef9112ac9829c8961682f30dd0a4357a55d21c
   languageName: node
   linkType: hard
 
-"@yarnpkg/shell@npm:^4.0.0-rc.46":
-  version: 4.0.0-rc.46
-  resolution: "@yarnpkg/shell@npm:4.0.0-rc.46"
+"@yarnpkg/shell@npm:^4.0.0-rc.47":
+  version: 4.0.0-rc.47
+  resolution: "@yarnpkg/shell@npm:4.0.0-rc.47"
   dependencies:
-    "@yarnpkg/fslib": "npm:^3.0.0-rc.46"
-    "@yarnpkg/parsers": "npm:^3.0.0-rc.46"
+    "@yarnpkg/fslib": "npm:^3.0.0-rc.47"
+    "@yarnpkg/parsers": "npm:^3.0.0-rc.47"
     chalk: "npm:^3.0.0"
     clipanion: "npm:^3.2.1"
     cross-spawn: "npm:7.0.3"
@@ -2820,7 +2821,7 @@ __metadata:
     tslib: "npm:^2.4.0"
   bin:
     shell: ./lib/cli.js
-  checksum: d2b3d4aa44427d1dc2bb641b635bd0a81dd0324ab060433990113d7c3a2448f67513eac0d1131b0a349e39dc4207f1880659b19238604c2e1a06c706ed496705
+  checksum: 9319435ccff7a688289a21034fe6bd3529a5bca5ab1be14050e4d88559c9daf8fd84a17f4f1be845b64b32014451ed4904c162f96a668c63624726ddf554d1e5
   languageName: node
   linkType: hard
 
@@ -4200,7 +4201,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:16.3.1":
+"dotenv@npm:16.3.1, dotenv@npm:^16.3.1":
   version: 16.3.1
   resolution: "dotenv@npm:16.3.1"
   checksum: b95ff1bbe624ead85a3cd70dbd827e8e06d5f05f716f2d0cbc476532d54c7c9469c3bc4dd93ea519f6ad711cb522c00ac9a62b6eb340d5affae8008facc3fbd7
@@ -8468,9 +8469,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:21.0.5":
-  version: 21.0.5
-  resolution: "semantic-release@npm:21.0.5"
+"semantic-release@npm:21.0.6":
+  version: 21.0.6
+  resolution: "semantic-release@npm:21.0.6"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^10.0.0"
     "@semantic-release/error": "npm:^4.0.0"
@@ -8502,7 +8503,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 9bf71f3e9ff04baa30bbc5ffb735228a5ad0c3898a2898627ed7055f417f5874c785719cef04fefa09a354adf2f3bd85c820a45236579ab33862c9e74618eda5
+  checksum: 6c0e8cc2acc6e06d4bc81d1893a841b91ee1b73e7c3f159cbe159fe8966709a0ef6f492e3c265f21c4ffcffb46035c14c89af83f10b0aa0f9fc548deac9650f2
   languageName: node
   linkType: hard
 
@@ -9836,7 +9837,7 @@ __metadata:
     "@willbooster/eslint-config-ts": "npm:10.2.0"
     "@willbooster/prettier-config": "npm:9.1.1"
     "@willbooster/renovate-config": "npm:9.5.0"
-    "@yarnpkg/core": "npm:4.0.0-rc.46"
+    "@yarnpkg/core": "npm:4.0.0-rc.47"
     build-ts: "npm:5.10.4"
     conventional-changelog-conventionalcommits: "npm:6.1.0"
     eslint: "npm:8.43.0"
@@ -9851,7 +9852,7 @@ __metadata:
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
     prettier: "npm:2.8.8"
-    semantic-release: "npm:21.0.5"
+    semantic-release: "npm:21.0.6"
     sort-package-json: "npm:2.4.1"
     typescript: "npm:5.1.6"
   bin:
