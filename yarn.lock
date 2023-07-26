@@ -4507,9 +4507,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:48.0.0":
-  version: 48.0.0
-  resolution: "eslint-plugin-unicorn@npm:48.0.0"
+"eslint-plugin-unicorn@npm:48.0.1":
+  version: 48.0.1
+  resolution: "eslint-plugin-unicorn@npm:48.0.1"
   dependencies:
     "@babel/helper-validator-identifier": "npm:^7.22.5"
     "@eslint-community/eslint-utils": "npm:^4.4.0"
@@ -4528,7 +4528,7 @@ __metadata:
     strip-indent: "npm:^3.0.0"
   peerDependencies:
     eslint: ">=8.44.0"
-  checksum: 7c6cd7e39864150973da6cdf50a90d9183d95674ffe6eb52d042623c51714fe237838b00eb3ecf2ba78846f767bf22706e0c0e31f59fa57028fb3e6d3b88a04f
+  checksum: 158a9fc41c213a2d4a4d7ed9c866c86f9f1901d7f7371c60f3e18d05be73cb6982b72c33a679955142116032127835f8550b466484885c0cedb2e7ed951136ac
   languageName: node
   linkType: hard
 
@@ -9795,7 +9795,7 @@ __metadata:
     eslint-plugin-import: "npm:2.27.5"
     eslint-plugin-sort-class-members: "npm:1.18.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
-    eslint-plugin-unicorn: "npm:48.0.0"
+    eslint-plugin-unicorn: "npm:48.0.1"
     husky: "npm:8.0.3"
     lint-staged: "npm:13.2.3"
     micromatch: "npm:4.0.5"
