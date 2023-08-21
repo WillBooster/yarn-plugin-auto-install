@@ -2524,13 +2524,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prettier@npm:2.7.3":
-  version: 2.7.3
-  resolution: "@types/prettier@npm:2.7.3"
-  checksum: 0960b5c1115bb25e979009d0b44c42cf3d792accf24085e4bfce15aef5794ea042e04e70c2139a2c3387f781f18c89b5706f000ddb089e9a4a2ccb7536a2c5f0
-  languageName: node
-  linkType: hard
-
 "@types/resolve@npm:1.20.2":
   version: 1.20.2
   resolution: "@types/resolve@npm:1.20.2"
@@ -6327,9 +6320,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:14.0.0":
-  version: 14.0.0
-  resolution: "lint-staged@npm:14.0.0"
+"lint-staged@npm:14.0.1":
+  version: 14.0.1
+  resolution: "lint-staged@npm:14.0.1"
   dependencies:
     chalk: "npm:5.3.0"
     commander: "npm:11.0.0"
@@ -6343,7 +6336,7 @@ __metadata:
     yaml: "npm:2.3.1"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 9eea0969aede13eaa4cc58a8cad3f6ab4c2bb3725a244e3dda84fb56073d03f8f5a053132157c86017bd8e76d6f13788277b910e297f9481d8d3a00167c4c63b
+  checksum: 57291d036123168998cb248ca70974b835edb231dbe0dc395cef44a4073a2c2404215e9cae8657ce562a559fc30cdaa4c20775dff6e8d2aa519243cc8bc294f4
   languageName: node
   linkType: hard
 
@@ -9658,7 +9651,6 @@ __metadata:
     "@types/eslint": "npm:8.44.2"
     "@types/micromatch": "npm:4.0.2"
     "@types/node": "npm:18.17.6"
-    "@types/prettier": "npm:2.7.3"
     "@typescript-eslint/eslint-plugin": "npm:6.4.0"
     "@typescript-eslint/parser": "npm:6.4.0"
     "@willbooster/eslint-config-ts": "npm:10.4.0"
@@ -9674,7 +9666,7 @@ __metadata:
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:48.0.1"
     husky: "npm:8.0.3"
-    lint-staged: "npm:14.0.0"
+    lint-staged: "npm:14.0.1"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
     prettier: "npm:3.0.2"
