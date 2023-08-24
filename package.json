@@ -59,7 +59,7 @@
     "sort-package-json": "2.5.1",
     "typescript": "5.1.6"
   },
-  "packageManager": "yarn@4.0.0-rc.49",
+  "packageManager": "yarn@4.0.0-rc.50",
   "publishConfig": {
     "access": "public"
   }
