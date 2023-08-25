@@ -35,12 +35,12 @@
     "@semantic-release/exec": "6.0.3",
     "@types/eslint": "8.44.2",
     "@types/micromatch": "4.0.2",
-    "@types/node": "18.17.6",
+    "@types/node": "18.17.11",
     "@typescript-eslint/eslint-plugin": "6.4.1",
     "@typescript-eslint/parser": "6.4.1",
     "@willbooster/eslint-config-ts": "10.5.0",
     "@willbooster/prettier-config": "9.1.1",
-    "@yarnpkg/core": "4.0.0-rc.49",
+    "@yarnpkg/core": "4.0.0-rc.50",
     "build-ts": "5.10.5",
     "conventional-changelog-conventionalcommits": "6.1.0",
     "eslint": "8.47.0",
@@ -55,9 +55,9 @@
     "micromatch": "4.0.5",
     "pinst": "3.0.0",
     "prettier": "3.0.2",
-    "semantic-release": "21.0.7",
+    "semantic-release": "21.1.1",
     "sort-package-json": "2.5.1",
-    "typescript": "5.1.6"
+    "typescript": "5.2.2"
   },
   "packageManager": "yarn@4.0.0-rc.50",
   "publishConfig": {
