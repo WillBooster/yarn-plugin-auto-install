@@ -3811,12 +3811,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:7.0.0":
-  version: 7.0.0
-  resolution: "conventional-changelog-conventionalcommits@npm:7.0.0"
+"conventional-changelog-conventionalcommits@npm:6.1.0":
+  version: 6.1.0
+  resolution: "conventional-changelog-conventionalcommits@npm:6.1.0"
   dependencies:
     compare-func: "npm:^2.0.0"
-  checksum: 28d65ad326375034dc01307433c8edf7335e13086166822f07860764b75ebbca6be111f4967898e0704e62d795a59326bfe75b94943e5feb286314473a5b11d7
+  checksum: b313f5c0160d109f58d976566e1331ede3a25ab19fbf43f86763b280659195de00a68551f7f3930bf1cbf39a5e707d94f2a25b79996e59043fa9ee0bed68a79f
   languageName: node
   linkType: hard
 
@@ -9711,7 +9711,7 @@ __metadata:
     "@willbooster/prettier-config": "npm:9.1.1"
     "@yarnpkg/core": "npm:4.0.0-rc.50"
     build-ts: "npm:5.10.5"
-    conventional-changelog-conventionalcommits: "npm:7.0.0"
+    conventional-changelog-conventionalcommits: "npm:6.1.0"
     eslint: "npm:8.48.0"
     eslint-config-prettier: "npm:9.0.0"
     eslint-import-resolver-typescript: "npm:3.6.0"
