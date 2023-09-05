@@ -1,0 +1,13 @@
+name: Add focused issue to GitHub project
+on:
+  issues:
+    types:
+      - labeled
+jobs:
+  add-focused-issue-to-project:
+    uses: WillBooster/reusable-workflows/.github/workflows/add-issue-to-project.yml@main
+    with:
+      label: 'focused :dart:'
+    secrets:
+      GH_PROJECT_URL: https://github.com/orgs/WillBooster/projects/7
+      GH_TOKEN: ${{ secrets.PUBLIC_GH_BOT_PAT }}
