@@ -2,7 +2,7 @@ Close #<IssueNumber>
 
 ## Self Check
 
-- [ ] I've confirmed `All checks have passed` on PR page.
+- [ ] I've confirmed `All checks have passed` on PR page. (You may leave this box unchecked due to long workflows.)
   - PR title follows [Angular's commit message format](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-commit-message-format).
     - PR title doesn't have `WIP:`.
   - All tests are passed.
