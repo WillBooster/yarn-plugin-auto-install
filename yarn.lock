@@ -2663,10 +2663,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.17.16":
-  version: 18.17.16
-  resolution: "@types/node@npm:18.17.16"
-  checksum: 977471b4334f94c4fa238c24072e075a33f9f0f29930ce5ebee98139fd1c6913565af3ff5b081afb4dc090bde112530d5fa2ed7e38861cbfced35303d2b53645
+"@types/node@npm:18.17.18":
+  version: 18.17.18
+  resolution: "@types/node@npm:18.17.18"
+  checksum: 730c6cb4c963c1306afd5a05b37fc2a7e083df3b2c7d81ced5635add301d9ba32ece130876f6915ab14fbfa31bb8d043472c4937da35b39ed75498847a72cead
   languageName: node
   linkType: hard
 
@@ -2884,17 +2884,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:4.0.0-rc.50":
-  version: 4.0.0-rc.50
-  resolution: "@yarnpkg/core@npm:4.0.0-rc.50"
+"@yarnpkg/core@npm:4.0.0-rc.51":
+  version: 4.0.0-rc.51
+  resolution: "@yarnpkg/core@npm:4.0.0-rc.51"
   dependencies:
     "@arcanis/slice-ansi": "npm:^1.1.1"
     "@types/semver": "npm:^7.1.0"
     "@types/treeify": "npm:^1.0.0"
-    "@yarnpkg/fslib": "npm:^3.0.0-rc.50"
-    "@yarnpkg/libzip": "npm:^3.0.0-rc.50"
-    "@yarnpkg/parsers": "npm:^3.0.0-rc.50"
-    "@yarnpkg/shell": "npm:^4.0.0-rc.50"
+    "@yarnpkg/fslib": "npm:^3.0.0-rc.51"
+    "@yarnpkg/libzip": "npm:^3.0.0-rc.51"
+    "@yarnpkg/parsers": "npm:^3.0.0-rc.51"
+    "@yarnpkg/shell": "npm:^4.0.0-rc.51"
     camelcase: "npm:^5.3.1"
     chalk: "npm:^3.0.0"
     ci-info: "npm:^3.2.0"
@@ -2914,11 +2914,11 @@ __metadata:
     treeify: "npm:^1.1.0"
     tslib: "npm:^2.4.0"
     tunnel: "npm:^0.0.6"
-  checksum: bf673e5d6f395ff11c2fa881cc4780d94423fdc700bfc3d1dce14efd3c5c8cc70801b0b593a4c75456bc10545ee60af349329770afaac3f0c4f436dfaaf9c303
+  checksum: a5fc3cc3d8b6b7f9b9f4d600eb5e4d2e6282b5b7ffff7e66c3c33a27c5e9ac75cbbd0f97522398889451b7427b8383a4ff617a439996c9a719fc9a7910609d05
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^3.0.0-rc.50, @yarnpkg/fslib@npm:^3.0.0-rc.51":
+"@yarnpkg/fslib@npm:^3.0.0-rc.51":
   version: 3.0.0-rc.51
   resolution: "@yarnpkg/fslib@npm:3.0.0-rc.51"
   dependencies:
@@ -2927,7 +2927,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/libzip@npm:^3.0.0-rc.50":
+"@yarnpkg/libzip@npm:^3.0.0-rc.51":
   version: 3.0.0-rc.51
   resolution: "@yarnpkg/libzip@npm:3.0.0-rc.51"
   dependencies:
@@ -2940,7 +2940,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/parsers@npm:^3.0.0-rc.50, @yarnpkg/parsers@npm:^3.0.0-rc.51":
+"@yarnpkg/parsers@npm:^3.0.0-rc.51":
   version: 3.0.0-rc.51
   resolution: "@yarnpkg/parsers@npm:3.0.0-rc.51"
   dependencies:
@@ -2950,7 +2950,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/shell@npm:^4.0.0-rc.50":
+"@yarnpkg/shell@npm:^4.0.0-rc.51":
   version: 4.0.0-rc.51
   resolution: "@yarnpkg/shell@npm:4.0.0-rc.51"
   dependencies:
@@ -3065,7 +3065,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aggregate-error@npm:^4.0.0, aggregate-error@npm:^4.0.1":
+"aggregate-error@npm:^4.0.0":
   version: 4.0.1
   resolution: "aggregate-error@npm:4.0.1"
   dependencies:
@@ -4607,9 +4607,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:3.6.0":
-  version: 3.6.0
-  resolution: "eslint-import-resolver-typescript@npm:3.6.0"
+"eslint-import-resolver-typescript@npm:3.6.1":
+  version: 3.6.1
+  resolution: "eslint-import-resolver-typescript@npm:3.6.1"
   dependencies:
     debug: "npm:^4.3.4"
     enhanced-resolve: "npm:^5.12.0"
@@ -4621,7 +4621,7 @@ __metadata:
   peerDependencies:
     eslint: "*"
     eslint-plugin-import: "*"
-  checksum: 4f3b7e629e37c52804da0e4fe3eda5fdd727fd1d945fad5662bcd64a87fafa08b986efe07fb2116c81f2259ba29d6d06b99edafd7d3499cfb78ff71b6e8ca4c1
+  checksum: cb1cb4389916fe78bf8c8567aae2f69243dbfe624bfe21078c56ad46fa1ebf0634fa7239dd3b2055ab5c27359e4b4c28b69b11fcb3a5df8a9e6f7add8e034d86
   languageName: node
   linkType: hard
 
@@ -8743,16 +8743,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:21.1.1":
-  version: 21.1.1
-  resolution: "semantic-release@npm:21.1.1"
+"semantic-release@npm:21.1.2":
+  version: 21.1.2
+  resolution: "semantic-release@npm:21.1.2"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^10.0.0"
     "@semantic-release/error": "npm:^4.0.0"
     "@semantic-release/github": "npm:^9.0.0"
     "@semantic-release/npm": "npm:^10.0.2"
     "@semantic-release/release-notes-generator": "npm:^11.0.0"
-    aggregate-error: "npm:^4.0.1"
+    aggregate-error: "npm:^5.0.0"
     cosmiconfig: "npm:^8.0.0"
     debug: "npm:^4.0.0"
     env-ci: "npm:^9.0.0"
@@ -8777,7 +8777,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: 3d1210f4bece1bb354f20a4c6552a953b1dc9f4c0718e5f87b301ffb9917a790dc72ed32d8bd23dbcebe4542a3b5fcec936bd834a92ad90e00ee13bc36c345e2
+  checksum: 42ce478971a0c6a0ef1c5c5a08599879aeaecef0f175506c8e24178eb1cafea7127b7510214aa3e84640e4a1e3e36c4722ae391fa2182398d6902d3f61085509
   languageName: node
   linkType: hard
 
@@ -10105,17 +10105,17 @@ __metadata:
     "@semantic-release/exec": "npm:6.0.3"
     "@types/eslint": "npm:8.44.2"
     "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.17.16"
+    "@types/node": "npm:18.17.18"
     "@typescript-eslint/eslint-plugin": "npm:6.7.2"
     "@typescript-eslint/parser": "npm:6.7.2"
     "@willbooster/eslint-config-ts": "npm:10.5.0"
     "@willbooster/prettier-config": "npm:9.1.1"
-    "@yarnpkg/core": "npm:4.0.0-rc.50"
+    "@yarnpkg/core": "npm:4.0.0-rc.51"
     build-ts: "npm:5.10.5"
     conventional-changelog-conventionalcommits: "npm:6.1.0"
     eslint: "npm:8.49.0"
     eslint-config-prettier: "npm:9.0.0"
-    eslint-import-resolver-typescript: "npm:3.6.0"
+    eslint-import-resolver-typescript: "npm:3.6.1"
     eslint-plugin-import: "npm:2.28.1"
     eslint-plugin-sort-class-members: "npm:1.18.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
@@ -10125,7 +10125,7 @@ __metadata:
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
     prettier: "npm:3.0.3"
-    semantic-release: "npm:21.1.1"
+    semantic-release: "npm:21.1.2"
     sort-package-json: "npm:2.5.1"
     typescript: "npm:5.2.2"
   bin:
