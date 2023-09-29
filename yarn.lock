@@ -2445,13 +2445,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.44.2":
-  version: 8.44.2
-  resolution: "@types/eslint@npm:8.44.2"
+"@types/eslint@npm:8.44.3":
+  version: 8.44.3
+  resolution: "@types/eslint@npm:8.44.3"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: 3c402215f7f495f9267a51fecd6a6d056eb8b3b031a1c472286b7d23a397257327eb03712befa7da60614dd63d31235d27dbc5c586b6a408798dafb8ee0c5eb2
+  checksum: d9d681efe461ec8934800a89773be251a200c9d4528ca2330bb99f4ca3bd6b2d053034d2b5fe645a1567331af2c89e364aed4be8c839f10a1028a3cbe2856b01
   languageName: node
   linkType: hard
 
@@ -2492,12 +2492,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/micromatch@npm:4.0.2":
-  version: 4.0.2
-  resolution: "@types/micromatch@npm:4.0.2"
+"@types/micromatch@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@types/micromatch@npm:4.0.3"
   dependencies:
     "@types/braces": "npm:*"
-  checksum: e557324460e658283778c77d0f8995ee95e371c4fd54474b3186e947486427cc4af66b841393304b65c09a7bb36710158260db7a7cf761384e1a9a728e82e6f4
+  checksum: 29c75b4a373c59220d588626dedf9f277ab34bae5affe516415efc51db310fd14eba0c8ac8eaa57830f73810e5d6ae18adbd59b53fa7ddccad59b37341e3aef6
   languageName: node
   linkType: hard
 
@@ -2508,10 +2508,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.17.18":
-  version: 18.17.18
-  resolution: "@types/node@npm:18.17.18"
-  checksum: 730c6cb4c963c1306afd5a05b37fc2a7e083df3b2c7d81ced5635add301d9ba32ece130876f6915ab14fbfa31bb8d043472c4937da35b39ed75498847a72cead
+"@types/node@npm:18.18.1":
+  version: 18.18.1
+  resolution: "@types/node@npm:18.18.1"
+  checksum: 3ceab7a66ab1719b9217db61c64c5f65b22a7f520d34a8397e52a819b731dbb5f52adb1a140536b6007d238e18b6207054e79beeb28e06048e584c890d263ff7
   languageName: node
   linkType: hard
 
@@ -9635,9 +9635,9 @@ __metadata:
   resolution: "yarn-plugin-auto-install@workspace:."
   dependencies:
     "@semantic-release/exec": "npm:6.0.3"
-    "@types/eslint": "npm:8.44.2"
-    "@types/micromatch": "npm:4.0.2"
-    "@types/node": "npm:18.17.18"
+    "@types/eslint": "npm:8.44.3"
+    "@types/micromatch": "npm:4.0.3"
+    "@types/node": "npm:18.18.1"
     "@typescript-eslint/eslint-plugin": "npm:6.7.3"
     "@typescript-eslint/parser": "npm:6.7.3"
     "@willbooster/eslint-config-ts": "npm:10.5.0"
