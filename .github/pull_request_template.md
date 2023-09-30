@@ -10,8 +10,8 @@ Close #<IssueNumber>
     - Lint command (e.g., `yarn lint`) is passed.
 - [ ] I've reviewed my changes on PR's diff view.
 
-<!-- Please add screenshots if you modify the UI. Otherwise, remove the following table. -->
-
+<!-- Please add screenshots if you modify the UI.
 | Current                  | In coming                |
 | ------------------------ | ------------------------ |
 | <img src="" width="400"> | <img src="" width="400"> |
+-->
