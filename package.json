@@ -47,7 +47,7 @@
     "eslint-config-prettier": "9.0.0",
     "eslint-import-resolver-typescript": "3.6.1",
     "eslint-plugin-import": "2.28.1",
-    "eslint-plugin-sort-class-members": "1.18.0",
+    "eslint-plugin-sort-class-members": "1.19.0",
     "eslint-plugin-sort-destructure-keys": "1.5.0",
     "eslint-plugin-unicorn": "48.0.1",
     "husky": "8.0.3",
@@ -59,7 +59,7 @@
     "sort-package-json": "2.6.0",
     "typescript": "5.2.2"
   },
-  "packageManager": "yarn@4.0.0-rc.52",
+  "packageManager": "yarn@4.0.0-rc.53",
   "publishConfig": {
     "access": "public"
   }
