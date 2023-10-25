@@ -2712,13 +2712,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/eslint-config-ts@npm:10.5.0":
-  version: 10.5.0
-  resolution: "@willbooster/eslint-config-ts@npm:10.5.0"
+"@willbooster/eslint-config-ts@npm:10.5.1":
+  version: 10.5.1
+  resolution: "@willbooster/eslint-config-ts@npm:10.5.1"
   peerDependencies:
     "@typescript-eslint/eslint-plugin": ">=5"
     "@typescript-eslint/parser": ">=5"
-    "@willbooster/prettier-config": 9.1.1
+    "@willbooster/prettier-config": 9.1.2
     eslint: ">=8"
     eslint-config-prettier: ">=8"
     eslint-import-resolver-typescript: ">=2"
@@ -2726,16 +2726,16 @@ __metadata:
     eslint-plugin-sort-class-members: ">=1.14"
     eslint-plugin-sort-destructure-keys: ">=1.4"
     typescript: ">=4"
-  checksum: a4b861ae04d5a73223e7c948492774b048b85410ad0957ecc3b795980efe94f10d8426197c8a6dc85baf872a9faae4c60c167ea2381f1bf054ee83561e158276
+  checksum: abf880f446eaeab3cff1c63d34f3018737717d00b8a4d3524e6406f48db0d8b96287e425aef9c8328b6cb19e3ba2170d45ba208bc38acd5f97a72160faa84bbd
   languageName: node
   linkType: hard
 
-"@willbooster/prettier-config@npm:9.1.1":
-  version: 9.1.1
-  resolution: "@willbooster/prettier-config@npm:9.1.1"
+"@willbooster/prettier-config@npm:9.1.2":
+  version: 9.1.2
+  resolution: "@willbooster/prettier-config@npm:9.1.2"
   peerDependencies:
     prettier: ">=2"
-  checksum: 28e8237e9c7d180e723ea10e7a9710c318320b8fada694d6b15d8baa867339f4236f28e6c5254fc12a3725264e399ca7e3e43b94b043eff608c262693d8aab42
+  checksum: 814c5ca454f809f391b1884a9243764aaa3bd2d2ccbc853be925bf7d1cb395c0d2a5df9165eb2239cf72fa19b56b22597d375221674c229da6ffcc55cdcdc9dc
   languageName: node
   linkType: hard
 
@@ -9645,8 +9645,8 @@ __metadata:
     "@types/node": "npm:18.18.6"
     "@typescript-eslint/eslint-plugin": "npm:6.9.0"
     "@typescript-eslint/parser": "npm:6.9.0"
-    "@willbooster/eslint-config-ts": "npm:10.5.0"
-    "@willbooster/prettier-config": "npm:9.1.1"
+    "@willbooster/eslint-config-ts": "npm:10.5.1"
+    "@willbooster/prettier-config": "npm:9.1.2"
     "@yarnpkg/core": "npm:4.0.0-rc.53"
     build-ts: "npm:5.10.5"
     conventional-changelog-conventionalcommits: "npm:7.0.2"
