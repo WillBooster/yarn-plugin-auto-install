@@ -36,8 +36,8 @@
     "@types/eslint": "8.44.7",
     "@types/micromatch": "4.0.5",
     "@types/node": "20.9.0",
-    "@typescript-eslint/eslint-plugin": "6.10.0",
-    "@typescript-eslint/parser": "6.10.0",
+    "@typescript-eslint/eslint-plugin": "6.11.0",
+    "@typescript-eslint/parser": "6.11.0",
     "@willbooster/eslint-config-ts": "10.5.1",
     "@willbooster/prettier-config": "9.1.2",
     "@yarnpkg/core": "4.0.1",
@@ -59,7 +59,7 @@
     "sort-package-json": "2.6.0",
     "typescript": "5.2.2"
   },
-  "packageManager": "yarn@4.0.1",
+  "packageManager": "yarn@4.0.2",
   "publishConfig": {
     "access": "public"
   }
