@@ -35,7 +35,7 @@
     "@semantic-release/exec": "6.0.3",
     "@types/eslint": "8.44.8",
     "@types/micromatch": "4.0.6",
-    "@types/node": "20.10.1",
+    "@types/node": "20.10.4",
     "@typescript-eslint/eslint-plugin": "6.13.2",
     "@typescript-eslint/parser": "6.13.2",
     "@willbooster/eslint-config-ts": "10.5.1",
@@ -55,7 +55,7 @@
     "micromatch": "4.0.5",
     "pinst": "3.0.0",
     "prettier": "3.1.0",
-    "semantic-release": "22.0.8",
+    "semantic-release": "22.0.10",
     "sort-package-json": "2.6.0",
     "typescript": "5.3.3"
   },
