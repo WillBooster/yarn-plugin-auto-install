@@ -2448,13 +2448,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.44.8":
-  version: 8.44.8
-  resolution: "@types/eslint@npm:8.44.8"
+"@types/eslint@npm:8.44.9":
+  version: 8.44.9
+  resolution: "@types/eslint@npm:8.44.9"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: 610966753add984f6ac9f00eeb766691e141e66a7e20b724a45ad077f60e8cd8fd7874b7e655e93537e54873cc5711cd6f57728474e08b478407cd942f098263
+  checksum: e9da4e4c7b7c9014b17d40007e36f02f3b5dd55c43bb05928b52dd9c19f2a8fb7971a851a4e7a11625c3c69da286c5baf55de2f8bb900b1a4cfb5145a4491b37
   languageName: node
   linkType: hard
 
@@ -8146,9 +8146,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:22.0.10":
-  version: 22.0.10
-  resolution: "semantic-release@npm:22.0.10"
+"semantic-release@npm:22.0.12":
+  version: 22.0.12
+  resolution: "semantic-release@npm:22.0.12"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^11.0.0"
     "@semantic-release/error": "npm:^4.0.0"
@@ -8181,7 +8181,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: e5e4a158dbd75449be6a50827c11fdb0a5b0103b21d3d2640df5d2572ddee461c3320415842188e04ddc6d34d8ab67f727802431440847e2f98a48bc56bfcd9e
+  checksum: 13e86ab9e16e32fd51b09f486ec5ea950bb541c5ea3cd4e66b0527d2a7108cfd3488510d5f29cefc83c86d279e6d5075f886bad8478c88a74cc7d5942e936722
   languageName: node
   linkType: hard
 
@@ -9510,7 +9510,7 @@ __metadata:
   resolution: "yarn-plugin-auto-install@workspace:."
   dependencies:
     "@semantic-release/exec": "npm:6.0.3"
-    "@types/eslint": "npm:8.44.8"
+    "@types/eslint": "npm:8.44.9"
     "@types/micromatch": "npm:4.0.6"
     "@types/node": "npm:20.10.4"
     "@typescript-eslint/eslint-plugin": "npm:6.14.0"
@@ -9532,7 +9532,7 @@ __metadata:
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
     prettier: "npm:3.1.1"
-    semantic-release: "npm:22.0.10"
+    semantic-release: "npm:22.0.12"
     sort-package-json: "npm:2.6.0"
     typescript: "npm:5.3.3"
   bin:
