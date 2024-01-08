@@ -2581,21 +2581,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:20.10.7":
   version: 20.10.7
   resolution: "@types/node@npm:20.10.7"
   dependencies:
     undici-types: "npm:~5.26.4"
   checksum: d626cea1b7da4784ee7b335dcc54e64adba9725dab7ca51a690167de502ef89fec07b05ad8e25845d188d7ad7f72c192ec92964d456321ed5b9452113bf9351f
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@types/node@npm:20.10.6"
-  dependencies:
-    undici-types: "npm:~5.26.4"
-  checksum: 6692ccfa8552ef60c4069fda3c8de726c23e8d403cdf788e3c7efa769987e80fbda5f02723dd857f9de7df24a5fa40b3ed4580ec3c5cbac04eba44cf7b2ab1dc
   languageName: node
   linkType: hard
 
@@ -3359,9 +3350,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"build-ts@npm:12.0.1":
-  version: 12.0.1
-  resolution: "build-ts@npm:12.0.1"
+"build-ts@npm:12.0.2":
+  version: 12.0.2
+  resolution: "build-ts@npm:12.0.2"
   dependencies:
     "@babel/core": "npm:7.23.7"
     "@babel/plugin-proposal-decorators": "npm:7.23.7"
@@ -3399,7 +3390,7 @@ __metadata:
     yargs: "npm:17.7.2"
   bin:
     build-ts: bin/index.js
-  checksum: 0377858e355eab63f9aed2d68f775f32ee9f48e1a260a0b5f73da8368d1f502b6d1d0c556a134555d58dfe9cf3a31c16bfbf7c5ee0a4940dde83582332d7e534
+  checksum: 081317ef68198715f9b4b34b24809e2331c6712629b496b5038c235367bd580fa169c7955313763707e57aac9d0dee6449bfec4e2a9ea8d394d1ab474a37662a
   languageName: node
   linkType: hard
 
@@ -9519,13 +9510,13 @@ __metadata:
     "@semantic-release/exec": "npm:6.0.3"
     "@types/eslint": "npm:8.56.1"
     "@types/micromatch": "npm:4.0.6"
-    "@types/node": "npm:20.10.6"
+    "@types/node": "npm:20.10.7"
     "@typescript-eslint/eslint-plugin": "npm:6.18.0"
     "@typescript-eslint/parser": "npm:6.18.0"
     "@willbooster/eslint-config-ts": "npm:10.5.1"
     "@willbooster/prettier-config": "npm:9.1.2"
     "@yarnpkg/core": "npm:4.0.2"
-    build-ts: "npm:12.0.1"
+    build-ts: "npm:12.0.2"
     conventional-changelog-conventionalcommits: "npm:7.0.2"
     eslint: "npm:8.56.0"
     eslint-config-prettier: "npm:9.1.0"

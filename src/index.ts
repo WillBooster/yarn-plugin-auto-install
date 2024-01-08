@@ -41,6 +41,7 @@ export default {
           // Update hash to avoid an infinite loop
           if (!writePackageHash(hash, project)) return;
 
+          // Note: we cannot print anything because yarn probably takes over the standard output.
           console.info(`${prefix} is running 'yarn install' due to dependency changes.`);
           child_process.spawnSync('yarn', ['install'], { cwd: project.cwd, env });
           console.info(`${prefix} finished 'yarn install'.`);
