@@ -31,29 +31,23 @@ export default {
 
         writePackageHash(hash, project);
       },
-      async wrapScriptExecution(executor, project, locator, scriptName, extra): Promise<() => Promise<number>> {
-        if (installing) return executor;
+      async setupScriptEnvironment(project: Project, env: Record<string, string>) {
+        if (installing) return;
 
         try {
           const hash = calcPackageHash(project);
-          if (hash && hash === readPackageHash(project)) return executor;
+          if (hash && hash === readPackageHash(project)) return;
 
           // Update hash to avoid an infinite loop
-          if (!writePackageHash(hash, project)) return executor;
+          if (!writePackageHash(hash, project)) return;
+
+          // Note: we cannot print anything because yarn probably takes over the standard output.
           console.info(`${prefix} is running 'yarn install' due to dependency changes.`);
-          child_process.spawnSync('yarn', ['install'], { cwd: extra.cwd, env: extra.env });
+          child_process.spawnSync('yarn', ['install'], { cwd: project.cwd, env });
           console.info(`${prefix} finished 'yarn install'.`);
-          const ret = child_process.spawnSync('yarn', ['run', scriptName, ...extra.args], {
-            cwd: extra.cwd,
-            env: extra.env,
-            stdio: 'inherit',
-            shell: true, // Required to avoid the tsc error (TS6231)
-          });
-          return async () => ret.status || 0;
         } catch {
           // do nothing
         }
-        return executor;
       },
     };
 
