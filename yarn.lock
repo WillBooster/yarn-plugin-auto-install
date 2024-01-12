@@ -750,22 +750,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-classes@npm:^7.23.5":
-  version: 7.23.5
-  resolution: "@babel/plugin-transform-classes@npm:7.23.5"
+"@babel/plugin-transform-classes@npm:^7.23.8":
+  version: 7.23.8
+  resolution: "@babel/plugin-transform-classes@npm:7.23.8"
   dependencies:
     "@babel/helper-annotate-as-pure": "npm:^7.22.5"
-    "@babel/helper-compilation-targets": "npm:^7.22.15"
+    "@babel/helper-compilation-targets": "npm:^7.23.6"
     "@babel/helper-environment-visitor": "npm:^7.22.20"
     "@babel/helper-function-name": "npm:^7.23.0"
-    "@babel/helper-optimise-call-expression": "npm:^7.22.5"
     "@babel/helper-plugin-utils": "npm:^7.22.5"
     "@babel/helper-replace-supers": "npm:^7.22.20"
     "@babel/helper-split-export-declaration": "npm:^7.22.6"
     globals: "npm:^11.1.0"
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 07988f52b4893151887d1ea6ff79e5fe834078c5731bd09babd5659edbbae21ea4e2de326a02443a63fd776b4c945da6177f07875b56fe66e0b7899e830a9e92
+  checksum: 227ac5166501e04d9e7fbd5eda6869b084ffa4af6830ac12544ac6ea14953ca00eb1762b0df9349c0f6c8d2a799385910f558066cd0fb85b9ca437b1131a6043
   languageName: node
   linkType: hard
 
@@ -1325,9 +1324,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:7.23.7":
-  version: 7.23.7
-  resolution: "@babel/preset-env@npm:7.23.7"
+"@babel/preset-env@npm:7.23.8":
+  version: 7.23.8
+  resolution: "@babel/preset-env@npm:7.23.8"
   dependencies:
     "@babel/compat-data": "npm:^7.23.5"
     "@babel/helper-compilation-targets": "npm:^7.23.6"
@@ -1362,7 +1361,7 @@ __metadata:
     "@babel/plugin-transform-block-scoping": "npm:^7.23.4"
     "@babel/plugin-transform-class-properties": "npm:^7.23.3"
     "@babel/plugin-transform-class-static-block": "npm:^7.23.4"
-    "@babel/plugin-transform-classes": "npm:^7.23.5"
+    "@babel/plugin-transform-classes": "npm:^7.23.8"
     "@babel/plugin-transform-computed-properties": "npm:^7.23.3"
     "@babel/plugin-transform-destructuring": "npm:^7.23.3"
     "@babel/plugin-transform-dotall-regex": "npm:^7.23.3"
@@ -1411,7 +1410,7 @@ __metadata:
     semver: "npm:^6.3.1"
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: ac9def873cec52ee02a550bde6e22eced16d1ae331bb8ebc82c03e4c91c12ac17e3e4027647e61612937bcc25ac46e71370aaf99dc2e85dbd11f7777ffeed54e
+  checksum: e602ad954645f1a509644e3d2c72b3c63bdc2273c377e7a83b78f076eca215887ea3624ffc36aaad03deb9ac8acd89e247fd4562b96e0f2b679485e20d8ff25f
   languageName: node
   linkType: hard
 
@@ -2187,93 +2186,93 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/rollup-android-arm-eabi@npm:4.9.3":
-  version: 4.9.3
-  resolution: "@rollup/rollup-android-arm-eabi@npm:4.9.3"
+"@rollup/rollup-android-arm-eabi@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-android-arm-eabi@npm:4.9.5"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@rollup/rollup-android-arm64@npm:4.9.3":
-  version: 4.9.3
-  resolution: "@rollup/rollup-android-arm64@npm:4.9.3"
+"@rollup/rollup-android-arm64@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-android-arm64@npm:4.9.5"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rollup/rollup-darwin-arm64@npm:4.9.3":
-  version: 4.9.3
-  resolution: "@rollup/rollup-darwin-arm64@npm:4.9.3"
+"@rollup/rollup-darwin-arm64@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-darwin-arm64@npm:4.9.5"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rollup/rollup-darwin-x64@npm:4.9.3":
-  version: 4.9.3
-  resolution: "@rollup/rollup-darwin-x64@npm:4.9.3"
+"@rollup/rollup-darwin-x64@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-darwin-x64@npm:4.9.5"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-arm-gnueabihf@npm:4.9.3":
-  version: 4.9.3
-  resolution: "@rollup/rollup-linux-arm-gnueabihf@npm:4.9.3"
+"@rollup/rollup-linux-arm-gnueabihf@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-linux-arm-gnueabihf@npm:4.9.5"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-arm64-gnu@npm:4.9.3":
-  version: 4.9.3
-  resolution: "@rollup/rollup-linux-arm64-gnu@npm:4.9.3"
+"@rollup/rollup-linux-arm64-gnu@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-linux-arm64-gnu@npm:4.9.5"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-arm64-musl@npm:4.9.3":
-  version: 4.9.3
-  resolution: "@rollup/rollup-linux-arm64-musl@npm:4.9.3"
+"@rollup/rollup-linux-arm64-musl@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-linux-arm64-musl@npm:4.9.5"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-riscv64-gnu@npm:4.9.3":
-  version: 4.9.3
-  resolution: "@rollup/rollup-linux-riscv64-gnu@npm:4.9.3"
+"@rollup/rollup-linux-riscv64-gnu@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-linux-riscv64-gnu@npm:4.9.5"
   conditions: os=linux & cpu=riscv64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-x64-gnu@npm:4.9.3":
-  version: 4.9.3
-  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.9.3"
+"@rollup/rollup-linux-x64-gnu@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-linux-x64-gnu@npm:4.9.5"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@rollup/rollup-linux-x64-musl@npm:4.9.3":
-  version: 4.9.3
-  resolution: "@rollup/rollup-linux-x64-musl@npm:4.9.3"
+"@rollup/rollup-linux-x64-musl@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-linux-x64-musl@npm:4.9.5"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@rollup/rollup-win32-arm64-msvc@npm:4.9.3":
-  version: 4.9.3
-  resolution: "@rollup/rollup-win32-arm64-msvc@npm:4.9.3"
+"@rollup/rollup-win32-arm64-msvc@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-win32-arm64-msvc@npm:4.9.5"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@rollup/rollup-win32-ia32-msvc@npm:4.9.3":
-  version: 4.9.3
-  resolution: "@rollup/rollup-win32-ia32-msvc@npm:4.9.3"
+"@rollup/rollup-win32-ia32-msvc@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-win32-ia32-msvc@npm:4.9.5"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@rollup/rollup-win32-x64-msvc@npm:4.9.3":
-  version: 4.9.3
-  resolution: "@rollup/rollup-win32-x64-msvc@npm:4.9.3"
+"@rollup/rollup-win32-x64-msvc@npm:4.9.5":
+  version: 4.9.5
+  resolution: "@rollup/rollup-win32-x64-msvc@npm:4.9.5"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -2525,13 +2524,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:8.56.1":
-  version: 8.56.1
-  resolution: "@types/eslint@npm:8.56.1"
+"@types/eslint@npm:8.56.2":
+  version: 8.56.2
+  resolution: "@types/eslint@npm:8.56.2"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: a2aa5e2ec16f07944a60b825d6447d66f83369783e31c014ccf582fa92df963aa8d62c447a8fdc4fbfcd7299ad74ed1a753e06e560ce184eab4efceccfa66262
+  checksum: e33ca87a30a9454ba9943e1270ac759996f5fe598a1c1afbaec1d1e7346a339e20bf2a9d81f177067116bbaa6cfa4f748993cb338f57978ae862ad38ffae56fe
   languageName: node
   linkType: hard
 
@@ -2581,12 +2580,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.10.7":
+"@types/node@npm:*":
   version: 20.10.7
   resolution: "@types/node@npm:20.10.7"
   dependencies:
     undici-types: "npm:~5.26.4"
   checksum: d626cea1b7da4784ee7b335dcc54e64adba9725dab7ca51a690167de502ef89fec07b05ad8e25845d188d7ad7f72c192ec92964d456321ed5b9452113bf9351f
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@types/node@npm:20.11.0"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 560aa850dfccb83326f9cba125459f6c3fb0c71ec78f22c61e4d248f1df78bd25fd6792cef573dfbdc49c882f8e38bb1a82ca87e0e28ff2513629c704c2b02af
   languageName: node
   linkType: hard
 
@@ -2812,13 +2820,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/shared-lib-node@npm:5.0.7":
-  version: 5.0.7
-  resolution: "@willbooster/shared-lib-node@npm:5.0.7"
+"@willbooster/shared-lib-node@npm:5.0.8":
+  version: 5.0.8
+  resolution: "@willbooster/shared-lib-node@npm:5.0.8"
   dependencies:
     dotenv: "npm:16.3.1"
     tree-kill: "npm:1.2.2"
-  checksum: a083b5a280de556ed3c1156e480f9d6bd260b6d04ef069a5edb684e72377b1becac237255e28f6e702971d76b47b9d49e9fafd1a3077f5d9ec4dde6921a3ba2c
+  checksum: 4bf991e89030950a14bffdbb01f9c9e96ca4c39190e9a99e1469a8a6c7be9a17e002707ee53edd3c0f4f2254e03ea96775500eb3100c9b5df9b374007eb02e1c
   languageName: node
   linkType: hard
 
@@ -3350,16 +3358,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"build-ts@npm:12.0.2":
-  version: 12.0.2
-  resolution: "build-ts@npm:12.0.2"
+"build-ts@npm:12.0.4":
+  version: 12.0.4
+  resolution: "build-ts@npm:12.0.4"
   dependencies:
     "@babel/core": "npm:7.23.7"
     "@babel/plugin-proposal-decorators": "npm:7.23.7"
     "@babel/plugin-proposal-explicit-resource-management": "npm:7.23.3"
     "@babel/plugin-syntax-import-assertions": "npm:7.23.3"
     "@babel/plugin-transform-runtime": "npm:7.23.7"
-    "@babel/preset-env": "npm:7.23.7"
+    "@babel/preset-env": "npm:7.23.8"
     "@babel/preset-react": "npm:7.23.3"
     "@babel/preset-typescript": "npm:7.23.3"
     "@rollup/plugin-babel": "npm:6.0.4"
@@ -3369,7 +3377,7 @@ __metadata:
     "@rollup/plugin-replace": "npm:5.0.4"
     "@rollup/plugin-terser": "npm:0.4.4"
     "@rollup/pluginutils": "npm:5.1.0"
-    "@willbooster/shared-lib-node": "npm:5.0.7"
+    "@willbooster/shared-lib-node": "npm:5.0.8"
     babel-plugin-polyfill-corejs3: "npm:0.8.7"
     babel-plugin-transform-remove-console: "npm:6.9.4"
     chalk: "npm:5.3.0"
@@ -3377,7 +3385,7 @@ __metadata:
     core-js-pure: "npm:3.35.0"
     date-time: "npm:4.0.0"
     pretty-ms: "npm:8.0.0"
-    rollup: "npm:4.9.3"
+    rollup: "npm:4.9.5"
     rollup-plugin-analyzer: "npm:4.0.0"
     rollup-plugin-keep-import: "npm:1.0.2"
     rollup-plugin-node-externals: "npm:6.1.2"
@@ -3390,7 +3398,7 @@ __metadata:
     yargs: "npm:17.7.2"
   bin:
     build-ts: bin/index.js
-  checksum: 081317ef68198715f9b4b34b24809e2331c6712629b496b5038c235367bd580fa169c7955313763707e57aac9d0dee6449bfec4e2a9ea8d394d1ab474a37662a
+  checksum: d1ba4213ca91c6ceee2a69f4a48d65479932450ef1cb30f2a3740d929fba41c36c89480c963f98485274ad0703fe858998d0290ba4b48b85906e05b49ece45d0
   languageName: node
   linkType: hard
 
@@ -7509,12 +7517,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.1.1":
-  version: 3.1.1
-  resolution: "prettier@npm:3.1.1"
+"prettier@npm:3.2.1":
+  version: 3.2.1
+  resolution: "prettier@npm:3.2.1"
   bin:
     prettier: bin/prettier.cjs
-  checksum: facc944ba20e194ff4db765e830ffbcb642803381f0d2033ed397e79904fa4ccc877dc25ad68f42d36985c01d051c990ca1b905fb83d2d7d65fe69e4386fa1a3
+  checksum: e01284f25c1e9a96dfaf4f7d0bfdf0726b26afc732b0e645a2653174d4ad5a1e85ae21ec4d327c71536f1acf8fee1dff5ea35c5b4b8e5b83ff00fe1dd6fef146
   languageName: node
   linkType: hard
 
@@ -8064,23 +8072,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:4.9.3":
-  version: 4.9.3
-  resolution: "rollup@npm:4.9.3"
+"rollup@npm:4.9.5":
+  version: 4.9.5
+  resolution: "rollup@npm:4.9.5"
   dependencies:
-    "@rollup/rollup-android-arm-eabi": "npm:4.9.3"
-    "@rollup/rollup-android-arm64": "npm:4.9.3"
-    "@rollup/rollup-darwin-arm64": "npm:4.9.3"
-    "@rollup/rollup-darwin-x64": "npm:4.9.3"
-    "@rollup/rollup-linux-arm-gnueabihf": "npm:4.9.3"
-    "@rollup/rollup-linux-arm64-gnu": "npm:4.9.3"
-    "@rollup/rollup-linux-arm64-musl": "npm:4.9.3"
-    "@rollup/rollup-linux-riscv64-gnu": "npm:4.9.3"
-    "@rollup/rollup-linux-x64-gnu": "npm:4.9.3"
-    "@rollup/rollup-linux-x64-musl": "npm:4.9.3"
-    "@rollup/rollup-win32-arm64-msvc": "npm:4.9.3"
-    "@rollup/rollup-win32-ia32-msvc": "npm:4.9.3"
-    "@rollup/rollup-win32-x64-msvc": "npm:4.9.3"
+    "@rollup/rollup-android-arm-eabi": "npm:4.9.5"
+    "@rollup/rollup-android-arm64": "npm:4.9.5"
+    "@rollup/rollup-darwin-arm64": "npm:4.9.5"
+    "@rollup/rollup-darwin-x64": "npm:4.9.5"
+    "@rollup/rollup-linux-arm-gnueabihf": "npm:4.9.5"
+    "@rollup/rollup-linux-arm64-gnu": "npm:4.9.5"
+    "@rollup/rollup-linux-arm64-musl": "npm:4.9.5"
+    "@rollup/rollup-linux-riscv64-gnu": "npm:4.9.5"
+    "@rollup/rollup-linux-x64-gnu": "npm:4.9.5"
+    "@rollup/rollup-linux-x64-musl": "npm:4.9.5"
+    "@rollup/rollup-win32-arm64-msvc": "npm:4.9.5"
+    "@rollup/rollup-win32-ia32-msvc": "npm:4.9.5"
+    "@rollup/rollup-win32-x64-msvc": "npm:4.9.5"
     "@types/estree": "npm:1.0.5"
     fsevents: "npm:~2.3.2"
   dependenciesMeta:
@@ -8114,7 +8122,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 012467cf185b43848531dcd6801a204c826b469d09bae7d559b162b9fb258f0009a8189311482cd33e68c5da3722be0d3c01114690608629564aa13f7d4070c1
+  checksum: 7f241ad4028f32c1300eb8391493f192f622ed7e9564f993d8f3862be32dd995c8237f4691ea76327a323ef62808495a497eabf0c8fb0c6fa6556a69653a449f
   languageName: node
   linkType: hard
 
@@ -9508,15 +9516,15 @@ __metadata:
   resolution: "yarn-plugin-auto-install@workspace:."
   dependencies:
     "@semantic-release/exec": "npm:6.0.3"
-    "@types/eslint": "npm:8.56.1"
+    "@types/eslint": "npm:8.56.2"
     "@types/micromatch": "npm:4.0.6"
-    "@types/node": "npm:20.10.7"
+    "@types/node": "npm:20.11.0"
     "@typescript-eslint/eslint-plugin": "npm:6.18.1"
     "@typescript-eslint/parser": "npm:6.18.1"
     "@willbooster/eslint-config-ts": "npm:10.5.1"
     "@willbooster/prettier-config": "npm:9.1.2"
     "@yarnpkg/core": "npm:4.0.2"
-    build-ts: "npm:12.0.2"
+    build-ts: "npm:12.0.4"
     conventional-changelog-conventionalcommits: "npm:7.0.2"
     eslint: "npm:8.56.0"
     eslint-config-prettier: "npm:9.1.0"
@@ -9529,7 +9537,7 @@ __metadata:
     lint-staged: "npm:15.2.0"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
-    prettier: "npm:3.1.1"
+    prettier: "npm:3.2.1"
     semantic-release: "npm:22.0.12"
     sort-package-json: "npm:2.6.0"
     typescript: "npm:5.3.3"
