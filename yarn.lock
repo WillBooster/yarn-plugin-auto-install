@@ -5442,12 +5442,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:8.0.3":
-  version: 8.0.3
-  resolution: "husky@npm:8.0.3"
+"husky@npm:9.0.4":
+  version: 9.0.4
+  resolution: "husky@npm:9.0.4"
   bin:
-    husky: lib/bin.js
-  checksum: 6722591771c657b91a1abb082e07f6547eca79144d678e586828ae806499d90dce2a6aee08b66183fd8b085f19d20e0990a2ad396961746b4c8bd5bdb619d668
+    husky: bin.js
+  checksum: 8fe262d9b9bd5f3da1b6a31540667ac21874fa48123c10030c7827c5ca5f1b4044de75ee3dd57db4ba0ef23147b07e6078b561bed3619d98208b15700ffb0e0e
   languageName: node
   linkType: hard
 
@@ -9568,7 +9568,7 @@ __metadata:
     eslint-plugin-sort-class-members: "npm:1.19.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:50.0.1"
-    husky: "npm:8.0.3"
+    husky: "npm:9.0.4"
     lint-staged: "npm:15.2.0"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
