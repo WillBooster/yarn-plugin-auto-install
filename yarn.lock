@@ -2608,12 +2608,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.7":
-  version: 20.11.7
-  resolution: "@types/node@npm:20.11.7"
+"@types/node@npm:20.11.16":
+  version: 20.11.16
+  resolution: "@types/node@npm:20.11.16"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10c0/ba4b41542b64f21a881a277189e761c553d00af0b1c02f2d8a47ebe8bc29a00ed21b45adf0bf9af2cf8ea6c92a443853d4f7b690081ceaecc150719cc574e9ea
+  checksum: 10c0/4886b90278e9c877a84efd3edd4667cd990e032d77268d2a798b99ebc1901ea336fa7dfbe9eaf4ad6ad1da9ce2ec31baf300038a3905838692362eb19904ebde
   languageName: node
   linkType: hard
 
@@ -2849,15 +2849,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:4.0.2":
-  version: 4.0.2
-  resolution: "@yarnpkg/core@npm:4.0.2"
+"@yarnpkg/core@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@yarnpkg/core@npm:4.0.3"
   dependencies:
     "@arcanis/slice-ansi": "npm:^1.1.1"
     "@types/semver": "npm:^7.1.0"
     "@types/treeify": "npm:^1.0.0"
-    "@yarnpkg/fslib": "npm:^3.0.1"
-    "@yarnpkg/libzip": "npm:^3.0.0"
+    "@yarnpkg/fslib": "npm:^3.0.2"
+    "@yarnpkg/libzip": "npm:^3.0.1"
     "@yarnpkg/parsers": "npm:^3.0.0"
     "@yarnpkg/shell": "npm:^4.0.0"
     camelcase: "npm:^5.3.1"
@@ -2879,11 +2879,11 @@ __metadata:
     treeify: "npm:^1.1.0"
     tslib: "npm:^2.4.0"
     tunnel: "npm:^0.0.6"
-  checksum: 10c0/8406ce7cfedb5a2593bf26efafb1ddd945f6df274513326a6b0cc46caa9735b0bfa832a6181e3b85751c9320ff953f09f1cbc705167b3cd6401fa8bd3b7a8689
+  checksum: 10c0/850e0af59f56cea81ea2d3e81663a9326262df13322c21cecbb49d667abfbe32480a22f15f933086db4dfdc49745eec3414b8497627d4b7584b3c8a843f9ed9b
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^3.0.0, @yarnpkg/fslib@npm:^3.0.1":
+"@yarnpkg/fslib@npm:^3.0.0":
   version: 3.0.1
   resolution: "@yarnpkg/fslib@npm:3.0.1"
   dependencies:
@@ -2892,16 +2892,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/libzip@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@yarnpkg/libzip@npm:3.0.0"
+"@yarnpkg/fslib@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "@yarnpkg/fslib@npm:3.0.2"
+  dependencies:
+    tslib: "npm:^2.4.0"
+  checksum: 10c0/658a2d614eecd3bfe167fc93bcd9fe144e3e0b2bab8926395bcf5a7db71c88e04f636acf4f5c4eee5aecb2bf3f338f0ae1f5dad07323cea53cc0756d66ec4834
+  languageName: node
+  linkType: hard
+
+"@yarnpkg/libzip@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@yarnpkg/libzip@npm:3.0.1"
   dependencies:
     "@types/emscripten": "npm:^1.39.6"
-    "@yarnpkg/fslib": "npm:^3.0.0"
+    "@yarnpkg/fslib": "npm:^3.0.2"
     tslib: "npm:^2.4.0"
   peerDependencies:
-    "@yarnpkg/fslib": ^3.0.0
-  checksum: 10c0/1aa06a1da0d9b46a8f85991a81f9ddc00297369da28a528fa37c0a3643f6bb5eff35671e3c16713d9f5912070825d9afcba4de7a0bda7d9b2665d769d7116041
+    "@yarnpkg/fslib": ^3.0.2
+  checksum: 10c0/c2179e1152ebc2e2a3e33985410e73df6fce687ff99b3d5b9ae03286786663fc7f12789ce98f6b1e21d04c7e2ddda9e8a65a2c89e586ebd4ecd2516ccce5412c
   languageName: node
   linkType: hard
 
@@ -5436,12 +5445,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:9.0.8":
-  version: 9.0.8
-  resolution: "husky@npm:9.0.8"
+"husky@npm:9.0.10":
+  version: 9.0.10
+  resolution: "husky@npm:9.0.10"
   bin:
-    husky: bin.js
-  checksum: 10c0/939f1c279d0d126bf3493b7770f63ca620fdaa0879db426cd80ea2fb74b816ee624f6d4c815ebc8d1f9fda884498f47d5b2b07afb643dff351afdff6112b9d47
+    husky: bin.mjs
+  checksum: 10c0/585d95fec151d2e3fba1a8d97c1290dee40b83eb2b8850afae0805e183b3b3ec45bfeef97b2d0c4ae16f1c1bf19788b9129627d9ba02d924c874632207e33b93
   languageName: node
   linkType: hard
 
@@ -9546,12 +9555,12 @@ __metadata:
     "@semantic-release/exec": "npm:6.0.3"
     "@types/eslint": "npm:8.56.2"
     "@types/micromatch": "npm:4.0.6"
-    "@types/node": "npm:20.11.7"
+    "@types/node": "npm:20.11.16"
     "@typescript-eslint/eslint-plugin": "npm:6.20.0"
     "@typescript-eslint/parser": "npm:6.20.0"
     "@willbooster/eslint-config-ts": "npm:10.5.1"
     "@willbooster/prettier-config": "npm:9.1.2"
-    "@yarnpkg/core": "npm:4.0.2"
+    "@yarnpkg/core": "npm:4.0.3"
     build-ts: "npm:12.0.6"
     conventional-changelog-conventionalcommits: "npm:7.0.2"
     eslint: "npm:8.56.0"
@@ -9561,7 +9570,7 @@ __metadata:
     eslint-plugin-sort-class-members: "npm:1.19.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:50.0.1"
-    husky: "npm:9.0.8"
+    husky: "npm:9.0.10"
     lint-staged: "npm:15.2.1"
     micromatch: "npm:4.0.5"
     pinst: "npm:3.0.0"
