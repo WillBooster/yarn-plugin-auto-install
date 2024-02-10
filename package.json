@@ -22,7 +22,7 @@
     "build": "build-ts app -m cjs --inline VERSION && mv dist/index.js dist/index.cjs && cp dist/index.cjs .yarn/plugins/plugin-auto-install.cjs",
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn prettify",
-    "postinstall": "husky install",
+    "postinstall": "husky",
     "lint": "eslint --color \"./{scripts,src,tests}/**/*.{cjs,cts,js,jsx,mjs,mts,ts,tsx}\"",
     "lint-fix": "yarn lint --fix",
     "prepack": "pinst --disable",
