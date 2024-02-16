@@ -2599,12 +2599,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.11.17":
+"@types/node@npm:*":
   version: 20.11.17
   resolution: "@types/node@npm:20.11.17"
   dependencies:
     undici-types: "npm:~5.26.4"
   checksum: 10c0/1f30dae80b416cbf38f133a619ffb0e9fb9e7bc58f82d900bf73816ae5781740c4640892bf5971dd9c12570d5d05241646be3e7540bb4e059322ec6af4e51e15
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:20.11.19":
+  version: 20.11.19
+  resolution: "@types/node@npm:20.11.19"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 10c0/f451ef0a1d78f29c57bad7b77e49ebec945f2a6d0d7a89851d7e185ee9fe7ad94d651c0dfbcb7858c9fa791310c8b40a881e2260f56bd3c1b7e7ae92723373ae
   languageName: node
   linkType: hard
 
@@ -2830,13 +2839,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/shared-lib-node@npm:5.0.10":
-  version: 5.0.10
-  resolution: "@willbooster/shared-lib-node@npm:5.0.10"
+"@willbooster/shared-lib-node@npm:5.0.12":
+  version: 5.0.12
+  resolution: "@willbooster/shared-lib-node@npm:5.0.12"
   dependencies:
-    dotenv: "npm:16.3.2"
+    dotenv: "npm:16.4.1"
     tree-kill: "npm:1.2.2"
-  checksum: 10c0/b12c470f91798df93d4aca17e6314a1e27da2d31da0440d5590d66ecd75ecdac023c4d54ed481a3ec6f911ffc8e966a15b53c5e792287fc479f112e8bdc9b1a2
+  checksum: 10c0/91ca8e7c40a060733b34727d2c784399e3fb6abe46034fa376ac4bac2069b6cffb9f19d5f12e7cec118dbd122c491b9c60f94177a22c62b0bfcb2dd1604b6cfb
   languageName: node
   linkType: hard
 
@@ -3382,9 +3391,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"build-ts@npm:12.0.6":
-  version: 12.0.6
-  resolution: "build-ts@npm:12.0.6"
+"build-ts@npm:12.0.7":
+  version: 12.0.7
+  resolution: "build-ts@npm:12.0.7"
   dependencies:
     "@babel/core": "npm:7.23.9"
     "@babel/plugin-proposal-decorators": "npm:7.23.9"
@@ -3401,7 +3410,7 @@ __metadata:
     "@rollup/plugin-replace": "npm:5.0.4"
     "@rollup/plugin-terser": "npm:0.4.4"
     "@rollup/pluginutils": "npm:5.1.0"
-    "@willbooster/shared-lib-node": "npm:5.0.10"
+    "@willbooster/shared-lib-node": "npm:5.0.12"
     babel-plugin-polyfill-corejs3: "npm:0.9.0"
     babel-plugin-transform-remove-console: "npm:6.9.4"
     chalk: "npm:5.3.0"
@@ -3413,7 +3422,7 @@ __metadata:
     rollup-plugin-analyzer: "npm:4.0.0"
     rollup-plugin-keep-import: "npm:1.0.2"
     rollup-plugin-node-externals: "npm:6.1.2"
-    rollup-plugin-preserve-directives: "npm:0.3.1"
+    rollup-plugin-preserve-directives: "npm:0.4.0"
     rollup-plugin-string: "npm:3.0.0"
     rollup-plugin-ts: "npm:3.4.5"
     signal-exit: "npm:4.1.0"
@@ -3422,7 +3431,7 @@ __metadata:
     yargs: "npm:17.7.2"
   bin:
     build-ts: bin/index.js
-  checksum: 10c0/0e2e6b6e67f045e01af0819f8947c2e49b2290ef2a5def3450dcbc89e4e7d3573f4b8eb412349c179c02493b750819bf9b2ef7b7db8e101916a2834a8da3d4e2
+  checksum: 10c0/2aa99a68f48e767ab889c6fb6b91257003be551d0986b5dd1409763c6110cd869b722c95fee7bebce0e51046fd5690279c91a3f02cbb816a01fd5aaa5eff0b94
   languageName: node
   linkType: hard
 
@@ -4186,10 +4195,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:16.3.2":
-  version: 16.3.2
-  resolution: "dotenv@npm:16.3.2"
-  checksum: 10c0/a87d62cef0810b670cb477db1a24a42a093b6b428c9e65c185ce1d6368ad7175234b13547718ba08da18df43faae4f814180cc0366e11be1ded2277abc4dd22e
+"dotenv@npm:16.4.1":
+  version: 16.4.1
+  resolution: "dotenv@npm:16.4.1"
+  checksum: 10c0/ef3d95f48f38146df0881a4b58447ae437d2da3f6d645074b84de4e64ef64ba75fc357c5ed66b3c2b813b5369fdeb6a4777d6ade2d50e54eed6aa06dddc98bc4
   languageName: node
   linkType: hard
 
@@ -4511,12 +4520,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sort-class-members@npm:1.19.0":
-  version: 1.19.0
-  resolution: "eslint-plugin-sort-class-members@npm:1.19.0"
+"eslint-plugin-sort-class-members@npm:1.20.0":
+  version: 1.20.0
+  resolution: "eslint-plugin-sort-class-members@npm:1.20.0"
   peerDependencies:
     eslint: ">=0.8.0"
-  checksum: 10c0/6b8526effcedccd106da0eb325548e3a4f1865bd3da28e6219d2ea154a662fc2c1c686834f8dc9bed7241dfecfbd38fada4f7a6dd856698209edc5fdc435eb04
+  checksum: 10c0/336dc3a0d529bac6829b7cb85487d909c4c47bb0b2a3e3490d19fabb5f8db24080b2caaba6df2642492c462286555f3f5599f84500d6fd9d078826a5efaf348c
   languageName: node
   linkType: hard
 
@@ -8102,14 +8111,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-preserve-directives@npm:0.3.1":
-  version: 0.3.1
-  resolution: "rollup-plugin-preserve-directives@npm:0.3.1"
+"rollup-plugin-preserve-directives@npm:0.4.0":
+  version: 0.4.0
+  resolution: "rollup-plugin-preserve-directives@npm:0.4.0"
   dependencies:
+    "@rollup/pluginutils": "npm:^5.1.0"
     magic-string: "npm:^0.30.5"
   peerDependencies:
     rollup: 2.x || 3.x || 4.x
-  checksum: 10c0/fbc15a2690706c0ade3e1416c893e6afd2a7ec6ac798087cc76f263b8b45f023911caa4ecbd10d7a72f7e0c7120841962bbc5532217192233eabf5572e20b76c
+  checksum: 10c0/83e27b6cefe5d2185a39b79fa860644e60b53ed0c32942e1829023e10aa75a2fdd9c0d57e9a46eec4b60804d3fdb1ae51e847d5762f372b0f22fafcaca8c6a0e
   languageName: node
   linkType: hard
 
@@ -9665,19 +9675,19 @@ __metadata:
     "@semantic-release/exec": "npm:6.0.3"
     "@types/eslint": "npm:8.56.2"
     "@types/micromatch": "npm:4.0.6"
-    "@types/node": "npm:20.11.17"
+    "@types/node": "npm:20.11.19"
     "@typescript-eslint/eslint-plugin": "npm:7.0.1"
     "@typescript-eslint/parser": "npm:7.0.1"
     "@willbooster/eslint-config-ts": "npm:10.5.1"
     "@willbooster/prettier-config": "npm:9.1.2"
     "@yarnpkg/core": "npm:4.0.3"
-    build-ts: "npm:12.0.6"
+    build-ts: "npm:12.0.7"
     conventional-changelog-conventionalcommits: "npm:7.0.2"
     eslint: "npm:8.56.0"
     eslint-config-prettier: "npm:9.1.0"
     eslint-import-resolver-typescript: "npm:3.6.1"
     eslint-plugin-import: "npm:2.29.1"
-    eslint-plugin-sort-class-members: "npm:1.19.0"
+    eslint-plugin-sort-class-members: "npm:1.20.0"
     eslint-plugin-sort-destructure-keys: "npm:1.5.0"
     eslint-plugin-unicorn: "npm:51.0.1"
     husky: "npm:9.0.11"
