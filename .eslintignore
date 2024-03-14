@@ -15,6 +15,7 @@ test-fixtures/
 *.min.*js
 .yarn/
 .pnp.js
+.idea/copilot/chatSessions/
 .devcontainer/
 dist/
 temp/
