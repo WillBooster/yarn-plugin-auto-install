@@ -57,7 +57,7 @@
     "prettier": "3.2.5",
     "semantic-release": "23.0.3",
     "sort-package-json": "2.8.0",
-    "typescript": "5.4.2"
+    "typescript": "5.4.3"
   },
   "packageManager": "yarn@4.1.1",
   "publishConfig": {
