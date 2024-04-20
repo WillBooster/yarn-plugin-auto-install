@@ -7,7 +7,8 @@ jobs:
   add-ready-issue-to-project:
     uses: WillBooster/reusable-workflows/.github/workflows/add-issue-to-project.yml@main
     with:
-      label: 'ready :rocket:'
+      labeled: 'ready :rocket:'
+      labelOperator: OR
     secrets:
       GH_PROJECT_URL: https://github.com/orgs/WillBoosterLab/projects/5
       GH_TOKEN: ${{ secrets.PUBLIC_GH_BOT_PAT }}
