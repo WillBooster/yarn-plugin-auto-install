@@ -28,7 +28,7 @@
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
     "prepare": "husky || true",
-    "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,js,json,json5,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
+    "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,js,json,json5,jsonc,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test-fixtures/**\"",
     "typecheck": "tsc --noEmit --Pretty"
   },
   "prettier": "@willbooster/prettier-config",
@@ -39,7 +39,7 @@
     "@types/node": "20.12.7",
     "@typescript-eslint/eslint-plugin": "7.7.1",
     "@typescript-eslint/parser": "7.7.1",
-    "@willbooster/eslint-config-ts": "10.5.1",
+    "@willbooster/eslint-config-ts": "10.6.0",
     "@willbooster/prettier-config": "9.1.2",
     "@yarnpkg/core": "4.0.3",
     "build-ts": "12.1.0",

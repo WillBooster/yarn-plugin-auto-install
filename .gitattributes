@@ -11,6 +11,7 @@
 *.js text eol=lf
 *.json text eol=lf
 *.json5 text eol=lf
+*.jsonc text eol=lf
 *.jsx text eol=lf
 *.mjs text eol=lf
 *.mts text eol=lf
