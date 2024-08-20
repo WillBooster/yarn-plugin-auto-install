@@ -1,5 +1,6 @@
 * text=auto
 
+*.lockb binary diff=lockb
 *.vcproj text eol=crlf
 
 *.cjs text eol=lf
