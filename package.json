@@ -42,7 +42,7 @@
     "@willbooster/eslint-config-ts": "10.6.0",
     "@willbooster/prettier-config": "9.1.2",
     "@yarnpkg/core": "4.0.5",
-    "build-ts": "12.1.0",
+    "build-ts": "13.1.8",
     "conventional-changelog-conventionalcommits": "8.0.0",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
