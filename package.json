@@ -53,14 +53,14 @@
     "eslint-plugin-unicorn": "55.0.0",
     "husky": "9.1.5",
     "lint-staged": "15.2.9",
-    "micromatch": "4.0.7",
+    "micromatch": "4.0.8",
     "pinst": "3.0.0",
     "prettier": "3.3.3",
     "semantic-release": "24.1.0",
     "sort-package-json": "2.10.1",
     "typescript": "5.5.4"
   },
-  "packageManager": "yarn@4.4.0",
+  "packageManager": "yarn@4.4.1",
   "publishConfig": {
     "access": "public"
   }
