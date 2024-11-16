@@ -10,7 +10,7 @@ Close #<IssueNumber>
     - Test command (e.g., `yarn test`) is passed.
     - Lint command (e.g., `yarn lint`) is passed.
 - [ ] I've reviewed my changes on GitHub PR's diff view. （GitHub上で自分の変更内容を確認した。）
-- [ ] I've written the steps to test. （テスト手順を記載した。）
+- [ ] I've written the steps to test your changes. （テスト手順を記載した。）
 - [ ] I've added screenshots. （UIを変更した場合、スクリーンショットを追加した。）
   - You may leave this box unchecked if you didn't modify the UI.
 
@@ -20,12 +20,12 @@ Close #<IssueNumber>
 | <img src="" width="400"> | <img src="" width="400"> |
 -->
 
+<!-- Please add steps to test your changes.
 ## Steps to Test
 
 1. Open http://localhost-exercode.willbooster.net:3000/ja-JP/courses/_example/lessons/_example_a_plus_b/problems/_example_a_plus_b after login.
 2. Select the language `C`.
 3. Write the following code:
-
    ```c
    #include <stdio.h>
 
@@ -37,8 +37,8 @@ Close #<IssueNumber>
      return 0;
    }
    ```
-
 4. Push `Submit` button.
 5. ...
+-->
 
 <!-- 日本語で記述しても大丈夫です。 -->
