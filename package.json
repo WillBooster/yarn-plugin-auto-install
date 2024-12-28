@@ -52,7 +52,7 @@
     "eslint-plugin-sort-destructure-keys": "2.0.0",
     "eslint-plugin-unicorn": "56.0.1",
     "husky": "9.1.7",
-    "lint-staged": "15.2.11",
+    "lint-staged": "15.3.0",
     "micromatch": "4.0.8",
     "pinst": "3.0.0",
     "prettier": "3.4.2",
