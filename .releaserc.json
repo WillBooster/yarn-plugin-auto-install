@@ -8,10 +8,10 @@
       "@semantic-release/github",
       {
         "assets": [{ "path": "dist/index.cjs" }],
-        "successComment": false,
         "labels": ["r: semantic-release"],
         "releasedLabels": ["released :bookmark:"],
-        "failComment": false
+        "successCommentCondition": false,
+        "failCommentCondition": false
       }
     ],
     ["@semantic-release/exec", { "prepareCmd": "scripts/build.sh ${nextRelease.version}" }]
