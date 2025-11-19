@@ -32,7 +32,7 @@ export default {
         writePackageHash(hash, project);
       },
       // eslint-disable-next-line @typescript-eslint/require-await
-      async setupScriptEnvironment(project: Project, env: Record<string, string>) {
+      async setupScriptEnvironment(project: Project, env: NodeJS.ProcessEnv) {
         if (installing) return;
 
         try {
