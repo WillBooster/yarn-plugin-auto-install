@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-return */
 
 import type { Hooks, Project } from '@yarnpkg/core';
 
@@ -31,6 +31,7 @@ export default {
 
         writePackageHash(hash, project);
       },
+      // eslint-disable-next-line @typescript-eslint/require-await
       async setupScriptEnvironment(project: Project, env: Record<string, string>) {
         if (installing) return;
 
@@ -60,6 +61,7 @@ export default {
           hash.update(fs.readFileSync(yarnLockFile, 'utf8'));
         }
 
+        // eslint-disable-next-line unicorn/no-array-sort
         for (const workspacePath of project.workspaces.map((w) => w.cwd).sort()) {
           const packageJsonFile = path.join(workspacePath, 'package.json');
           const packageJson = JSON.parse(fs.readFileSync(packageJsonFile, 'utf8'));
@@ -68,6 +70,7 @@ export default {
           for (const key of depsKeys) {
             deps.push(...Object.entries(packageJson[key]).map(([name, ver]) => `${name}: ${ver}`));
           }
+          // eslint-disable-next-line unicorn/no-array-sort
           hash.update(deps.sort().join(','));
         }
         return hash.digest('hex');

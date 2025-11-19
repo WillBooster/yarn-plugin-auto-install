@@ -8,17 +8,26 @@ android/
 ios/
 no-format/
 test-fixtures/
+test/fixtures/
 *.d.ts
 *.min.js
 .yarn/
 .pnp.js
 !.keep
+.aider*
 .env.production
 */mount/*.hash
-.idea/copilot/chatSessions/
 .devcontainer/
+.idea/AugmentWebviewStateStore.xml
+.idea/copilot.*
+.idea/copilot/chatSessions/
+.serena/
+.tmp/
+__generated__/
+@willbooster/
 dist/
 temp/
+tmp/
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows
@@ -61,7 +70,7 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
 
 # Thumbnails
 ._*
