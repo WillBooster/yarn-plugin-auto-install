@@ -22,5 +22,5 @@ jobs:
           check-latest: true
       - run: yarn install
       - run: yarn cleanup
-      - run: yarn run build
+      - run: yarn build
       - uses: autofix-ci/action@v1
