@@ -1,5 +1,4 @@
 name: autofix.ci
-
 on:
   pull_request:
   push:
@@ -7,11 +6,9 @@ on:
       - main
 permissions:
   contents: read
-
 concurrency:
   group: autofix-${{ github.head_ref }}
   cancel-in-progress: true
-
 jobs:
   autofix:
     runs-on: ubuntu-latest
@@ -21,6 +18,6 @@ jobs:
         with:
           check-latest: true
       - run: yarn install
-      - run: yarn cleanup
-      - run: yarn build
+      - run: yarn run cleanup
+      - run: yarn run build
       - uses: autofix-ci/action@v1
