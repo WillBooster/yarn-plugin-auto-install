@@ -2776,12 +2776,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:24.10.1":
-  version: 24.10.1
-  resolution: "@types/node@npm:24.10.1"
+"@types/node@npm:24.10.4":
+  version: 24.10.4
+  resolution: "@types/node@npm:24.10.4"
   dependencies:
     undici-types: "npm:~7.16.0"
-  checksum: 10c0/d6bca7a78f550fbb376f236f92b405d676003a8a09a1b411f55920ef34286ee3ee51f566203920e835478784df52662b5b2af89159d9d319352e9ea21801c002
+  checksum: 10c0/069639cb7233ee747df1897b5e784f6b6c5da765c96c94773c580aac888fa1a585048d2a6e95eb8302d89c7a9df75801c8b5a0b7d0221d4249059cf09a5f4228
   languageName: node
   linkType: hard
 
@@ -3171,14 +3171,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/shared-lib-node@npm:8.0.1":
-  version: 8.0.1
-  resolution: "@willbooster/shared-lib-node@npm:8.0.1"
+"@willbooster/shared-lib-node@npm:8.0.2":
+  version: 8.0.2
+  resolution: "@willbooster/shared-lib-node@npm:8.0.2"
   dependencies:
     dotenv: "npm:17.2.3"
     dotenv-expand: "npm:12.0.3"
     tree-kill: "npm:1.2.2"
-  checksum: 10c0/a93ec8a29fb03754570bdda7979581344cdae5a98adc15c7ff6e4f2ac61162de524ce426489068d12e2a6934a23530e0952492cf1243da2f43743d87f62d7e65
+  checksum: 10c0/b031ae3d58ee843fe9c64838e685abf2420b4c793f35f44b464602ffa855779e530d0afc7948c5c5723fea5780ecf0bab89aae292b880c868df93dc469260f30
   languageName: node
   linkType: hard
 
@@ -3597,9 +3597,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"build-ts@npm:17.0.8":
-  version: 17.0.8
-  resolution: "build-ts@npm:17.0.8"
+"build-ts@npm:17.0.9":
+  version: 17.0.9
+  resolution: "build-ts@npm:17.0.9"
   dependencies:
     "@babel/core": "npm:7.28.5"
     "@babel/plugin-proposal-decorators": "npm:7.28.0"
@@ -3616,7 +3616,7 @@ __metadata:
     "@rollup/plugin-replace": "npm:6.0.3"
     "@rollup/plugin-terser": "npm:0.4.4"
     "@rollup/pluginutils": "npm:5.3.0"
-    "@willbooster/shared-lib-node": "npm:8.0.1"
+    "@willbooster/shared-lib-node": "npm:8.0.2"
     babel-plugin-polyfill-corejs3: "npm:0.13.0"
     babel-plugin-transform-remove-console: "npm:6.9.4"
     chalk: "npm:5.6.2"
@@ -3637,7 +3637,7 @@ __metadata:
     yargs: "npm:18.0.0"
   bin:
     build-ts: bin/index.js
-  checksum: 10c0/b0c334b6d70915f2c5abc6a446150847d31fa332c6a22ea2f9ee5bb3c46f1478a3429adb7b15cf66149e5dfdebf8994a799bda4c64bc4c022a651d41cb234d8a
+  checksum: 10c0/006960d3bf68e04ee5d1d85bb1ee632bbc6b6002dfeef4d07a305124e56414cb7132930b853cc0e5c55949f99015772f0160a897cf77f7706a0eb8e534e7597d
   languageName: node
   linkType: hard
 
@@ -4258,7 +4258,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"detect-indent@npm:^7.0.1":
+"detect-indent@npm:^7.0.2":
   version: 7.0.2
   resolution: "detect-indent@npm:7.0.2"
   checksum: 10c0/adb1334ca3fe516dc6817aff0a777540b88643ab92fe13a72d0f5d12721ca796ffdd0e5fedb7b45e6e82657156c6ad44f5d5758157f0439532ae7d07b595146b
@@ -5190,7 +5190,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"git-hooks-list@npm:^4.0.0":
+"git-hooks-list@npm:^4.1.1":
   version: 4.1.1
   resolution: "git-hooks-list@npm:4.1.1"
   checksum: 10c0/74d87b1ed457214599566032e3bb79d75ec1605729e83fa6182b889900dd94fc14aafe7b8c66b40562ab9fdeea0e0d8035c23a64d8eb9d3917d1f1d6c06c8e4d
@@ -8069,27 +8069,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sort-object-keys@npm:^2.0.0":
+"sort-object-keys@npm:^2.0.1":
   version: 2.0.1
   resolution: "sort-object-keys@npm:2.0.1"
   checksum: 10c0/3bbe9d210a24ace65ede8abc4c57ea3280082f7c16fa88c9428eb3a39c85c2ab8a56767e61798bb9c74c272d50a3dbedc20df7065fdf0526c8746fa6b084c6c0
   languageName: node
   linkType: hard
 
-"sort-package-json@npm:3.5.0":
-  version: 3.5.0
-  resolution: "sort-package-json@npm:3.5.0"
+"sort-package-json@npm:3.6.0":
+  version: 3.6.0
+  resolution: "sort-package-json@npm:3.6.0"
   dependencies:
-    detect-indent: "npm:^7.0.1"
+    detect-indent: "npm:^7.0.2"
     detect-newline: "npm:^4.0.1"
-    git-hooks-list: "npm:^4.0.0"
+    git-hooks-list: "npm:^4.1.1"
     is-plain-obj: "npm:^4.1.0"
-    semver: "npm:^7.7.1"
-    sort-object-keys: "npm:^2.0.0"
-    tinyglobby: "npm:^0.2.12"
+    semver: "npm:^7.7.3"
+    sort-object-keys: "npm:^2.0.1"
+    tinyglobby: "npm:^0.2.15"
   bin:
     sort-package-json: cli.js
-  checksum: 10c0/616520c9df6430df5768f1e47aa87876b3d1a98e5168810d341831afc284124c52eab08f97a1786a815c45e2dd0dd6d6797f09d770d8c1021c46005a60732055
+  checksum: 10c0/977621b4541e6a107612524c8838a516425786b1d85fad9366416d3736989b1075d40511a28f0b3c47b9a0d7c1197f828af0cc3e350cdf793d1301d427178968
   languageName: node
   linkType: hard
 
@@ -9125,11 +9125,11 @@ __metadata:
     "@semantic-release/exec": "npm:7.1.0"
     "@types/eslint": "npm:9.6.1"
     "@types/micromatch": "npm:4.0.10"
-    "@types/node": "npm:24.10.1"
+    "@types/node": "npm:24.10.4"
     "@willbooster/eslint-config-ts": "npm:11.4.12"
     "@willbooster/prettier-config": "npm:10.2.4"
     "@yarnpkg/core": "npm:4.5.0"
-    build-ts: "npm:17.0.8"
+    build-ts: "npm:17.0.9"
     conventional-changelog-conventionalcommits: "npm:9.1.0"
     eslint: "npm:9.39.1"
     eslint-config-flat-gitignore: "npm:2.1.0"
@@ -9148,7 +9148,7 @@ __metadata:
     prettier: "npm:3.7.4"
     prettier-plugin-java: "npm:2.7.7"
     semantic-release: "npm:25.0.2"
-    sort-package-json: "npm:3.5.0"
+    sort-package-json: "npm:3.6.0"
     typescript: "npm:5.9.3"
     typescript-eslint: "npm:8.49.0"
   bin:
