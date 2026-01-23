@@ -38,7 +38,7 @@
     "@semantic-release/exec": "7.1.0",
     "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.10",
-    "@types/node": "24.10.7",
+    "@types/node": "24.10.9",
     "@willbooster/eslint-config-ts": "11.4.12",
     "@willbooster/prettier-config": "10.2.4",
     "@yarnpkg/core": "4.5.0",
@@ -58,12 +58,12 @@
     "lint-staged": "16.2.7",
     "micromatch": "4.0.8",
     "pinst": "3.0.0",
-    "prettier": "3.7.4",
+    "prettier": "3.8.0",
     "prettier-plugin-java": "2.8.1",
     "semantic-release": "25.0.2",
     "sort-package-json": "3.6.0",
     "typescript": "5.9.3",
-    "typescript-eslint": "8.52.0"
+    "typescript-eslint": "8.53.0"
   },
   "packageManager": "yarn@4.12.0",
   "publishConfig": {
