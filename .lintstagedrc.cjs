@@ -1,6 +1,5 @@
-const fs = require('node:fs');
-const path = require('node:path');
-
+const fs = require('fs');
+const path = require('path');
 const micromatch = require('micromatch');
 
 module.exports = {
@@ -25,7 +24,7 @@ module.exports = {
   },
   './**/migration.sql': (files) => {
     for (const file of files) {
-      const content = fs.readFileSync(file, 'utf8');
+      const content = fs.readFileSync(file, 'utf-8');
       if (content.includes('Warnings:')) {
         return [
           `echo '!!! Migration SQL file (${path.relative('', file)}) contains warnings !!! Solve the warnings and commit again.'`,

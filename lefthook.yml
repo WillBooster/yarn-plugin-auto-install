@@ -10,7 +10,7 @@ pre-commit:
   commands:
     cleanup:
       glob: '*.{cjs,css,cts,htm,html,js,json,json5,jsonc,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}'
-      run: yarn lint-staged
+      run: yarn run cleanup && git add {staged_files}
     check-migrations:
       glob: '**/migration.sql'
       run: |-
