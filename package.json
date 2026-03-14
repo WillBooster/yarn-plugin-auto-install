@@ -41,7 +41,7 @@
     "@yarnpkg/core": "4.5.0",
     "build-ts": "17.0.21",
     "conventional-changelog-conventionalcommits": "9.3.0",
-    "eslint": "9.39.2",
+    "eslint": "^9",
     "eslint-config-flat-gitignore": "2.2.1",
     "eslint-config-prettier": "10.1.8",
     "eslint-import-resolver-typescript": "4.4.4",
