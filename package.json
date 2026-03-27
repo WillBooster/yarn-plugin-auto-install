@@ -38,7 +38,7 @@
     "@types/node": "24.12.0",
     "@willbooster/eslint-config-ts": "11.4.12",
     "@willbooster/prettier-config": "10.2.4",
-    "@yarnpkg/core": "4.5.0",
+    "@yarnpkg/core": "4.6.0",
     "build-ts": "17.0.22",
     "conventional-changelog-conventionalcommits": "9.3.0",
     "eslint": "9.39.2",
@@ -61,7 +61,7 @@
     "typescript": "5.9.3",
     "typescript-eslint": "8.57.0"
   },
-  "packageManager": "yarn@4.12.0",
+  "packageManager": "yarn@4.13.0",
   "publishConfig": {
     "access": "public"
   }
