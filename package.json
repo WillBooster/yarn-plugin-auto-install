@@ -9,7 +9,10 @@
     "install",
     "automation"
   ],
-  "repository": "github:WillBooster/yarn-plugin-auto-install",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillBooster/yarn-plugin-auto-install.git"
+  },
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
   "type": "module",
@@ -32,17 +35,20 @@
   },
   "prettier": "@willbooster/prettier-config",
   "devDependencies": {
+    "@eslint/js": "10.0.1",
     "@semantic-release/exec": "7.1.0",
+    "@tsconfig/node-lts": "24.0.0",
+    "@tsconfig/node-ts": "23.6.4",
     "@types/eslint": "9.6.1",
     "@types/micromatch": "4.0.10",
     "@types/node": "24.12.0",
-    "@willbooster/eslint-config-ts": "11.4.12",
-    "@willbooster/prettier-config": "10.2.4",
+    "@willbooster/eslint-config-ts": "11.5.0",
+    "@willbooster/prettier-config": "10.3.0",
     "@yarnpkg/core": "4.6.0",
     "build-ts": "17.0.22",
     "conventional-changelog-conventionalcommits": "9.3.0",
-    "eslint": "9.39.2",
-    "eslint-config-flat-gitignore": "2.2.1",
+    "eslint": "10.1.0",
+    "eslint-config-flat-gitignore": "2.3.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-import-resolver-typescript": "4.4.4",
     "eslint-plugin-import-x": "4.16.2",
@@ -58,8 +64,8 @@
     "prettier-plugin-java": "2.8.1",
     "semantic-release": "25.0.3",
     "sort-package-json": "3.6.1",
-    "typescript": "5.9.3",
-    "typescript-eslint": "8.57.1"
+    "typescript": "^5",
+    "typescript-eslint": "8.57.2"
   },
   "packageManager": "yarn@4.13.0",
   "publishConfig": {

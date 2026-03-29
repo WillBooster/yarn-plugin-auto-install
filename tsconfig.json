@@ -18,5 +18,6 @@
     "typeRoots": ["./node_modules/@types", "./@types"]
   },
   "exclude": ["test/fixtures"],
+  "extends": ["@tsconfig/node-lts/tsconfig.json", "@tsconfig/node-ts/tsconfig.json"],
   "include": ["scripts/**/*", "src/**/*", "test/**/*"]
 }
