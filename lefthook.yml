@@ -9,8 +9,34 @@ pre-push:
 pre-commit:
   commands:
     cleanup:
-      glob: '*.{cjs,css,cts,htm,html,js,json,json5,jsonc,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}'
-      run: yarn lint-staged
+      glob: '**/*.{astro,cjs,css,cts,gql,graphql,hbs,htm,html,java,js,json,json5,jsonc,jsx,less,md,mdx,mjs,mts,scss,svelte,toml,ts,tsx,vue,yaml,yml}'
+      run: |-
+        oxlint_files="$(printf '%s\n' {staged_files} | grep -E '(\.astro$|\.cjs$|\.cts$|\.js$|\.jsx$|\.mjs$|\.mts$|\.svelte$|\.ts$|\.tsx$|\.vue$)' || true)"
+        oxfmt_files="$(printf '%s\n' {staged_files} | grep -E '(\.astro$|\.cjs$|\.css$|\.cts$|\.gql$|\.graphql$|\.hbs$|\.htm$|\.html$|\.js$|\.json$|\.json5$|\.jsonc$|\.jsx$|\.less$|\.md$|\.mdx$|\.mjs$|\.mts$|\.scss$|\.svelte$|\.toml$|\.ts$|\.tsx$|\.vue$|\.yaml$|\.yml$)' || true)"
+        prettier_files="$(printf '%s\n' {staged_files} | grep -E '(\.java$)' || true)"
+        package_json_files="$(printf '%s\n' {staged_files} | grep -E '(^|/)package\.json$' || true)"
+
+
+
+
+        if [ -n "$oxfmt_files" ]; then
+          node node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $oxfmt_files
+        fi
+
+        if [ -n "$prettier_files" ]; then
+          node node_modules/.bin/prettier --cache --write --ignore-unknown -- $prettier_files
+        fi
+
+        if [ -n "$oxlint_files" ]; then
+          node node_modules/.bin/oxlint --fix $oxlint_files
+        fi
+
+        if [ -n "$package_json_files" ]; then
+          node node_modules/.bin/sort-package-json -- $package_json_files
+        fi
+
+
+        git add -- {staged_files}
     check-migrations:
       glob: '**/migration.sql'
       run: |-
