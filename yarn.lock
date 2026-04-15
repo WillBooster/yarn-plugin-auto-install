@@ -3071,13 +3071,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/prettier-config@npm:10.3.0":
-  version: 10.3.0
-  resolution: "@willbooster/prettier-config@npm:10.3.0"
+"@willbooster/prettier-config@npm:10.4.0":
+  version: 10.4.0
+  resolution: "@willbooster/prettier-config@npm:10.4.0"
   peerDependencies:
     prettier: ">=3"
     prettier-plugin-java: ">=2.6"
-  checksum: 10c0/f2bc8aa3a8b64a734b354c8eb54107d5c3fe957fc519bba9b00abdd6e93e4b70c88363a0e53dcec745be62ba6688f78d3d52fc0c13ddb9c763d314f019e4bae7
+  checksum: 10c0/37c25f8664d13ab5caf25f57545cbbec4f8005c812ee45d291f2e7ab7ab040c3bcd7ecf1c05c0872da884e044f6139413336fb158777649e249913efe176945f
   languageName: node
   linkType: hard
 
@@ -8280,7 +8280,7 @@ __metadata:
     "@typescript/native-preview": "npm:7.0.0-dev.20260415.1"
     "@willbooster/oxfmt-config": "npm:1.2.0"
     "@willbooster/oxlint-config": "npm:1.4.2"
-    "@willbooster/prettier-config": "npm:10.3.0"
+    "@willbooster/prettier-config": "npm:10.4.0"
     "@yarnpkg/core": "npm:4.6.0"
     build-ts: "npm:17.0.24"
     conventional-changelog-conventionalcommits: "npm:9.3.1"

@@ -45,7 +45,7 @@
     "@typescript/native-preview": "7.0.0-dev.20260415.1",
     "@willbooster/oxfmt-config": "1.2.0",
     "@willbooster/oxlint-config": "1.4.2",
-    "@willbooster/prettier-config": "10.3.0",
+    "@willbooster/prettier-config": "10.4.0",
     "@yarnpkg/core": "4.6.0",
     "build-ts": "17.0.24",
     "conventional-changelog-conventionalcommits": "9.3.1",
