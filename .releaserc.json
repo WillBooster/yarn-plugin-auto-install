@@ -1,19 +1,33 @@
 {
   "branches": ["main"],
   "plugins": [
-    ["@semantic-release/commit-analyzer", { "preset": "conventionalcommits" }],
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "conventionalcommits"
+      }
+    ],
     "@semantic-release/release-notes-generator",
     "@semantic-release/npm",
     [
       "@semantic-release/github",
       {
-        "assets": [{ "path": "dist/index.cjs" }],
+        "assets": [
+          {
+            "path": "dist/index.cjs"
+          }
+        ],
         "labels": ["r: semantic-release"],
         "releasedLabels": ["released :bookmark:"],
         "successCommentCondition": false,
         "failCommentCondition": false
       }
     ],
-    ["@semantic-release/exec", { "prepareCmd": "scripts/build.sh ${nextRelease.version}" }]
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "scripts/build.sh ${nextRelease.version}"
+      }
+    ]
   ]
 }

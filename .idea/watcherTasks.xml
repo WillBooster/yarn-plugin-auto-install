@@ -2,13 +2,33 @@
 <project version="4">
   <component name="ProjectTasksOptions">
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="astro" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.astro)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="cjs" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.cjs)" />
+      <option name="name" value="Oxfmt (.cjs)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
@@ -22,13 +42,13 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="css" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.css)" />
+      <option name="name" value="Oxfmt (.css)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
@@ -42,13 +62,13 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="cts" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.cts)" />
+      <option name="name" value="Oxfmt (.cts)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
@@ -62,13 +82,73 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="gql" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.gql)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="graphql" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.graphql)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="hbs" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.hbs)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="htm" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.htm)" />
+      <option name="name" value="Oxfmt (.htm)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
@@ -82,13 +162,13 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="html" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.html)" />
+      <option name="name" value="Oxfmt (.html)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
@@ -101,6 +181,367 @@
       <option name="workingDir" value="$ProjectFileDir$" />
       <envs />
     </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.js)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="json" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.json)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="json5" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.json5)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="jsonc" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.jsonc)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="jsx" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.jsx)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="less" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.less)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="md" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.md)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="mdx" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.mdx)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="mjs" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.mjs)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="mts" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.mts)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="scss" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.scss)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="svelte" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.svelte)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="toml" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.toml)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="ts" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.ts)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="tsx" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.tsx)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="vue" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.vue)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="yaml" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.yaml)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="yml" />
+      <option name="immediateSync" value="false" />
+      <option name="name" value="Oxfmt (.yml)" />
+      <option name="output" value="$FilePathRelativeToProjectRoot$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="node" />
+      <option name="runOnExternalChanges" value="false" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+
     <TaskOptions isEnabled="true">
       <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
@@ -109,286 +550,6 @@
       <option name="fileExtension" value="java" />
       <option name="immediateSync" value="false" />
       <option name="name" value="Prettier (.java)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="node" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="js" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.js)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="node" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="json" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.json)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="node" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="json5" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.json5)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="node" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="jsonc" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.jsonc)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="node" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="jsx" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.jsx)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="node" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="md" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.md)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="node" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="mjs" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.mjs)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="node" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="mts" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.mts)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="node" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="scss" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.scss)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="node" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="ts" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.ts)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="node" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="tsx" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.tsx)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="node" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="vue" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.vue)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="node" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="yaml" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.yaml)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="node" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="node_modules/.bin/prettier --cache --write $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="yml" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Prettier (.yml)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />

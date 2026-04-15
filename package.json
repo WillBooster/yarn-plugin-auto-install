@@ -3,66 +3,61 @@
   "version": "0.0.0-semantically-released",
   "description": "A yarn (berry) plugin for running `yarn install` automatically.",
   "keywords": [
-    "yarn",
+    "automation",
     "berry",
-    "zero-installs",
     "install",
-    "automation"
+    "yarn",
+    "zero-installs"
   ],
-  "repository": "github:WillBooster/yarn-plugin-auto-install",
   "license": "Apache-2.0",
   "author": "WillBooster Inc.",
-  "type": "module",
-  "main": "dist/index.cjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillBooster/yarn-plugin-auto-install.git"
+  },
   "bin": "./bin/install-plugin.cjs",
   "files": [
     "bin/"
   ],
+  "type": "module",
+  "main": "dist/index.cjs",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "build-ts app -m cjs --inline VERSION && mv dist/index.js dist/index.cjs && cp dist/index.cjs .yarn/plugins/plugin-auto-install.cjs",
     "check-all-for-ai": "yarn check-for-ai && yarn test",
-    "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true && yarn typecheck && yarn lint-fix --quiet",
+    "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true && yarn lint-fix --quiet",
     "cleanup": "yarn format && yarn lint-fix",
-    "format": "sort-package-json && yarn prettify",
-    "lint": "eslint --color",
+    "format": "sort-package-json && yarn format-code && yarn prettify",
+    "format-code": "oxfmt --write --no-error-on-unmatched-pattern .",
+    "lint": "oxlint --no-error-on-unmatched-pattern .",
     "lint-fix": "yarn lint --fix",
     "prepare": "lefthook install || true",
-    "prettify": "prettier --cache --color --write \"**/{.*/,}*.{cjs,css,cts,htm,html,java,js,json,json5,jsonc,jsx,md,mjs,mts,scss,ts,tsx,vue,yaml,yml}\" \"!**/test{-,/}fixtures/**\" || true",
-    "typecheck": "tsc --noEmit"
+    "prettify": "prettier --cache --color --no-error-on-unmatched-pattern --write \"**/{.*/,}*.{java}\" \"!**/test{-,/}fixtures/**\" || true",
+    "typecheck": "tsgo --noEmit"
   },
-  "prettier": "@willbooster/prettier-config",
   "devDependencies": {
     "@semantic-release/exec": "7.1.0",
-    "@types/eslint": "9.6.1",
-    "@types/micromatch": "4.0.10",
+    "@tsconfig/node-lts": "24.0.0",
+    "@tsconfig/node-ts": "23.6.4",
     "@types/node": "24.12.0",
-    "@willbooster/eslint-config-ts": "11.5.0",
+    "@typescript/native-preview": "7.0.0-dev.20260415.1",
+    "@willbooster/oxfmt-config": "1.2.0",
+    "@willbooster/oxlint-config": "1.4.2",
     "@willbooster/prettier-config": "10.3.0",
     "@yarnpkg/core": "4.6.0",
     "build-ts": "17.0.24",
     "conventional-changelog-conventionalcommits": "9.3.1",
-    "eslint": "9.39.2",
-    "eslint-config-flat-gitignore": "2.3.0",
-    "eslint-config-prettier": "10.1.8",
-    "eslint-import-resolver-typescript": "4.4.4",
-    "eslint-plugin-import-x": "4.16.2",
-    "eslint-plugin-sort-class-members": "1.21.0",
-    "eslint-plugin-sort-destructure-keys": "3.0.0",
-    "eslint-plugin-unicorn": "64.0.0",
-    "eslint-plugin-unused-imports": "4.4.1",
-    "globals": "17.4.0",
     "lefthook": "2.1.4",
-    "lint-staged": "16.4.0",
-    "micromatch": "4.0.8",
+    "oxfmt": "0.45.0",
+    "oxlint": "1.60.0",
+    "oxlint-tsgolint": "0.21.0",
     "prettier": "3.8.1",
     "prettier-plugin-java": "2.8.1",
     "semantic-release": "25.0.3",
-    "sort-package-json": "3.6.1",
-    "typescript": "5.9.3",
-    "typescript-eslint": "8.57.2"
+    "sort-package-json": "3.6.1"
   },
-  "packageManager": "yarn@4.13.0",
-  "publishConfig": {
-    "access": "public"
-  }
+  "prettier": "@willbooster/prettier-config",
+  "packageManager": "yarn@4.13.0"
 }
