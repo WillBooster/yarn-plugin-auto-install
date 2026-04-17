@@ -1,14 +1,17 @@
+glob_matcher: doublestar
 post-merge:
-  scripts:
-    prepare.sh:
+  jobs:
+    - name: prepare
+      script: prepare.sh
       runner: bash
 pre-push:
-  scripts:
-    check.sh:
+  jobs:
+    - name: check
+      script: check.sh
       runner: bash
 pre-commit:
-  commands:
-    cleanup:
+  jobs:
+    - name: cleanup
       glob: '**/*.{astro,cjs,css,cts,gql,graphql,hbs,htm,html,java,js,json,json5,jsonc,jsx,less,md,mdx,mjs,mts,scss,svelte,toml,ts,tsx,vue,yaml,yml}'
       run: |-
         oxlint_files="$(printf '%s\n' {staged_files} | grep -E '(\.astro$|\.cjs$|\.cts$|\.js$|\.jsx$|\.mjs$|\.mts$|\.svelte$|\.ts$|\.tsx$|\.vue$)' || true)"
@@ -34,13 +37,15 @@ pre-commit:
         if [ -n "$package_json_files" ]; then
           node node_modules/.bin/sort-package-json -- $package_json_files
         fi
-
-
-        git add -- {staged_files}
-    check-migrations:
+      stage_fixed: true
+    - name: check-migrations
       glob: '**/migration.sql'
       run: |-
-        if grep -q 'Warnings:' {staged_files}; then
-          echo "Migration SQL files ({staged_files}) contain warnings! Please solve the warnings and commit again."
-          exit 1
-        fi
+        failed=0
+        for file in {staged_files}; do
+          if grep -q 'Warnings:' "$file"; then
+            echo "Migration SQL file ($file) contains warnings! Please solve the warnings and commit again."
+            failed=1
+          fi
+        done
+        exit "$failed"
