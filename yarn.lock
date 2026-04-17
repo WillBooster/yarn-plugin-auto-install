@@ -3098,12 +3098,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/oxfmt-config@npm:1.2.0":
-  version: 1.2.0
-  resolution: "@willbooster/oxfmt-config@npm:1.2.0"
+"@willbooster/oxfmt-config@npm:1.2.1":
+  version: 1.2.1
+  resolution: "@willbooster/oxfmt-config@npm:1.2.1"
   peerDependencies:
     oxfmt: ">=0.42.0"
-  checksum: 10c0/8f8c02d8a5f5e3c6cad392afd270d18e466090c63845fdfb1223ffc38cf766db268b121b31caef6533420fe89a3081186177f4fa36e3812c1b947ffda34b5eed
+  checksum: 10c0/655d0bf232ccac7f0fbbbe7ae9f3f42169d0a69706f5ef30ad517a84a9f1091e6f842a7115439c91e8687501642f0b0c57ca83aaf039e769b04a7fad9568e354
   languageName: node
   linkType: hard
 
@@ -8156,7 +8156,7 @@ __metadata:
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:24.12.2"
     "@typescript/native-preview": "npm:7.0.0-dev.20260417.1"
-    "@willbooster/oxfmt-config": "npm:1.2.0"
+    "@willbooster/oxfmt-config": "npm:1.2.1"
     "@willbooster/oxlint-config": "npm:1.4.4"
     "@willbooster/prettier-config": "npm:10.4.0"
     "@yarnpkg/core": "npm:4.6.0"
