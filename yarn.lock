@@ -1317,48 +1317,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chevrotain/cst-dts-gen@npm:11.0.3":
-  version: 11.0.3
-  resolution: "@chevrotain/cst-dts-gen@npm:11.0.3"
-  dependencies:
-    "@chevrotain/gast": "npm:11.0.3"
-    "@chevrotain/types": "npm:11.0.3"
-    lodash-es: "npm:4.17.21"
-  checksum: 10c0/9e945a0611386e4e08af34c2d0b3af36c1af08f726b58145f11310f2aeafcb2d65264c06ec65a32df6b6a65771e6a55be70580c853afe3ceb51487e506967104
-  languageName: node
-  linkType: hard
-
-"@chevrotain/gast@npm:11.0.3":
-  version: 11.0.3
-  resolution: "@chevrotain/gast@npm:11.0.3"
-  dependencies:
-    "@chevrotain/types": "npm:11.0.3"
-    lodash-es: "npm:4.17.21"
-  checksum: 10c0/54fc44d7b4a7b0323f49d957dd88ad44504922d30cb226d93b430b0e09925efe44e0726068581d777f423fabfb878a2238ed2c87b690c0c0014ebd12b6968354
-  languageName: node
-  linkType: hard
-
-"@chevrotain/regexp-to-ast@npm:11.0.3":
-  version: 11.0.3
-  resolution: "@chevrotain/regexp-to-ast@npm:11.0.3"
-  checksum: 10c0/6939c5c94fbfb8c559a4a37a283af5ded8e6147b184a7d7bcf5ad1404d9d663c78d81602bd8ea8458ec497358a9e1671541099c511835d0be2cad46f00c62b3f
-  languageName: node
-  linkType: hard
-
-"@chevrotain/types@npm:11.0.3":
-  version: 11.0.3
-  resolution: "@chevrotain/types@npm:11.0.3"
-  checksum: 10c0/72fe8f0010ebef848e47faea14a88c6fdc3cdbafaef6b13df4a18c7d33249b1b675e37b05cb90a421700c7016dae7cd4187ab6b549e176a81cea434f69cd2503
-  languageName: node
-  linkType: hard
-
-"@chevrotain/utils@npm:11.0.3":
-  version: 11.0.3
-  resolution: "@chevrotain/utils@npm:11.0.3"
-  checksum: 10c0/b31972d1b2d444eef1499cf9b7576fc1793e8544910de33a3c18e07c270cfad88067f175d0ee63e7bc604713ebed647f8190db45cc8311852cd2d4fe2ef14068
-  languageName: node
-  linkType: hard
-
 "@colors/colors@npm:1.5.0":
   version: 1.5.0
   resolution: "@colors/colors@npm:1.5.0"
@@ -2936,115 +2894,115 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260410.1":
-  version: 7.0.0-dev.20260410.1
-  resolution: "@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260410.1"
+"@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260413.1":
+  version: 7.0.0-dev.20260413.1
+  resolution: "@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260413.1"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260417.1":
-  version: 7.0.0-dev.20260417.1
-  resolution: "@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260417.1"
+"@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260418.1":
+  version: 7.0.0-dev.20260418.1
+  resolution: "@typescript/native-preview-darwin-arm64@npm:7.0.0-dev.20260418.1"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260410.1":
-  version: 7.0.0-dev.20260410.1
-  resolution: "@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260410.1"
+"@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260413.1":
+  version: 7.0.0-dev.20260413.1
+  resolution: "@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260413.1"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260417.1":
-  version: 7.0.0-dev.20260417.1
-  resolution: "@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260417.1"
+"@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260418.1":
+  version: 7.0.0-dev.20260418.1
+  resolution: "@typescript/native-preview-darwin-x64@npm:7.0.0-dev.20260418.1"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260410.1":
-  version: 7.0.0-dev.20260410.1
-  resolution: "@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260410.1"
+"@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260413.1":
+  version: 7.0.0-dev.20260413.1
+  resolution: "@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260413.1"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260417.1":
-  version: 7.0.0-dev.20260417.1
-  resolution: "@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260417.1"
+"@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260418.1":
+  version: 7.0.0-dev.20260418.1
+  resolution: "@typescript/native-preview-linux-arm64@npm:7.0.0-dev.20260418.1"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260410.1":
-  version: 7.0.0-dev.20260410.1
-  resolution: "@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260410.1"
+"@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260413.1":
+  version: 7.0.0-dev.20260413.1
+  resolution: "@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260413.1"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260417.1":
-  version: 7.0.0-dev.20260417.1
-  resolution: "@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260417.1"
+"@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260418.1":
+  version: 7.0.0-dev.20260418.1
+  resolution: "@typescript/native-preview-linux-arm@npm:7.0.0-dev.20260418.1"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260410.1":
-  version: 7.0.0-dev.20260410.1
-  resolution: "@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260410.1"
+"@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260413.1":
+  version: 7.0.0-dev.20260413.1
+  resolution: "@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260413.1"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260417.1":
-  version: 7.0.0-dev.20260417.1
-  resolution: "@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260417.1"
+"@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260418.1":
+  version: 7.0.0-dev.20260418.1
+  resolution: "@typescript/native-preview-linux-x64@npm:7.0.0-dev.20260418.1"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260410.1":
-  version: 7.0.0-dev.20260410.1
-  resolution: "@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260410.1"
+"@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260413.1":
+  version: 7.0.0-dev.20260413.1
+  resolution: "@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260413.1"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260417.1":
-  version: 7.0.0-dev.20260417.1
-  resolution: "@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260417.1"
+"@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260418.1":
+  version: 7.0.0-dev.20260418.1
+  resolution: "@typescript/native-preview-win32-arm64@npm:7.0.0-dev.20260418.1"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260410.1":
-  version: 7.0.0-dev.20260410.1
-  resolution: "@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260410.1"
+"@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260413.1":
+  version: 7.0.0-dev.20260413.1
+  resolution: "@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260413.1"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260417.1":
-  version: 7.0.0-dev.20260417.1
-  resolution: "@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260417.1"
+"@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260418.1":
+  version: 7.0.0-dev.20260418.1
+  resolution: "@typescript/native-preview-win32-x64@npm:7.0.0-dev.20260418.1"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@typescript/native-preview@npm:7.0.0-dev.20260410.1":
-  version: 7.0.0-dev.20260410.1
-  resolution: "@typescript/native-preview@npm:7.0.0-dev.20260410.1"
+"@typescript/native-preview@npm:7.0.0-dev.20260413.1":
+  version: 7.0.0-dev.20260413.1
+  resolution: "@typescript/native-preview@npm:7.0.0-dev.20260413.1"
   dependencies:
-    "@typescript/native-preview-darwin-arm64": "npm:7.0.0-dev.20260410.1"
-    "@typescript/native-preview-darwin-x64": "npm:7.0.0-dev.20260410.1"
-    "@typescript/native-preview-linux-arm": "npm:7.0.0-dev.20260410.1"
-    "@typescript/native-preview-linux-arm64": "npm:7.0.0-dev.20260410.1"
-    "@typescript/native-preview-linux-x64": "npm:7.0.0-dev.20260410.1"
-    "@typescript/native-preview-win32-arm64": "npm:7.0.0-dev.20260410.1"
-    "@typescript/native-preview-win32-x64": "npm:7.0.0-dev.20260410.1"
+    "@typescript/native-preview-darwin-arm64": "npm:7.0.0-dev.20260413.1"
+    "@typescript/native-preview-darwin-x64": "npm:7.0.0-dev.20260413.1"
+    "@typescript/native-preview-linux-arm": "npm:7.0.0-dev.20260413.1"
+    "@typescript/native-preview-linux-arm64": "npm:7.0.0-dev.20260413.1"
+    "@typescript/native-preview-linux-x64": "npm:7.0.0-dev.20260413.1"
+    "@typescript/native-preview-win32-arm64": "npm:7.0.0-dev.20260413.1"
+    "@typescript/native-preview-win32-x64": "npm:7.0.0-dev.20260413.1"
   dependenciesMeta:
     "@typescript/native-preview-darwin-arm64":
       optional: true
@@ -3062,21 +3020,21 @@ __metadata:
       optional: true
   bin:
     tsgo: bin/tsgo.js
-  checksum: 10c0/4b5598aa58193b696dfc9ef3dce10b978144e45932d925291f7f92d9a82555dbb29d7c1d08b1474990393c8779559fa66e26decc88f5a72f6f0b9af40449ebd3
+  checksum: 10c0/572b2aa8e07e0716e4a35ffe772d88db757d251ea2f9bb1b5ecdd8efba7de90671e0ac09277ab74aee7e647fa52d25ae23066c6c6e4a69ead885a698bf406f4c
   languageName: node
   linkType: hard
 
-"@typescript/native-preview@npm:7.0.0-dev.20260417.1":
-  version: 7.0.0-dev.20260417.1
-  resolution: "@typescript/native-preview@npm:7.0.0-dev.20260417.1"
+"@typescript/native-preview@npm:7.0.0-dev.20260418.1":
+  version: 7.0.0-dev.20260418.1
+  resolution: "@typescript/native-preview@npm:7.0.0-dev.20260418.1"
   dependencies:
-    "@typescript/native-preview-darwin-arm64": "npm:7.0.0-dev.20260417.1"
-    "@typescript/native-preview-darwin-x64": "npm:7.0.0-dev.20260417.1"
-    "@typescript/native-preview-linux-arm": "npm:7.0.0-dev.20260417.1"
-    "@typescript/native-preview-linux-arm64": "npm:7.0.0-dev.20260417.1"
-    "@typescript/native-preview-linux-x64": "npm:7.0.0-dev.20260417.1"
-    "@typescript/native-preview-win32-arm64": "npm:7.0.0-dev.20260417.1"
-    "@typescript/native-preview-win32-x64": "npm:7.0.0-dev.20260417.1"
+    "@typescript/native-preview-darwin-arm64": "npm:7.0.0-dev.20260418.1"
+    "@typescript/native-preview-darwin-x64": "npm:7.0.0-dev.20260418.1"
+    "@typescript/native-preview-linux-arm": "npm:7.0.0-dev.20260418.1"
+    "@typescript/native-preview-linux-arm64": "npm:7.0.0-dev.20260418.1"
+    "@typescript/native-preview-linux-x64": "npm:7.0.0-dev.20260418.1"
+    "@typescript/native-preview-win32-arm64": "npm:7.0.0-dev.20260418.1"
+    "@typescript/native-preview-win32-x64": "npm:7.0.0-dev.20260418.1"
   dependenciesMeta:
     "@typescript/native-preview-darwin-arm64":
       optional: true
@@ -3094,7 +3052,7 @@ __metadata:
       optional: true
   bin:
     tsgo: bin/tsgo.js
-  checksum: 10c0/a6ab152d4aa5ac2033e053240658d15da1bda2acb9ef87f0250b5c78526a1e7ce59449c80ba46fed62382aed13b30ae0cc892bcf7ccaf7115321131e34e4cc82
+  checksum: 10c0/a97d905a15648fbc01d40ec57fa6d00a4fbcdd3565c36b0673915c686278a0c6227cd1b8a8ff0ab9ccf274a7ec7c45fc7261649e2e9cff5c334e6a6b4b28326f
   languageName: node
   linkType: hard
 
@@ -3117,23 +3075,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/prettier-config@npm:10.4.0":
-  version: 10.4.0
-  resolution: "@willbooster/prettier-config@npm:10.4.0"
-  peerDependencies:
-    prettier: ">=3"
-    prettier-plugin-java: ">=2.6"
-  checksum: 10c0/37c25f8664d13ab5caf25f57545cbbec4f8005c812ee45d291f2e7ab7ab040c3bcd7ecf1c05c0872da884e044f6139413336fb158777649e249913efe176945f
-  languageName: node
-  linkType: hard
-
-"@willbooster/shared-lib-node@npm:8.3.2":
-  version: 8.3.2
-  resolution: "@willbooster/shared-lib-node@npm:8.3.2"
+"@willbooster/shared-lib-node@npm:8.5.5":
+  version: 8.5.5
+  resolution: "@willbooster/shared-lib-node@npm:8.5.5"
   dependencies:
-    dotenv: "npm:17.3.1"
+    dotenv: "npm:17.4.2"
     dotenv-expand: "npm:12.0.3"
-  checksum: 10c0/83e6d82793d649c81a36f70bd3e347a08d8ee4098a8c7f9415a3a7021a00dc6b15e8c84de4fe864a9516bf22a9c79a83d36f604a78c221d95c02ad1caccba5b9
+  checksum: 10c0/2dfff0dde7c87f0d916e34b772ce053cc6dddf56e874215b2f56d7bbf146b41b803d6a5a03f57bd56fc55d787c5004606418987ccabf8ab53989a3d26ec82449
   languageName: node
   linkType: hard
 
@@ -3508,9 +3456,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"build-ts@npm:17.1.0":
-  version: 17.1.0
-  resolution: "build-ts@npm:17.1.0"
+"build-ts@npm:17.1.6":
+  version: 17.1.6
+  resolution: "build-ts@npm:17.1.6"
   dependencies:
     "@babel/core": "npm:7.29.0"
     "@babel/plugin-proposal-decorators": "npm:7.29.0"
@@ -3527,8 +3475,8 @@ __metadata:
     "@rollup/plugin-replace": "npm:6.0.3"
     "@rollup/plugin-terser": "npm:1.0.0"
     "@rollup/pluginutils": "npm:5.3.0"
-    "@typescript/native-preview": "npm:7.0.0-dev.20260410.1"
-    "@willbooster/shared-lib-node": "npm:8.3.2"
+    "@typescript/native-preview": "npm:7.0.0-dev.20260413.1"
+    "@willbooster/shared-lib-node": "npm:8.5.5"
     babel-plugin-polyfill-corejs3: "npm:0.14.2"
     babel-plugin-transform-remove-console: "npm:6.9.4"
     chalk: "npm:5.6.2"
@@ -3539,7 +3487,7 @@ __metadata:
     rollup: "npm:4.60.1"
     rollup-plugin-analyzer: "npm:4.0.0"
     rollup-plugin-keep-import: "npm:1.0.3"
-    rollup-plugin-node-externals: "npm:8.1.2"
+    rollup-plugin-node-externals: "npm:9.0.0"
     rollup-plugin-preserve-directives: "npm:0.4.0"
     rollup-plugin-string: "npm:3.0.0"
     signal-exit: "npm:4.1.0"
@@ -3547,7 +3495,7 @@ __metadata:
     yargs: "npm:18.0.0"
   bin:
     build-ts: bin/index.js
-  checksum: 10c0/b5f34c71991925bb7cb262e84acbb99ac3409766e9badf8c09d0a0cdaf21e50607253a27969541669d33814d12c49e9988a507229123cc0273cf687f6208acfa
+  checksum: 10c0/13fc6a574f4170481c1e64283f4b7fe796e3952098adedec5896c96fd01d5a396f16e07185dd02f5f3ac7e8917f0b4234852e3bf42a825e2dc7f1bee0d3f8e19
   languageName: node
   linkType: hard
 
@@ -3644,31 +3592,6 @@ __metadata:
   version: 1.0.2
   resolution: "char-regex@npm:1.0.2"
   checksum: 10c0/57a09a86371331e0be35d9083ba429e86c4f4648ecbe27455dbfb343037c16ee6fdc7f6b61f433a57cc5ded5561d71c56a150e018f40c2ffb7bc93a26dae341e
-  languageName: node
-  linkType: hard
-
-"chevrotain-allstar@npm:0.3.1":
-  version: 0.3.1
-  resolution: "chevrotain-allstar@npm:0.3.1"
-  dependencies:
-    lodash-es: "npm:^4.17.21"
-  peerDependencies:
-    chevrotain: ^11.0.0
-  checksum: 10c0/5cadedffd3114eb06b15fd3939bb1aa6c75412dbd737fe302b52c5c24334f9cb01cee8edc1d1067d98ba80dddf971f1d0e94b387de51423fc6cf3c5d8b7ef27a
-  languageName: node
-  linkType: hard
-
-"chevrotain@npm:11.0.3":
-  version: 11.0.3
-  resolution: "chevrotain@npm:11.0.3"
-  dependencies:
-    "@chevrotain/cst-dts-gen": "npm:11.0.3"
-    "@chevrotain/gast": "npm:11.0.3"
-    "@chevrotain/regexp-to-ast": "npm:11.0.3"
-    "@chevrotain/types": "npm:11.0.3"
-    "@chevrotain/utils": "npm:11.0.3"
-    lodash-es: "npm:4.17.21"
-  checksum: 10c0/ffd425fa321e3f17e9833d7f44cd39f2743f066e92ca74b226176080ca5d455f853fe9091cdfd86354bd899d85c08b3bdc3f55b267e7d07124b048a88349765f
   languageName: node
   linkType: hard
 
@@ -4108,10 +4031,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:17.3.1":
-  version: 17.3.1
-  resolution: "dotenv@npm:17.3.1"
-  checksum: 10c0/c78e0c2d5a549c751e544cc60e2b95e7cb67e0c551f42e094d161c6b297aa44b630a3c2dcacf5569e529a6c2a6b84e2ab9be8d37b299d425df5a18b81ce4a35f
+"dotenv@npm:17.4.2":
+  version: 17.4.2
+  resolution: "dotenv@npm:17.4.2"
+  checksum: 10c0/164f8e77a646c8446867d5b588d26ea6005c8ea7c5eb41cf926f6113d23f2191355f6e0cfd95ea9bab98394a5b0a3f1e51a8399711b666fe55cc7b0bd745f942
   languageName: node
   linkType: hard
 
@@ -5102,17 +5025,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"java-parser@npm:3.0.1":
-  version: 3.0.1
-  resolution: "java-parser@npm:3.0.1"
-  dependencies:
-    chevrotain: "npm:11.0.3"
-    chevrotain-allstar: "npm:0.3.1"
-    lodash: "npm:4.17.21"
-  checksum: 10c0/9b60f1132b65785fe4f4c10785fc1638a4092aecf222f63706c119425d0ffb676b7229390abe289082cf837cd470df63f9b9383743d470816fa170240f8b1e22
-  languageName: node
-  linkType: hard
-
 "java-properties@npm:^1.0.2":
   version: 1.0.2
   resolution: "java-properties@npm:1.0.2"
@@ -5518,13 +5430,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash-es@npm:4.17.21":
-  version: 4.17.21
-  resolution: "lodash-es@npm:4.17.21"
-  checksum: 10c0/fb407355f7e6cd523a9383e76e6b455321f0f153a6c9625e21a8827d10c54c2a2341bd2ae8d034358b60e07325e1330c14c224ff582d04612a46a4f0479ff2f2
-  languageName: node
-  linkType: hard
-
 "lodash-es@npm:^4.17.21":
   version: 4.18.1
   resolution: "lodash-es@npm:4.18.1"
@@ -5571,13 +5476,6 @@ __metadata:
   version: 4.7.0
   resolution: "lodash.uniqby@npm:4.7.0"
   checksum: 10c0/c505c0de20ca759599a2ba38710e8fb95ff2d2028e24d86c901ef2c74be8056518571b9b754bfb75053b2818d30dd02243e4a4621a6940c206bbb3f7626db656
-  languageName: node
-  linkType: hard
-
-"lodash@npm:4.17.21":
-  version: 4.17.21
-  resolution: "lodash@npm:4.17.21"
-  checksum: 10c0/d8cbea072bb08655bb4c989da418994b073a608dffa608b09ac04b43a791b12aeae7cd7ad919aa4c925f33b48490b5cfe6c1f71d827956071dae2e7bb3a6b74c
   languageName: node
   linkType: hard
 
@@ -6656,26 +6554,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-java@npm:2.8.1":
-  version: 2.8.1
-  resolution: "prettier-plugin-java@npm:2.8.1"
-  dependencies:
-    java-parser: "npm:3.0.1"
-  peerDependencies:
-    prettier: ^3.0.0
-  checksum: 10c0/85c8ded14a0aaf1df1d5367ebe0f18c9d7d7284780a13bd1e037ca0190ebc4d42e69a849ddd3a2440c4c14cc19fbeb3b57acec1a3cd61076e917a1432dd72c75
-  languageName: node
-  linkType: hard
-
-"prettier@npm:3.8.2":
-  version: 3.8.2
-  resolution: "prettier@npm:3.8.2"
-  bin:
-    prettier: bin/prettier.cjs
-  checksum: 10c0/2d64bd01d269c8dd6d8c423a2a2e1fb88230a53aac523204b327de40059ccf8bd8e6fe70b8ce6154b97ed4442e9fd878504ff8a5330f3a4f64bd13d1576f7652
-  languageName: node
-  linkType: hard
-
 "pretty-ms@npm:9.3.0, pretty-ms@npm:^9.2.0":
   version: 9.3.0
   resolution: "pretty-ms@npm:9.3.0"
@@ -7010,12 +6888,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-node-externals@npm:8.1.2":
-  version: 8.1.2
-  resolution: "rollup-plugin-node-externals@npm:8.1.2"
+"rollup-plugin-node-externals@npm:9.0.0":
+  version: 9.0.0
+  resolution: "rollup-plugin-node-externals@npm:9.0.0"
   peerDependencies:
     rollup: ^4.0.0
-  checksum: 10c0/ea37fb84e562c311b473f354e7ff98f8d19caf7c57b526ef6a29f1fab05880d291d2edd3c482dfedd27150a4133ebe914723ac9dc3165ce679ec00146a97df06
+    vite: ">=5.0.0"
+  peerDependenciesMeta:
+    rollup:
+      optional: true
+    vite:
+      optional: true
+  checksum: 10c0/041175999540985dcda9b3f0ad4d073b889d266e3dac4a0a825d5d7acb9b77c60bf3bf6ee0e22ec313af9f85a98f657652a3818d96ee8e4cc4f64c848b504ea1
   languageName: node
   linkType: hard
 
@@ -8155,19 +8039,16 @@ __metadata:
     "@tsconfig/node-lts": "npm:24.0.0"
     "@tsconfig/node-ts": "npm:23.6.4"
     "@types/node": "npm:24.12.2"
-    "@typescript/native-preview": "npm:7.0.0-dev.20260417.1"
+    "@typescript/native-preview": "npm:7.0.0-dev.20260418.1"
     "@willbooster/oxfmt-config": "npm:1.2.1"
     "@willbooster/oxlint-config": "npm:1.4.4"
-    "@willbooster/prettier-config": "npm:10.4.0"
     "@yarnpkg/core": "npm:4.6.0"
-    build-ts: "npm:17.1.0"
+    build-ts: "npm:17.1.6"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
     lefthook: "npm:2.1.5"
     oxfmt: "npm:0.45.0"
     oxlint: "npm:1.60.0"
     oxlint-tsgolint: "npm:0.21.0"
-    prettier: "npm:3.8.2"
-    prettier-plugin-java: "npm:2.8.1"
     semantic-release: "npm:25.0.3"
     sort-package-json: "npm:3.6.1"
   bin:
