@@ -50,7 +50,7 @@
     "lefthook": "2.1.5",
     "oxfmt": "0.45.0",
     "oxlint": "1.61.0",
-    "oxlint-tsgolint": "0.21.0",
+    "oxlint-tsgolint": "0.21.1",
     "semantic-release": "25.0.3",
     "sort-package-json": "3.6.1"
   },
