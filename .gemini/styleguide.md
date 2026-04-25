@@ -14,3 +14,5 @@ Review in English based on the following coding standards.
   - Avoid stating what can be easily understood from the code itself.
 - Prefer `undefined` over `null` unless explicitly required by APIs or libraries.
 - Prefer using a single template literal for prompts instead of `join()` with an array of strings.
+- Assume that all environment variables are properly defined.
+  - If validation is required, use `assert` to fail fast (e.g., during startup).
