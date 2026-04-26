@@ -16,7 +16,7 @@ pre-commit:
       run: |-
         # Lefthook expands {staged_files} as shell-escaped args, so paths with spaces stay intact.
         oxlint_files="$(printf '%s\n' {staged_files} | grep -E '(\.astro$|\.cjs$|\.cts$|\.js$|\.jsx$|\.mjs$|\.mts$|\.svelte$|\.ts$|\.tsx$|\.vue$)' || true)"
-        oxfmt_files="$(printf '%s\n' {staged_files} | grep -E '(\.astro$|\.cjs$|\.css$|\.cts$|\.gql$|\.graphql$|\.hbs$|\.htm$|\.html$|\.js$|\.json$|\.json5$|\.jsonc$|\.jsx$|\.less$|\.md$|\.mdx$|\.mjs$|\.mts$|\.scss$|\.svelte$|\.toml$|\.ts$|\.tsx$|\.vue$|\.yaml$|\.yml$)' || true)"
+        oxfmt_files="$(printf '%s\n' {staged_files} | grep -E '(\.astro$|\.cjs$|\.css$|\.cts$|\.gql$|\.graphql$|\.hbs$|\.htm$|\.html$|\.js$|\.json$|\.json5$|\.jsonc$|\.jsx$|\.less$|\.md$|\.mdx$|\.mjs$|\.mts$|\.scss$|\.svelte$|\.toml$|\.ts$|\.tsx$|\.vue$|\.yaml$|\.yml$)' | grep -v -E '(^|/)package\.json$' || true)"
 
         package_json_files="$(printf '%s\n' {staged_files} | grep -E '(^|/)package\.json$' || true)"
 
@@ -24,7 +24,7 @@ pre-commit:
 
 
         if [ -n "$oxfmt_files" ]; then
-          node node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern $oxfmt_files
+          node node_modules/.bin/oxfmt --write --no-error-on-unmatched-pattern '!**/package.json' $oxfmt_files
         fi
 
 

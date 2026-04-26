@@ -9,28 +9,25 @@
     "yarn",
     "zero-installs"
   ],
-  "license": "Apache-2.0",
-  "author": "WillBooster Inc.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WillBooster/yarn-plugin-auto-install.git"
   },
+  "license": "Apache-2.0",
+  "author": "WillBooster Inc.",
+  "type": "module",
+  "main": "dist/index.cjs",
   "bin": "./bin/install-plugin.cjs",
   "files": [
     "bin/"
   ],
-  "type": "module",
-  "main": "dist/index.cjs",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "build": "build-ts app -m cjs --inline VERSION && mv dist/index.js dist/index.cjs && cp dist/index.cjs .yarn/plugins/plugin-auto-install.cjs",
     "check-all-for-ai": "yarn check-for-ai && yarn test",
     "check-for-ai": "yarn install > /dev/null && yarn format > /dev/null 2> /dev/null || true && yarn lint-fix --quiet",
     "cleanup": "yarn format && yarn lint-fix",
     "format": "sort-package-json && yarn format-code",
-    "format-code": "oxfmt --write --no-error-on-unmatched-pattern .",
+    "format-code": "oxfmt --write --no-error-on-unmatched-pattern . '!**/package.json'",
     "lint": "oxlint --no-error-on-unmatched-pattern .",
     "lint-fix": "yarn lint --fix",
     "prepare": "lefthook install || true",
@@ -42,17 +39,20 @@
     "@tsconfig/node-ts": "23.6.4",
     "@types/node": "24.12.2",
     "@typescript/native-preview": "7.0.0-dev.20260421.2",
-    "@willbooster/oxfmt-config": "1.2.1",
-    "@willbooster/oxlint-config": "1.4.4",
+    "@willbooster/oxfmt-config": "1.2.2",
+    "@willbooster/oxlint-config": "1.4.5",
     "@yarnpkg/core": "4.7.0",
     "build-ts": "17.1.8",
     "conventional-changelog-conventionalcommits": "9.3.1",
     "lefthook": "2.1.6",
-    "oxfmt": "0.45.0",
+    "oxfmt": "0.46.0",
     "oxlint": "1.61.0",
-    "oxlint-tsgolint": "0.21.1",
+    "oxlint-tsgolint": "0.22.0",
     "semantic-release": "25.0.3",
     "sort-package-json": "3.6.1"
   },
-  "packageManager": "yarn@4.14.1"
+  "packageManager": "yarn@4.14.1",
+  "publishConfig": {
+    "access": "public"
+  }
 }
