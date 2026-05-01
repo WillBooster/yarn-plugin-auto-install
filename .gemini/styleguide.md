@@ -10,9 +10,10 @@ Review in English based on the following coding standards.
 - Place calling functions above the functions they call to maintain a clear top-down order.
   - e.g., `function caller() { callee(); } function callee() { ... }`
   - Unlike functions, place variable and type declarations ABOVE their usage.
-- Write comments that explain "why" and use JSDoc to explain "what".
+- Write comments and JSDoc for complex or hard-to-understand code.
+  - Explain "why" in comments and "what" in JSDoc.
   - Avoid stating what can be easily understood from the code itself.
 - Prefer `undefined` over `null` unless explicitly required by APIs or libraries.
-- Prefer using a single template literal for prompts instead of `join()` with an array of strings.
+- Prefer using a single template literal for prompts instead of `join()` with a pre-computable array literal of strings.
 - Assume that all environment variables are properly defined.
   - If validation is required, use `assert` to fail fast (e.g., during startup).
