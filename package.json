@@ -31,7 +31,9 @@
     "lint": "oxlint --no-error-on-unmatched-pattern .",
     "lint-fix": "yarn lint --fix",
     "prepare": "lefthook install || true",
-    "typecheck": "tsgo --noEmit"
+    "typecheck": "tsgo --noEmit",
+    "verify": "wb verify",
+    "verify-full": "wb verify --full"
   },
   "devDependencies": {
     "@semantic-release/exec": "7.1.0",
@@ -41,6 +43,7 @@
     "@typescript/native-preview": "7.0.0-dev.20260421.2",
     "@willbooster/oxfmt-config": "1.2.2",
     "@willbooster/oxlint-config": "1.4.6",
+    "@willbooster/wb": "13.12.9",
     "@yarnpkg/core": "4.7.0",
     "build-ts": "17.1.8",
     "conventional-changelog-conventionalcommits": "9.3.1",
