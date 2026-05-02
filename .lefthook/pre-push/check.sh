@@ -1,1 +1,1 @@
-yarn run lint --quiet
+yarn wb lint --quiet
