@@ -31,6 +31,7 @@ alwaysApply: true
   - If not specified, make sure to add a new line at the end of your commit message with: `Co-authored-by: WillBooster (Cursor) <agent@willbooster.com>`.
   - Always create new commits. Avoid using `--amend`.
 - Always use heredoc syntax when passing multi-line content to any command.
+- Put temporary files in the `.tmp` or `/tmp` directory.
 
 ## Coding Style
 
