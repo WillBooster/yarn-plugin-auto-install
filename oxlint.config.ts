@@ -1,5 +1,7 @@
 // wbfy:start oxlint-base
-import oxlintResolvedConfig from '@willbooster/oxlint-config';
+import oxlintBaseConfig from '@willbooster/oxlint-config';
+
+const oxlintResolvedConfig = oxlintBaseConfig;
 // wbfy:end oxlint-base
 
 // wbfy:start oxlint-export
