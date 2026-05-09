@@ -3085,9 +3085,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/wb@npm:13.12.14":
-  version: 13.12.14
-  resolution: "@willbooster/wb@npm:13.12.14"
+"@willbooster/wb@npm:13.12.15":
+  version: 13.12.15
+  resolution: "@willbooster/wb@npm:13.12.15"
   dependencies:
     chalk: "npm:5.6.2"
     dotenv: "npm:17.4.2"
@@ -3095,11 +3095,11 @@ __metadata:
     fastest-levenshtein: "npm:1.0.16"
     globby: "npm:16.2.0"
     kill-port: "npm:2.0.1"
-    minimal-promise-pool: "npm:6.0.1"
+    minimal-promise-pool: "npm:6.0.2"
     yargs: "npm:18.0.0"
   bin:
     wb: bin/index.js
-  checksum: 10c0/3d1812d7a7bcfcc4d80185121320efaa3bbc6f1b44341aff4157bb3b1d8030a46cc35ab542f9f361410da0ab0878e986be7f37b801ce1c4cdcce7f02f81420d4
+  checksum: 10c0/38bc40454693da55c3bc4a4f70aac946ce391238fbb327146dbda782c72bba1bfba1873056ba76b4b59a8a7a5af22620d3c8a22f863b8ea00d44fe0efd5e1a0b
   languageName: node
   linkType: hard
 
@@ -5708,10 +5708,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimal-promise-pool@npm:6.0.1":
-  version: 6.0.1
-  resolution: "minimal-promise-pool@npm:6.0.1"
-  checksum: 10c0/5123933424b882dfdf91030568666b0b9a45e1d0a1856dc2fac4b2bcec22e3229344f983b04aa00ce96326e15d6dec4570c984bc24ea9bf35c04b038706542ec
+"minimal-promise-pool@npm:6.0.2":
+  version: 6.0.2
+  resolution: "minimal-promise-pool@npm:6.0.2"
+  checksum: 10c0/a6568e18877842019c2fd8dc49b0ad1d6c7ce4af27aa9f346ec90232313044a60aa1215f5ec28159515634fa48ff787e037c63f599975de7a7a33b1c443e7a77
   languageName: node
   linkType: hard
 
@@ -8137,7 +8137,7 @@ __metadata:
     "@typescript/native-preview": "npm:7.0.0-dev.20260503.1"
     "@willbooster/oxfmt-config": "npm:1.2.2"
     "@willbooster/oxlint-config": "npm:1.4.6"
-    "@willbooster/wb": "npm:13.12.14"
+    "@willbooster/wb": "npm:13.12.15"
     "@yarnpkg/core": "npm:4.7.0"
     build-ts: "npm:17.1.10"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
