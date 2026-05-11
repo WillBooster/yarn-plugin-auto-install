@@ -3105,13 +3105,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/wb@npm:13.12.16":
-  version: 13.12.16
-  resolution: "@willbooster/wb@npm:13.12.16"
+"@willbooster/wb@npm:13.12.17":
+  version: 13.12.17
+  resolution: "@willbooster/wb@npm:13.12.17"
   dependencies:
     chalk: "npm:5.6.2"
     dotenv: "npm:17.4.2"
-    dotenv-expand: "npm:12.0.3"
+    dotenv-expand: "npm:13.0.0"
     fastest-levenshtein: "npm:1.0.16"
     globby: "npm:16.2.0"
     kill-port: "npm:2.0.1"
@@ -3119,7 +3119,7 @@ __metadata:
     yargs: "npm:18.0.0"
   bin:
     wb: bin/index.js
-  checksum: 10c0/66d7eaf812c70a666d1fdc36a78a8431996bdaf2ea2fca7b118a4b77ce891e247cd53fb272107c06df95630de20592c8a8ae26ffae842224a1b6fc22c6e66f5c
+  checksum: 10c0/9a1c1335f4f1c0f2e2745974690714489a8d8d6aaada7b77a43ba4854eb0cb7618aaa423185d8eb1cec5a3cb8813cb4d3c00b26762b5abb3885fbce68f00a318
   languageName: node
   linkType: hard
 
@@ -4069,7 +4069,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:17.4.2":
+"dotenv-expand@npm:13.0.0":
+  version: 13.0.0
+  resolution: "dotenv-expand@npm:13.0.0"
+  dependencies:
+    dotenv: "npm:^17.4.2"
+  checksum: 10c0/debebb7807fedebb21078dc661d28d69d373f3a673165afea7f7a8c3b82f0da675e417b2d42c40b1f3d357741c8b24a77d6f4376886092a82456225b3d241b88
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:17.4.2, dotenv@npm:^17.4.2":
   version: 17.4.2
   resolution: "dotenv@npm:17.4.2"
   checksum: 10c0/164f8e77a646c8446867d5b588d26ea6005c8ea7c5eb41cf926f6113d23f2191355f6e0cfd95ea9bab98394a5b0a3f1e51a8399711b666fe55cc7b0bd745f942
@@ -8157,7 +8166,7 @@ __metadata:
     "@typescript/native-preview": "npm:7.0.0-dev.20260421.2"
     "@willbooster/oxfmt-config": "npm:1.2.2"
     "@willbooster/oxlint-config": "npm:1.4.6"
-    "@willbooster/wb": "npm:13.12.16"
+    "@willbooster/wb": "npm:13.12.17"
     "@yarnpkg/core": "npm:4.7.0"
     build-ts: "npm:17.1.13"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
