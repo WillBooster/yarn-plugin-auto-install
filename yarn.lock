@@ -3105,9 +3105,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/wb@npm:13.13.0":
-  version: 13.13.0
-  resolution: "@willbooster/wb@npm:13.13.0"
+"@willbooster/wb@npm:13.14.0":
+  version: 13.14.0
+  resolution: "@willbooster/wb@npm:13.14.0"
   dependencies:
     chalk: "npm:5.6.2"
     dotenv: "npm:17.4.2"
@@ -3119,7 +3119,7 @@ __metadata:
     yargs: "npm:18.0.0"
   bin:
     wb: bin/index.js
-  checksum: 10c0/09a794531bf3460d09e885bd82fb7a59e4b254f491f7d4db63e51f79edd7a1986d000ab78a5111b19bcfdc6310c8d7cd3fb77b1b2826ff45391a0da6d1d3e95a
+  checksum: 10c0/847a159d1114ae7b73d5fada160927d1425b1ae020193cbcf0c670906da2892502ace1a149e3412dcb52ac481ca04e50cbd8ee2ffd8cdd82668808b0589b1c02
   languageName: node
   linkType: hard
 
@@ -8171,7 +8171,7 @@ __metadata:
     "@typescript/native-preview": "npm:7.0.0-dev.20260510.1"
     "@willbooster/oxfmt-config": "npm:1.2.2"
     "@willbooster/oxlint-config": "npm:1.4.6"
-    "@willbooster/wb": "npm:13.13.0"
+    "@willbooster/wb": "npm:13.14.0"
     "@yarnpkg/core": "npm:4.7.0"
     build-ts: "npm:17.1.13"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
