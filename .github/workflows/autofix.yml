@@ -21,4 +21,4 @@ jobs:
       - run: yarn install
       - run: yarn run cleanup
       - run: yarn run build
-      - uses: autofix-ci/action@v1
+      - uses: autofix-ci/action@c5b2d67aa2274e7b5a18224e8171550871fc7e4a

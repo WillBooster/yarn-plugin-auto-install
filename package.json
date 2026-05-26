@@ -41,7 +41,7 @@
     "@typescript/native-preview": "7.0.0-dev.20260518.1",
     "@willbooster/oxfmt-config": "1.2.2",
     "@willbooster/oxlint-config": "1.4.6",
-    "@willbooster/wb": "13.19.3",
+    "@willbooster/wb": "13.19.4",
     "@yarnpkg/core": "4.7.0",
     "build-ts": "17.1.15",
     "conventional-changelog-conventionalcommits": "9.3.1",
