@@ -38,7 +38,7 @@
     "@tsconfig/node-lts": "24.0.0",
     "@tsconfig/node-ts": "23.6.4",
     "@types/node": "24.12.4",
-    "@typescript/native-preview": "7.0.0-dev.20260524.1",
+    "@typescript/native-preview": "7.0.0-dev.20260525.1",
     "@willbooster/oxfmt-config": "1.2.2",
     "@willbooster/oxlint-config": "1.4.7",
     "@willbooster/wb": "13.20.1",
