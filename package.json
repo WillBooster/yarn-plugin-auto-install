@@ -40,7 +40,7 @@
     "@types/node": "24.12.4",
     "@typescript/native-preview": "7.0.0-dev.20260527.2",
     "@willbooster/oxfmt-config": "1.2.2",
-    "@willbooster/oxlint-config": "1.4.7",
+    "@willbooster/oxlint-config": "1.4.8",
     "@willbooster/wb": "13.22.7",
     "@yarnpkg/core": "4.8.0",
     "build-ts": "17.1.21",

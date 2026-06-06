@@ -3094,13 +3094,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/oxlint-config@npm:1.4.7":
-  version: 1.4.7
-  resolution: "@willbooster/oxlint-config@npm:1.4.7"
+"@willbooster/oxlint-config@npm:1.4.8":
+  version: 1.4.8
+  resolution: "@willbooster/oxlint-config@npm:1.4.8"
   peerDependencies:
     oxlint: ">=1.60.0"
     oxlint-tsgolint: ">=0.18.1"
-  checksum: 10c0/eca3cbec5596dd91d58190ca26731ff5d39e9f8fe3622bb20f4d07a4df44a921f3f5df40fce56aa7984b222829767c5e0ca9de797d62ebebc9d66aa290c72fc0
+  checksum: 10c0/996d270241223d1bef400bc043e400f2e4b1d5b4251c77e06694de850528b6f82f5ce7ea5f25d68cd2107a5b00d67fdcff57d31c08ce7856b70f7c8b2e4e4ef3
   languageName: node
   linkType: hard
 
@@ -8154,7 +8154,7 @@ __metadata:
     "@types/node": "npm:24.12.4"
     "@typescript/native-preview": "npm:7.0.0-dev.20260527.2"
     "@willbooster/oxfmt-config": "npm:1.2.2"
-    "@willbooster/oxlint-config": "npm:1.4.7"
+    "@willbooster/oxlint-config": "npm:1.4.8"
     "@willbooster/wb": "npm:13.22.7"
     "@yarnpkg/core": "npm:4.8.0"
     build-ts: "npm:17.1.21"
