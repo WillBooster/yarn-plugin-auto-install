@@ -3148,9 +3148,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:4.8.0":
-  version: 4.8.0
-  resolution: "@yarnpkg/core@npm:4.8.0"
+"@yarnpkg/core@npm:4.9.0":
+  version: 4.9.0
+  resolution: "@yarnpkg/core@npm:4.9.0"
   dependencies:
     "@arcanis/slice-ansi": "npm:^1.1.1"
     "@types/semver": "npm:^7.1.0"
@@ -3178,7 +3178,7 @@ __metadata:
     tinylogic: "npm:^2.0.0"
     treeify: "npm:^1.1.0"
     tslib: "npm:^2.4.0"
-  checksum: 10c0/d8bb108dd5d40d7e04422bdd7df1125bde629757afa76dce3ce393d08217891a2fd3f3b73e39c07f04d32f39c7e5f6ae691164e61bea3e1c75c6853559fa5e7d
+  checksum: 10c0/07d328f2bfd57c959d4d0766fe24b0e1d2ffc22ab328e49ff6f6c614cc3f6619dad87f35a460b49df4e80cf49e9afa9b11ca8e3d50943a63a2320c10946fc8b6
   languageName: node
   linkType: hard
 
@@ -8186,7 +8186,7 @@ __metadata:
     "@willbooster/oxfmt-config": "npm:1.2.2"
     "@willbooster/oxlint-config": "npm:1.4.8"
     "@willbooster/wb": "npm:13.22.18"
-    "@yarnpkg/core": "npm:4.8.0"
+    "@yarnpkg/core": "npm:4.9.0"
     build-ts: "npm:17.1.24"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
     lefthook: "npm:2.1.9"
