@@ -46,8 +46,8 @@
     "build-ts": "17.1.26",
     "conventional-changelog-conventionalcommits": "9.3.1",
     "lefthook": "2.1.9",
-    "oxfmt": "0.55.0",
-    "oxlint": "1.70.0",
+    "oxfmt": "0.56.0",
+    "oxlint": "1.71.0",
     "oxlint-tsgolint": "0.23.0",
     "semantic-release": "25.0.5",
     "sort-package-json": "4.0.0"
