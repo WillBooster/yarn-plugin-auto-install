@@ -1506,7 +1506,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/gen-mapping@npm:^0.3.12, @jridgewell/gen-mapping@npm:^0.3.5":
+"@jridgewell/gen-mapping@npm:^0.3.12":
   version: 0.3.13
   resolution: "@jridgewell/gen-mapping@npm:0.3.13"
   dependencies:
@@ -1523,16 +1523,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/source-map@npm:^0.3.3":
-  version: 0.3.11
-  resolution: "@jridgewell/source-map@npm:0.3.11"
-  dependencies:
-    "@jridgewell/gen-mapping": "npm:^0.3.5"
-    "@jridgewell/trace-mapping": "npm:^0.3.25"
-  checksum: 10c0/50a4fdafe0b8f655cb2877e59fe81320272eaa4ccdbe6b9b87f10614b2220399ae3e05c16137a59db1f189523b42c7f88bd097ee991dbd7bc0e01113c583e844
-  languageName: node
-  linkType: hard
-
 "@jridgewell/sourcemap-codec@npm:^1.4.14, @jridgewell/sourcemap-codec@npm:^1.5.0, @jridgewell/sourcemap-codec@npm:^1.5.5":
   version: 1.5.5
   resolution: "@jridgewell/sourcemap-codec@npm:1.5.5"
@@ -1540,7 +1530,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/trace-mapping@npm:^0.3.24, @jridgewell/trace-mapping@npm:^0.3.25, @jridgewell/trace-mapping@npm:^0.3.28":
+"@jridgewell/trace-mapping@npm:^0.3.24, @jridgewell/trace-mapping@npm:^0.3.28":
   version: 0.3.31
   resolution: "@jridgewell/trace-mapping@npm:0.3.31"
   dependencies:
@@ -3161,15 +3151,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn@npm:^8.15.0":
-  version: 8.17.0
-  resolution: "acorn@npm:8.17.0"
-  bin:
-    acorn: bin/acorn
-  checksum: 10c0/5dcefea5f8f023b6cc24cbe71fb5a8112b601d36c4fa07d14e4e6ffc2ee47383332c46b36c766d9437725aa6660156eae50efa0c838719823b50d7c327c4ed42
-  languageName: node
-  linkType: hard
-
 "agent-base@npm:9.0.0":
   version: 9.0.0
   resolution: "agent-base@npm:9.0.0"
@@ -3398,16 +3379,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"buffer-from@npm:^1.0.0":
-  version: 1.1.2
-  resolution: "buffer-from@npm:1.1.2"
-  checksum: 10c0/124fff9d66d691a86d3b062eff4663fe437a9d9ee4b47b1b9e97f5a5d14f6d5399345db80f796827be7c95e70a8e765dd404b7c3ff3b3324f98e9b0c8826cc34
-  languageName: node
-  linkType: hard
-
-"build-ts@npm:17.1.30":
-  version: 17.1.30
-  resolution: "build-ts@npm:17.1.30"
+"build-ts@npm:17.1.31":
+  version: 17.1.31
+  resolution: "build-ts@npm:17.1.31"
   dependencies:
     "@babel/core": "npm:8.0.1"
     "@babel/plugin-proposal-decorators": "npm:8.0.2"
@@ -3418,21 +3392,17 @@ __metadata:
     "@typescript/native-preview": "npm:7.0.0-dev.20260620.1"
     "@willbooster/shared-lib-node": "npm:8.5.23"
     babel-plugin-polyfill-corejs3: "npm:1.0.0"
-    chalk: "npm:5.6.2"
     core-js: "npm:3.49.0"
     core-js-pure: "npm:3.49.0"
-    date-time: "npm:4.0.0"
     magic-string: "npm:0.30.21"
     oxc-parser: "npm:0.137.0"
-    pretty-ms: "npm:9.3.0"
     rolldown: "npm:1.1.2"
     signal-exit: "npm:4.1.0"
-    terser: "npm:5.48.0"
     tsx: "npm:4.22.4"
     yargs: "npm:18.0.0"
   bin:
     build-ts: bin/index.js
-  checksum: 10c0/819ec13a226b3b2210ab1a0395f638095a589a20383b53bba23124e0ed7a0e3b09560fca179cdb72896196471607ddbb68eff929c9de8a931a83113787fe0402
+  checksum: 10c0/0664f6bd764803ca5ba3a6774dd117bafb816c2bdd53bed881369d41ff407439203ddbc586aca7323a2829c1edc6066c9b3539fe3b28edc9445a1e99cefc6d52
   languageName: node
   linkType: hard
 
@@ -3679,13 +3649,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^2.20.0":
-  version: 2.20.3
-  resolution: "commander@npm:2.20.3"
-  checksum: 10c0/74c781a5248c2402a0a3e966a0a2bba3c054aad144f5c023364be83265e796b20565aa9feff624132ff629aa64e16999fa40a743c10c12f7c61e96a794b99288
-  languageName: node
-  linkType: hard
-
 "common-ancestor-path@npm:^2.0.0":
   version: 2.0.0
   resolution: "common-ancestor-path@npm:2.0.0"
@@ -3859,15 +3822,6 @@ __metadata:
   bin:
     cssesc: bin/cssesc
   checksum: 10c0/6bcfd898662671be15ae7827120472c5667afb3d7429f1f917737f3bf84c4176003228131b643ae74543f17a394446247df090c597bb9a728cce298606ed0aa7
-  languageName: node
-  linkType: hard
-
-"date-time@npm:4.0.0":
-  version: 4.0.0
-  resolution: "date-time@npm:4.0.0"
-  dependencies:
-    time-zone: "npm:^2.0.0"
-  checksum: 10c0/1c0a52ed738708e14df80d2488a2d78fb6deed5a882088bb4bf222f07291c2bb6221faaecac58289766c8fd86c709d56bc80bf3acd2f7c6b2515b0d394379266
   languageName: node
   linkType: hard
 
@@ -6574,7 +6528,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-ms@npm:9.3.0, pretty-ms@npm:^9.2.0":
+"pretty-ms@npm:^9.2.0":
   version: 9.3.0
   resolution: "pretty-ms@npm:9.3.0"
   dependencies:
@@ -7138,17 +7092,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map-support@npm:~0.5.20":
-  version: 0.5.21
-  resolution: "source-map-support@npm:0.5.21"
-  dependencies:
-    buffer-from: "npm:^1.0.0"
-    source-map: "npm:^0.6.0"
-  checksum: 10c0/9ee09942f415e0f721d6daad3917ec1516af746a8120bba7bb56278707a37f1eb8642bde456e98454b8a885023af81a16e646869975f06afc1a711fb90484e7d
-  languageName: node
-  linkType: hard
-
-"source-map@npm:^0.6.0, source-map@npm:^0.6.1":
+"source-map@npm:^0.6.1":
   version: 0.6.1
   resolution: "source-map@npm:0.6.1"
   checksum: 10c0/ab55398007c5e5532957cb0beee2368529618ac0ab372d789806f5718123cc4367d57de3904b4e6a4170eb5a0b0f41373066d02ca0735a0c4d75c7d328d3e011
@@ -7403,20 +7347,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser@npm:5.48.0":
-  version: 5.48.0
-  resolution: "terser@npm:5.48.0"
-  dependencies:
-    "@jridgewell/source-map": "npm:^0.3.3"
-    acorn: "npm:^8.15.0"
-    commander: "npm:^2.20.0"
-    source-map-support: "npm:~0.5.20"
-  bin:
-    terser: bin/terser
-  checksum: 10c0/d6ee713ea09a2b83b461ccbf1b76bd673a5090b3076ec13db7edc6d6470ab940d21c87b8d1ad82523b7cf02d9be07393fcdd334bde8f589e9bc3804da6fc32d2
-  languageName: node
-  linkType: hard
-
 "text-table@npm:~0.2.0":
   version: 0.2.0
   resolution: "text-table@npm:0.2.0"
@@ -7458,13 +7388,6 @@ __metadata:
   dependencies:
     convert-hrtime: "npm:^5.0.0"
   checksum: 10c0/37b8284c53f4ee320377512ac19e3a034f2b025f5abd6959b8c1d0f69e0f06ab03681df209f2e452d30129e7b1f25bf573fb0f29d57e71f9b4a6b5b99f4c4b9e
-  languageName: node
-  linkType: hard
-
-"time-zone@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "time-zone@npm:2.0.0"
-  checksum: 10c0/6e2557f59752ec27bf827251ee5e9648ad1bedb636d65d65bd7c2694ff6c887ec550cb2973c3d9e22926d2ce05ce93ce1d6de2053b7d689302a131c482b57f64
   languageName: node
   linkType: hard
 
@@ -7946,7 +7869,7 @@ __metadata:
     "@willbooster/oxlint-config": "npm:1.4.8"
     "@willbooster/wb": "npm:13.22.19"
     "@yarnpkg/core": "npm:4.9.0"
-    build-ts: "npm:17.1.30"
+    build-ts: "npm:17.1.31"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
     lefthook: "npm:2.1.9"
     oxfmt: "npm:0.57.0"
