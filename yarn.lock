@@ -3013,9 +3013,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@willbooster/wb@npm:13.26.0":
-  version: 13.26.0
-  resolution: "@willbooster/wb@npm:13.26.0"
+"@willbooster/wb@npm:13.26.1":
+  version: 13.26.1
+  resolution: "@willbooster/wb@npm:13.26.1"
   dependencies:
     chalk: "npm:5.6.2"
     dotenv: "npm:17.4.2"
@@ -3027,7 +3027,7 @@ __metadata:
     yargs: "npm:18.0.0"
   bin:
     wb: bin/index.js
-  checksum: 10c0/98749f7cc3ee8f615a168fdac21374d96a26e82fcdaaa9f5f5e8535fdaa28441e1c8f7fdb11e34bafb97a78070e6bfabde4650fc368b2f698dc621e69d6954c0
+  checksum: 10c0/4027a8f0dc8478c0d804d464a0bfe4ef36ec1416383535192b19c0c0d02dafff1225d525bdcf15a5124f75c06e6ced880763b8402fb16b30d82ccc70b87a8336
   languageName: node
   linkType: hard
 
@@ -3357,9 +3357,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"build-ts@npm:17.1.33":
-  version: 17.1.33
-  resolution: "build-ts@npm:17.1.33"
+"build-ts@npm:17.1.34":
+  version: 17.1.34
+  resolution: "build-ts@npm:17.1.34"
   dependencies:
     "@babel/core": "npm:8.0.1"
     "@babel/plugin-proposal-decorators": "npm:8.0.2"
@@ -3376,10 +3376,11 @@ __metadata:
     rolldown: "npm:1.1.4"
     signal-exit: "npm:4.1.0"
     tsx: "npm:4.23.0"
+    typescript: "npm:7.0.2"
     yargs: "npm:18.0.0"
   bin:
     build-ts: bin/index.js
-  checksum: 10c0/3cdf3642249cc8e2ef88fb8688f27115bcffb783dfff63658b311eb0741fdebf02e14ed68a9ad405bc4874b6dda3afd680f3198387efd037f593f17cf43b3cc9
+  checksum: 10c0/034963dd341234596bc952a0ccdbe85518c9bd9b89658889fa5a42e3a6797b6bd9d62dd99951c303290e15ff7387d19be24ef58db161854d392229f81c1d0a44
   languageName: node
   linkType: hard
 
@@ -7992,9 +7993,9 @@ __metadata:
     "@types/node": "npm:24.13.2"
     "@willbooster/oxfmt-config": "npm:1.2.2"
     "@willbooster/oxlint-config": "npm:1.4.8"
-    "@willbooster/wb": "npm:13.26.0"
+    "@willbooster/wb": "npm:13.26.1"
     "@yarnpkg/core": "npm:4.9.0"
-    build-ts: "npm:17.1.33"
+    build-ts: "npm:17.1.34"
     conventional-changelog-conventionalcommits: "npm:9.3.1"
     lefthook: "npm:2.1.9"
     oxfmt: "npm:0.58.0"
