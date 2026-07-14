@@ -14,7 +14,7 @@ alwaysApply: true
 
 - If on `main`, create a new branch; otherwise work on the current branch.
 - Run `git` commands one at a time to avoid `index.lock` conflicts.
-- Write tests when explicitly requested, or when you judge the change worth testing; without a request, cover only the essential behavior.
+- Write a test only when explicitly requested, or when a behavior is both likely to regress AND has no other automatic safeguard (type checking, linting, or an existing test/CI check would not catch the breakage). Skip the test when an existing signal already catches the regression, or when you are only confirming an external fact (a library's behavior, whether a version fixes an issue)—verify those once manually instead of adding a permanent test.
 - When writing tests, follow these rules:
   - Continue modifying tests and/or code until all tests pass.
   - Ensure tests are idempotent and independent (e.g., reset persistent data) so they can run repeatedly or in parallel.
