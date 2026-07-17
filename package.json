@@ -37,7 +37,7 @@
     "@semantic-release/exec": "7.1.0",
     "@tsconfig/node-lts": "24.0.0",
     "@tsconfig/node-ts": "23.6.4",
-    "@types/node": "24.13.2",
+    "@types/node": "24.13.3",
     "@willbooster/oxfmt-config": "1.2.2",
     "@willbooster/oxlint-config": "1.4.8",
     "@willbooster/wb": "13.28.7",
