@@ -43,7 +43,7 @@
     "@willbooster/wb": "13.28.8",
     "@yarnpkg/core": "4.9.0",
     "build-ts": "17.1.34",
-    "conventional-changelog-conventionalcommits": "9.3.1",
+    "conventional-changelog-conventionalcommits": "10.2.1",
     "lefthook": "2.1.10",
     "oxfmt": "0.59.0",
     "oxlint": "1.74.0",
