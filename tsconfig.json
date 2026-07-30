@@ -11,6 +11,9 @@
     "noEmit": true,
     "noUncheckedIndexedAccess": true,
     "outDir": "dist",
+    "paths": {
+      "undici-types": ["./node_modules/undici-types/index.d.ts"]
+    },
     "resolveJsonModule": true,
     "rootDir": ".",
     "skipLibCheck": true,
@@ -18,9 +21,9 @@
     "strict": true,
     "target": "ESNext",
     "typeRoots": ["./node_modules/@types", "./@types"],
-    "types": ["node"]
+    "types": ["node", "bun"]
   },
   "exclude": ["test/fixtures"],
-  "extends": ["@tsconfig/node-lts/tsconfig.json", "@tsconfig/node-ts/tsconfig.json"],
+  "extends": ["@tsconfig/bun/tsconfig.json", "@tsconfig/node-lts/tsconfig.json", "@tsconfig/node-ts/tsconfig.json"],
   "include": ["*.config.ts", "scripts/**/*", "src/**/*", "test/**/*"]
 }

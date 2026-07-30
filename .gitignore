@@ -10,7 +10,7 @@ __generated__/
 .claude/*.local.*
 .claude/scheduled_tasks.lock
 .devcontainer/
-.env.production
+.env*
 .idea/AugmentWebviewStateStore.xml
 .idea/copilot.*
 .idea/copilot/chatSessions/
@@ -18,9 +18,11 @@ __generated__/
 .playwright-mcp/
 .serena/
 .tmp/
+.tmp-*/
 .tokensave/
 .wb/
 @willbooster/
+@willbooster-private/
 */mount/*.hash
 CLAUDE.local.md
 dist/
