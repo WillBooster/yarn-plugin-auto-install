@@ -22,7 +22,7 @@
     "bin/"
   ],
   "scripts": {
-    "build": "build-ts app -m cjs --inline VERSION && mv dist/index.js dist/index.cjs && cp dist/index.cjs .yarn/plugins/plugin-auto-install.cjs",
+    "build": "build-ts app -m cjs --inline VERSION && mv dist/index.js dist/index.cjs",
     "cleanup": "bun wb lint --fix --format",
     "format": "bun wb lint --format",
     "lint": "bun wb lint",
