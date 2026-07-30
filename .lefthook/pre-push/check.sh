@@ -1,1 +1,1 @@
-yarn wb lint --quiet
+bun wb lint --quiet

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-VERSION=$1 yarn build
+VERSION=$1 bun run build

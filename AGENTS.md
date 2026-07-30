@@ -2,7 +2,7 @@
 
 - Name: `yarn-plugin-auto-install`
 - Description: A yarn (berry) plugin for running `yarn install` automatically.
-- Package Manager: yarn
+- Package Manager: bun
 
 ## General Instructions
 
@@ -15,13 +15,16 @@
   - Prefer actual API calls over mocks, unless actual calls are impractical, have unintended side effects, or mocks are explicitly requested.
   - Avoid fixed waits in E2E tests; wait for conditions instead.
 - When fixing issues (including test failures), investigate the root cause first (e.g., via debug logs or screenshots) and fix it instead of applying workarounds.
-- After making changes, run `yarn verify` (type checking and linting; takes up to 10 minutes), or `yarn verify-full` (all tests; takes up to 1 hour) if you changed runtime behavior or tests. Fix errors and re-run until it passes.
+- After making changes, run `bun verify` (type checking and linting; takes up to 10 minutes), or `bun verify-full` (all tests; takes up to 1 hour) if you changed runtime behavior or tests. Fix errors and re-run until it passes.
+  - Agent shells may terminate tracked commands (including background ones) at time limits, often minutes, so run commands that can exceed your shell-call timeout (e.g., `bun verify` and `bun verify-full`) detached via nohup, from a shell call that returns immediately: `mkdir -p .tmp; rm -f .tmp/verify-full.exit; nohup sh -c 'bun verify-full; echo $? > .tmp/verify-full.exit' > .tmp/verify-full.log 2>&1 &` (the redirects are required: an inherited stdout/stderr pipe would keep the call waiting). Poll from separate calls, each shorter than your shell-call timeout: `for i in 1 2 3; do test -f .tmp/verify-full.exit && break; sleep 20; done; cat .tmp/verify-full.exit 2>/dev/null || echo still running`. Repeat until the exit file appears (its content is the exit code), then read the log; if it never appears while the log stops growing, the run itself died.
 - Once verified, commit and push to the current (non-main) branch, and create a PR via `gh` if none exists for the branch.
   - Follow the Conventional Commits format (e.g., `feat:`, `fix:`).
   - End your commit message with a blank line followed by `Co-authored-by: WillBooster (Codex CLI) <agent@willbooster.com>`.
   - Always create new commits; avoid `--amend`.
 - Use heredoc for multi-line command input (e.g., `git commit -F -`, `gh pr create --body-file -`).
 - Put temporary files in `.tmp`; use `/tmp` only for files that must live outside the repo.
+- Tool versions (node, bun, and others) are pinned in `mise.toml`; run `mise install` after changing it, and never install those tools globally instead.
+- `bunfig.toml` uses Bun's isolated linker, so only declared dependencies resolve. If an import fails to resolve, declare that package in the `package.json` that imports it; never switch `linker` to `hoisted` or add to `publicHoistPattern` to work around it.
 
 ## Coding Style
 
@@ -34,3 +37,5 @@
 - Prefer `undefined` over `null` unless required by APIs or libraries.
 - Build prompts as a single template literal instead of `join()` on a pre-computable array of strings.
 - Assume all environment variables are defined; if validation is needed, `assert` at startup to fail fast.
+- Assume local tools such as `git`, `gh`, and `ghq` are installed and authenticated.
+- Ensure compatibility only with macOS and Linux; do not include Windows-specific code.
