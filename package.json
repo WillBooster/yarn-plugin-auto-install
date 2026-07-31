@@ -51,7 +51,7 @@
     "oxfmt": "0.61.0",
     "oxlint": "1.76.0",
     "oxlint-tsgolint": "7.0.2001",
-    "semantic-release": "25.0.7",
+    "semantic-release": "25.0.8",
     "sort-package-json": "4.0.0",
     "typescript": "7.0.2"
   },
