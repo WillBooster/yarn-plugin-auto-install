@@ -45,7 +45,7 @@
     "@willbooster/oxlint-config": "1.4.8",
     "@willbooster/wb": "19.5.5",
     "@yarnpkg/core": "4.9.1",
-    "build-ts": "21.0.1",
+    "build-ts": "21.0.2",
     "conventional-changelog-conventionalcommits": "10.2.1",
     "lefthook": "2.1.10",
     "oxfmt": "0.61.0",
