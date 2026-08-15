@@ -43,7 +43,7 @@
     "@types/node": "26.2.0",
     "@willbooster/oxfmt-config": "1.2.2",
     "@willbooster/oxlint-config": "1.4.8",
-    "@willbooster/wb": "21.7.0",
+    "@willbooster/wb": "21.7.1",
     "@yarnpkg/core": "4.9.1",
     "build-ts": "21.0.4",
     "conventional-changelog-conventionalcommits": "10.2.1",
