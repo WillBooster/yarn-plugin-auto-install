@@ -15,7 +15,7 @@ minimumReleaseAgeExcludes = [
   "@willbooster-private/code-analyzer",
   "@willbooster-private/judge",
   "@willbooster-private/llm-proxy",
-  "@willbooster-private/review-booster-cli",
+  "@willbooster-private/review-booster",
   "@willbooster/babel-configs",
   "@willbooster/biome-config",
   "@willbooster/eslint-config-blitz-next",

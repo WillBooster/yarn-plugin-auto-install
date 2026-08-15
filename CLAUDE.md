@@ -8,15 +8,16 @@
 
 - If on `main`, create a new branch; otherwise work on the current branch.
 - Run `git` commands one at a time to avoid `index.lock` conflicts.
-- Write a test only when explicitly requested, or when a behavior is both likely to regress AND has no other automatic safeguard (type checking, linting, or an existing test/CI check would not catch the breakage). Skip the test when an existing signal already catches the regression, or when you are only confirming an external fact (a library's behavior, whether a version fixes an issue)—verify those once manually instead of adding a permanent test.
+- Write a test only when explicitly requested, or when a behavior is both likely to regress AND has no other automatic safeguard (type checking, linting, or an existing test/CI check would not catch the breakage). Skip the test when an existing signal already catches the regression, when the implementation merely maps conditions to constant outputs so a test would restate that mapping and fail only on intentional edits (a change detector), or when you are only confirming an external fact (a library's behavior, whether a version fixes an issue); verify the latter two once manually instead of adding a permanent test.
 - When writing tests, follow these rules:
-  - Continue modifying tests and/or code until all tests pass.
-  - Ensure tests are idempotent and independent (e.g., reset persistent data) so they can run repeatedly or in parallel.
+  - Test externally observable behavior (e.g., emitted files, CLI output, rendered results) at the system boundary, not implementation details: do not mirror production logic, assert that a branch is taken, or feed hand-assembled internal objects to internal functions.
   - Prefer actual API calls over mocks, unless actual calls are impractical, have unintended side effects, or mocks are explicitly requested.
+  - Ensure tests are idempotent and independent (e.g., reset persistent data) so they can run repeatedly or in parallel.
   - Avoid fixed waits in E2E tests; wait for conditions instead.
+  - Continue modifying tests and/or code until all tests pass.
 - When fixing issues (including test failures), investigate the root cause first (e.g., via debug logs or screenshots) and fix it instead of applying workarounds.
-- After making changes, run `bun verify` (type checking and linting; takes up to 10 minutes), or `bun verify-full` (all tests; takes up to 1 hour) if you changed runtime behavior or tests. Fix errors and re-run until it passes.
-  - Agent shells may terminate tracked commands (including background ones) at time limits, often minutes, so run commands that can exceed your shell-call timeout (e.g., `bun verify` and `bun verify-full`) detached via nohup, from a shell call that returns immediately: `mkdir -p .tmp; rm -f .tmp/verify-full.exit; nohup sh -c 'bun verify-full; echo $? > .tmp/verify-full.exit' > .tmp/verify-full.log 2>&1 &` (the redirects are required: an inherited stdout/stderr pipe would keep the call waiting). Poll from separate calls, each shorter than your shell-call timeout: `for i in 1 2 3; do test -f .tmp/verify-full.exit && break; sleep 20; done; cat .tmp/verify-full.exit 2>/dev/null || echo still running`. Repeat until the exit file appears (its content is the exit code), then read the log; if it never appears while the log stops growing, the run itself died.
+- After making changes, run `bun run verify` (type checking and linting; takes up to 10 minutes), or `bun run verify-full` (all tests; takes up to 1 hour) if you changed runtime behavior or tests. Fix errors and re-run until it passes.
+  - Agent shells may terminate tracked commands (including background ones) at time limits, often minutes, so run commands that can exceed your shell-call timeout (e.g., `bun run verify` and `bun run verify-full`) detached via nohup, from a shell call that returns immediately: `mkdir -p .tmp; rm -f .tmp/verify-full.exit; nohup sh -c 'bun run verify-full; echo $? > .tmp/verify-full.exit' > .tmp/verify-full.log 2>&1 &` (the redirects are required: an inherited stdout/stderr pipe would keep the call waiting). Poll from separate calls, each shorter than your shell-call timeout: `for i in 1 2 3; do test -f .tmp/verify-full.exit && break; sleep 20; done; cat .tmp/verify-full.exit 2>/dev/null || echo still running`. Repeat until the exit file appears (its content is the exit code), then read the log; if it never appears while the log stops growing, the run itself died.
 - Once verified, commit and push to the current (non-main) branch, and create a PR via `gh` if none exists for the branch.
   - Follow the Conventional Commits format (e.g., `feat:`, `fix:`).
   - End your commit message with a blank line followed by `Co-authored-by: WillBooster (Claude Code) <agent@willbooster.com>`.
@@ -33,9 +34,9 @@
 - Design modules and directories with high cohesion and low coupling; split large modules when needed.
 - Place calling functions above the functions they call (top-down order); place variable and type declarations above their usage.
 - Write comments and JSDoc only for hard-to-understand code: explain "why" in comments and "what" in JSDoc.
+- Never explain how WillBooster's in-house tools (e.g., `wb`, `wbfy`) work in code comments or documents outside the tool's own package, except in instructions for AI agents; e.g., do not note that `PORT` is unset because `wb` picks a free port.
 - If lint errors or warnings cannot be fixed, use ignore comments with reasons (e.g., `// oxlint-disable-next-line <rule> -- <reason>`).
 - Prefer `undefined` over `null` unless required by APIs or libraries.
 - Build prompts as a single template literal instead of `join()` on a pre-computable array of strings.
 - Assume all environment variables are defined; if validation is needed, `assert` at startup to fail fast.
 - Assume local tools such as `git`, `gh`, and `ghq` are installed and authenticated.
-- Ensure compatibility only with macOS and Linux; do not include Windows-specific code.
