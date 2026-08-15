@@ -13,7 +13,7 @@
         "@types/node": "26.2.0",
         "@willbooster/oxfmt-config": "1.2.2",
         "@willbooster/oxlint-config": "1.4.8",
-        "@willbooster/wb": "21.6.0",
+        "@willbooster/wb": "21.7.0",
         "@yarnpkg/core": "4.9.1",
         "build-ts": "21.0.4",
         "conventional-changelog-conventionalcommits": "10.2.1",
@@ -606,7 +606,7 @@
 
     "@willbooster/shared-lib-node": ["@willbooster/shared-lib-node@13.1.0", "", { "dependencies": { "@types/yargs": "17.0.35", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3" } }, "sha512-ms/K2i+4e+mDDGhCzFUte2zBwOMpqd/27og/73a72MrpJ04qprDxsXWq+9VGAQw2e9UNPIr8a77CKWcLx9XQPw=="],
 
-    "@willbooster/wb": ["@willbooster/wb@21.6.0", "", { "dependencies": { "chalk": "6.0.0", "dotenv": "17.4.2", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3", "fastest-levenshtein": "1.0.16", "globby": "16.2.3", "jsonc-parser": "3.3.1", "kill-port": "2.0.1", "minimal-promise-pool": "6.0.3", "semver": "7.8.5", "smol-toml": "1.7.1", "yargs": "18.1.0" }, "bin": { "wb": "bin/index.js" } }, "sha512-xG+qBR07wp5pUnx0pcT7Apdfmw5eJpEhYklh1kJSkxaOT/388dxVuaP61jUgvOoEPTLaXB2NvEOO8so+WLguCQ=="],
+    "@willbooster/wb": ["@willbooster/wb@21.7.0", "", { "dependencies": { "chalk": "6.0.0", "dotenv": "17.4.2", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3", "fastest-levenshtein": "1.0.16", "globby": "16.2.3", "jsonc-parser": "3.3.1", "minimal-promise-pool": "6.0.3", "semver": "7.8.5", "smol-toml": "1.7.1", "yargs": "18.1.0" }, "bin": { "wb": "bin/index.js" } }, "sha512-Cokn/tgVJe4l/PFgSQDJARvvTWDrj0Qa2+gls2dmDFhXGl02/mwZ5aFKoernIpGOBgEATFo0Q2mTfFbxEuIVgA=="],
 
     "@yarnpkg/core": ["@yarnpkg/core@4.9.1", "", { "dependencies": { "@arcanis/slice-ansi": "^1.1.1", "@types/semver": "^7.1.0", "@types/treeify": "^1.0.0", "@yarnpkg/fslib": "^3.1.5", "@yarnpkg/libzip": "^3.2.2", "@yarnpkg/parsers": "^3.1.0", "@yarnpkg/shell": "^4.1.3", "camelcase": "^5.3.1", "chalk": "^4.1.2", "ci-info": "^4.0.0", "clipanion": "^4.0.0-rc.2", "cross-spawn": "^7.0.3", "diff": "^5.1.0", "dotenv": "^16.3.1", "es-toolkit": "^1.39.7", "fast-glob": "^3.2.2", "got": "^11.7.0", "hpagent": "^1.2.0", "micromatch": "^4.0.2", "p-limit": "^2.2.0", "semver": "^7.8.5", "strip-ansi": "^6.0.0", "tar": "^7.5.3", "tinylogic": "^2.0.0", "treeify": "^1.1.0", "tslib": "^2.4.0" } }, "sha512-P8H10ehQBFWL5eR1y/8nLRzFHx1yumgE9P1DQjJ+EIVvqeWo0MjbwQ+ZJjPDT+HqVDslE+e6I/9GrJ7Arbx/8A=="],
 
@@ -802,8 +802,6 @@
 
     "get-stream": ["get-stream@6.0.1", "", {}, "sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg=="],
 
-    "get-them-args": ["get-them-args@1.3.2", "", {}, "sha512-LRn8Jlk+DwZE4GTlDbT3Hikd1wSHgLMme/+7ddlqKd7ldwR6LjJgTVWzBnR01wnYGe4KgrXjg287RaI22UHmAw=="],
-
     "git-hooks-list": ["git-hooks-list@4.2.1", "", {}, "sha512-WNvqJjOxxs/8ZP9+DWdwWJ7cDsd60NHf39XnD82pDVrKO5q7xfPqpkK6hwEAmBa/ZSEE4IOoR75EzbbIuwGlMw=="],
 
     "git-log-parser": ["git-log-parser@1.2.1", "", { "dependencies": { "argv-formatter": "~1.0.0", "spawn-error-forwarder": "~1.0.0", "split2": "~1.0.0", "stream-combiner2": "~1.1.1", "through2": "~2.0.0", "traverse": "0.6.8" } }, "sha512-PI+sPDvHXNPl5WNOErAK05s3j0lgwUzMN6o8cyQrDaKfT3qd7TmNJKeXX+SknI5I0QhG5fVPAEwSY4tRGDtYoQ=="],
@@ -905,8 +903,6 @@
     "jsonfile": ["jsonfile@6.2.1", "", { "dependencies": { "universalify": "^2.0.0" }, "optionalDependencies": { "graceful-fs": "^4.1.6" } }, "sha512-zwOTdL3rFQ/lRdBnntKVOX6k5cKJwEc1HdilT71BWEu7J41gXIB2MRp+vxduPSwZJPWBxEzv4yH1wYLJGUHX4Q=="],
 
     "keyv": ["keyv@4.5.4", "", { "dependencies": { "json-buffer": "3.0.1" } }, "sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw=="],
-
-    "kill-port": ["kill-port@2.0.1", "", { "dependencies": { "get-them-args": "1.3.2", "shell-exec": "1.0.2" }, "bin": { "kill-port": "cli.js" } }, "sha512-e0SVOV5jFo0mx8r7bS29maVWp17qGqLBZ5ricNSajON6//kmb7qqqNnml4twNE8Dtj97UQD+gNFOaipS/q1zzQ=="],
 
     "lefthook": ["lefthook@2.1.10", "", { "optionalDependencies": { "lefthook-darwin-arm64": "2.1.10", "lefthook-darwin-x64": "2.1.10", "lefthook-freebsd-arm64": "2.1.10", "lefthook-freebsd-x64": "2.1.10", "lefthook-linux-arm64": "2.1.10", "lefthook-linux-x64": "2.1.10", "lefthook-openbsd-arm64": "2.1.10", "lefthook-openbsd-x64": "2.1.10", "lefthook-windows-arm64": "2.1.10", "lefthook-windows-x64": "2.1.10" }, "bin": { "lefthook": "bin/index.js" } }, "sha512-K7mM4WoqMwqfXYK11EHy+lSH1uW8XHni3Yn/bSqyerPkUPygGdf3xn18JoV5HyA06xuQL3ofGAOjG01QX9oJ4w=="],
 
@@ -1123,8 +1119,6 @@
     "shebang-command": ["shebang-command@2.0.0", "", { "dependencies": { "shebang-regex": "^3.0.0" } }, "sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA=="],
 
     "shebang-regex": ["shebang-regex@3.0.0", "", {}, "sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A=="],
-
-    "shell-exec": ["shell-exec@1.0.2", "", {}, "sha512-jyVd+kU2X+mWKMmGhx4fpWbPsjvD53k9ivqetutVW/BQ+WIZoDoP4d8vUMGezV6saZsiNoW2f9GIhg9Dondohg=="],
 
     "signal-exit": ["signal-exit@4.1.0", "", {}, "sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw=="],
 
