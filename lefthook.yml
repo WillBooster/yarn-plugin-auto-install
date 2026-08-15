@@ -14,14 +14,12 @@ pre-commit:
     - name: cleanup
       glob: '**/*.{astro,cjs,css,cts,gql,graphql,hbs,htm,html,java,js,json,json5,jsonc,jsx,less,md,mdx,mjs,mts,scss,svelte,toml,ts,tsx,vue,yaml,yml}'
       run: |-
-        # Lefthook expands {staged_files} as shell-escaped args, so paths with spaces stay intact.
         bun wb lint --fix --format -- {staged_files}
       stage_fixed: true
     - name: check-migrations
       glob: '**/migration.sql'
       run: |-
         failed=0
-        # Lefthook expands {staged_files} as shell-escaped args, so paths with spaces stay intact.
         for file in {staged_files}; do
           if grep -q 'Warnings:' "$file"; then
             echo "Migration SQL file ($file) contains warnings! Please solve the warnings and commit again."
@@ -32,21 +30,11 @@ pre-commit:
     - name: normalize-bun-lockfile
       glob: bun.lock
       run: |-
-        # Abort on any failure: a partially written temp file must never replace the lockfile.
         set -e
-        # Lefthook expands {staged_files} as shell-escaped args, so paths with spaces stay intact.
         for file in {staged_files}; do
-          # A sibling temp file makes the replacement an atomic same-directory rename, and `cp -p` gives
-          # it the lockfile's original mode (mktemp alone creates 0600, and git tracks only the executable
-          # bit, so that would change silently). The name must stay unpredictable and be created by
-          # mktemp: a repository-committed symlink at a fixed sibling path would otherwise be followed by
-          # `cp` and the redirection, and the `mv` would then turn bun.lock into that symlink.
           normalized="$(mktemp "$file.wbfy-normalizing.XXXXXX")"
           trap 'rm -f "$normalized"' EXIT
           cp -p "$file" "$normalized"
-          # Anchored to `", ` so only a registry entry's `resolved` slot is cleared (mirroring
-          # reusable-workflows and wb's normalizeBunLockfile): a DIRECT tarball dependency carries the same
-          # host in the workspace descriptor and the package tuple's first element, which must survive.
           sed -E 's#(", )"https://npm\.flatt\.tech/[^"]*"#\1""#g' "$file" > "$normalized"
           if ! cmp -s "$file" "$normalized"; then
             mv "$normalized" "$file"
