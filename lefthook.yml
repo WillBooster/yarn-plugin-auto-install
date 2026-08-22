@@ -28,17 +28,5 @@ pre-commit:
         exit "$failed"
     - name: normalize-bun-lockfile
       glob: bun.lock
-      run: |-
-        set -e
-        for file in {staged_files}; do
-          normalized="$(mktemp "$file.wbfy-normalizing.XXXXXX")"
-          trap 'rm -f "$normalized"' EXIT
-          cp -p "$file" "$normalized"
-          sed -E 's#(", )"https://npm\.flatt\.tech/[^"]*"#\1""#g' "$file" > "$normalized"
-          if ! cmp -s "$file" "$normalized"; then
-            mv "$normalized" "$file"
-            echo "Removed Takumi Guard proxy URLs from $file so the lockfile stays registry-agnostic."
-          fi
-          rm -f "$normalized"
-        done
+      run: bash .lefthook/normalize-bun-lockfile.sh {staged_files}
       stage_fixed: true
