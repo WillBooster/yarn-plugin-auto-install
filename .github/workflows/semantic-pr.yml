@@ -8,3 +8,6 @@ name: Lint PR title
 jobs:
   semantic-pr:
     uses: WillBooster/reusable-workflows/.github/workflows/semantic-pr.yml@main
+    permissions:
+      pull-requests: read
+      statuses: write

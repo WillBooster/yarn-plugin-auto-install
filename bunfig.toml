@@ -45,6 +45,7 @@ minimumReleaseAgeExcludes = [
   "gen-i18n-ts",
   "minimal-promise-pool",
   "one-way-git-sync",
+  "slidev-check",
   "vinext-progress",
   "wbfy",
   "yarn-plugin-auto-install",

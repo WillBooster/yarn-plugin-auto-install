@@ -6,3 +6,5 @@ name: Add close comment
 jobs:
   close-comment:
     uses: WillBooster/reusable-workflows/.github/workflows/close-comment.yml@main
+    permissions:
+      pull-requests: write
