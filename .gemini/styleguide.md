@@ -7,10 +7,10 @@ Review in English based on the following coding standards.
 - Design modules and directories with high cohesion and low coupling; split large modules when needed.
 - Place calling functions above the functions they call (top-down order); place variable and type declarations above their usage.
 - Write comments and JSDoc only for hard-to-understand code: explain "why" in comments and "what" in JSDoc.
-- Never explain how WillBooster's in-house tools (e.g., `wb`, `wbfy`) work in code comments or documents outside the tool's own package, except in instructions for AI agents; e.g., do not note that `PORT` is unset because `wb` picks a free port.
+- Never explain how WillBooster's in-house tools (e.g., `wb`, `wbfy`) work in code comments or documents outside the tool's own package, except in instructions for AI agents (e.g., do not note that `PORT` is unset because `wb` picks a free port).
 - If lint errors or warnings cannot be fixed, use ignore comments with reasons (e.g., `// oxlint-disable-next-line <rule> -- <reason>`).
 - Prefer `undefined` over `null` unless required by APIs or libraries.
-- When validating JavaScript objects (e.g., parsed JSON, API responses), always use `zod` if possible instead of hand-written checks or type assertions.
+- Validate JavaScript objects (e.g., parsed JSON, API responses) with `zod` whenever possible instead of hand-written checks or type assertions.
 - Build prompts as a single template literal instead of `join()` on a pre-computable array of strings.
-- Assume all environment variables are defined; if validation is needed, `assert` at startup to fail fast.
+- Assume all environment variables are defined; if validation is needed, `assert` them at startup to fail fast.
 - Assume local tools such as `git`, `gh`, and `ghq` are installed and authenticated.
