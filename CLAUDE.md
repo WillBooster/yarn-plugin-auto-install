@@ -15,7 +15,8 @@
 - Ensure tests are idempotent and independent (e.g., reset persistent data) so they can run repeatedly or in parallel.
 - Avoid fixed waits in E2E tests; wait for conditions instead.
 - When fixing issues (including test failures), investigate the root cause first (e.g., via debug logs or screenshots) and fix it instead of applying workarounds.
-- After making changes, run `bun run verify` (type checking and linting; up to 10 minutes), or `bun run verify-full` (all tests; up to 1 hour) if you changed runtime behavior or tests. Fix errors and re-run until it passes.
+- After making changes, as a rule, run only what is necessary for the change locally, `bun run verify` (type checking and linting; up to 10 minutes) and the relevant tests, and leave the full test suite (`bun run verify-full`; up to 1 hour) to the PR's CI. If PR CI does not run the full suite, run it locally. Fix errors, including CI failures, and re-run until they pass.
+  - Run relevant tests with `bun wb test test/unit/example.test.ts --grep 'case name'` (omit `--grep` for the whole file; use `-w packages/example` in a monorepo). `bun wb verify --full <test-path> --grep 'case name'` combines verification with selected tests.
   - Wait for it to finish without restarting it: prefer completion notifications, otherwise the longest permitted wait; no output does not mean it has stopped. If the displayed excerpt is insufficient, read the indicated log file before rerunning. If the environment kills long-running commands, run them detached with a saved log and exit status.
 - Once verified, commit and push to the current (non-main) branch, and create a PR via `gh` if none exists for the branch.
   - Follow the Conventional Commits format (e.g., `feat:`, `fix:`).
