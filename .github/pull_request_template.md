@@ -1,6 +1,6 @@
 Close #<IssueNumber>
 
-<!-- Write for a reviewer who has not followed the work. Scale each section to the change: a sentence for a small change, numbered subsections for a large one. Delete this comment and the placeholder comments below. -->
+<!-- Write for a reviewer who has not followed the work. Write in English, except text whose language is part of what the code handles (e.g., UI strings, test inputs). Scale each section to the change: a sentence for a small change, numbered subsections for a large one. Delete this comment and the placeholder comments below. -->
 
 ## Why
 
