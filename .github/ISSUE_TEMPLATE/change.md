@@ -5,7 +5,7 @@ title: 'feat: '
 labels: 't: feat :sparkles:'
 ---
 
-<!-- Keep the first three sections for any change and add the others as the change grows; a large change fills all of them (spec-booster reviews against this list). Delete these comments. -->
+<!-- Keep the first three sections for any change and add the others as the change grows; a large change fills all of them (spec-booster reviews against this list). Write in English, except text whose language is part of what the code handles (e.g., UI strings, test inputs). Delete these comments. -->
 
 ## Background and goal
 
