@@ -16,5 +16,6 @@ jobs:
     with:
       github_hosted_runner: true
     secrets:
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL_FOR_RELEASE }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       TAKUMI_GUARD_TOKEN: ${{ secrets.TAKUMI_GUARD_TOKEN }}
