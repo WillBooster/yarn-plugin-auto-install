@@ -42,7 +42,7 @@
     "@types/bun": "1.4.3",
     "@types/node": "26.6.5",
     "@willbooster/oxfmt-config": "1.2.2",
-    "@willbooster/oxlint-config": "1.4.8",
+    "@willbooster/oxlint-config": "1.4.9",
     "@willbooster/wb": "22.26.3",
     "@yarnpkg/core": "4.9.2",
     "build-ts": "21.0.27",
