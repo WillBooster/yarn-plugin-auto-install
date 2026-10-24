@@ -5,7 +5,7 @@ telemetry = false
 exact = true
 globalStore = true
 linker = "isolated"
-publicHoistPattern = ["tsx", "undici-types"]
+publicHoistPattern = ["tsx"]
 minimumReleaseAge = 604800
 minimumReleaseAgeExcludes = [
   "@exercode/problem-utils",
@@ -83,18 +83,54 @@ minimumReleaseAgeExcludes = [
   "vinext-progress",
   "wbfy",
   "yarn-plugin-auto-install",
-  "next",
-  "@next/env",
-  "@next/swc-darwin-arm64",
-  "@next/swc-darwin-x64",
-  "@next/swc-linux-arm64-gnu",
-  "@next/swc-linux-arm64-musl",
-  "@next/swc-linux-x64-gnu",
-  "@next/swc-linux-x64-musl",
-  "react",
-  "react-dom",
-  "react-server-dom-parcel",
-  "react-server-dom-turbopack",
-  "react-server-dom-webpack",
-  "@next/third-parties",
 ]
+
+[fmt]
+flavor = "oxfmt"
+printWidth = 120
+singleQuote = true
+sortImports = true
+sortPackageJson = true
+trailingComma = "es5"
+ignorePatterns = [
+  "**/.agents/**",
+  "**/.claude/**",
+  "**/.devcontainer/**",
+  "**/.idea/AugmentWebviewStateStore.xml",
+  "**/.idea/copilot*/**",
+  "**/.playwright-cli/**",
+  "**/.serena/**",
+  "**/.tmp/**",
+  "**/.venv/**",
+  "**/.yarn/**",
+  "**/3rd-party/**",
+  "**/@types/**",
+  "**/@willbooster/**",
+  "**/__generated__/**",
+  "**/android/**",
+  "**/bin/**",
+  "**/build/**",
+  "**/coverage/**",
+  "**/dist/**",
+  "**/ios/**",
+  "**/no-format/**",
+  "**/node_modules/**",
+  "**/temp/**",
+  "**/tmp/**",
+  "**/test-fixtures/**",
+  "**/test-results/**",
+  "**/test/fixtures/**",
+  "**/.aider*",
+  "**/.env.production",
+  "**/.pnp.js",
+  "**/*/mount/*.hash",
+  "**/*.d.ts",
+  "**/*.java",
+  "**/*.min.*js",
+  "**/src/grammar.json",
+  "**/src/node-types.json",
+]
+
+[[fmt.overrides]]
+files = ["**/oxlint.config.ts"]
+options = { sortImports = false }

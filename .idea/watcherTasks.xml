@@ -2,39 +2,19 @@
 <project version="4">
   <component name="ProjectTasksOptions">
         <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="astro" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.astro)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="cjs" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.cjs)" />
+      <option name="name" value="Bun fmt (.cjs)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -42,19 +22,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="css" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.css)" />
+      <option name="name" value="Bun fmt (.css)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -62,19 +42,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="cts" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.cts)" />
+      <option name="name" value="Bun fmt (.cts)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -82,19 +62,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="gql" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.gql)" />
+      <option name="name" value="Bun fmt (.gql)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -102,19 +82,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="graphql" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.graphql)" />
+      <option name="name" value="Bun fmt (.graphql)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -122,19 +102,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="hbs" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.hbs)" />
+      <option name="name" value="Bun fmt (.hbs)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -142,19 +122,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="htm" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.htm)" />
+      <option name="name" value="Bun fmt (.htm)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -162,19 +142,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="html" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.html)" />
+      <option name="name" value="Bun fmt (.html)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -182,19 +162,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="js" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.js)" />
+      <option name="name" value="Bun fmt (.js)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -202,19 +182,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="json" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.json)" />
+      <option name="name" value="Bun fmt (.json)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -222,19 +202,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="json5" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.json5)" />
+      <option name="name" value="Bun fmt (.json5)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -242,19 +222,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="jsonc" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.jsonc)" />
+      <option name="name" value="Bun fmt (.jsonc)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -262,19 +242,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="jsx" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.jsx)" />
+      <option name="name" value="Bun fmt (.jsx)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -282,19 +262,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="less" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.less)" />
+      <option name="name" value="Bun fmt (.less)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -302,19 +282,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="md" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.md)" />
+      <option name="name" value="Bun fmt (.md)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -322,19 +302,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="mdx" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.mdx)" />
+      <option name="name" value="Bun fmt (.mdx)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -342,19 +322,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="mjs" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.mjs)" />
+      <option name="name" value="Bun fmt (.mjs)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -362,19 +342,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="mts" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.mts)" />
+      <option name="name" value="Bun fmt (.mts)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -382,19 +362,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="scss" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.scss)" />
+      <option name="name" value="Bun fmt (.scss)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -402,39 +382,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
-      <option name="checkSyntaxErrors" value="false" />
-      <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
-      <option name="fileExtension" value="svelte" />
-      <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.svelte)" />
-      <option name="output" value="$FilePathRelativeToProjectRoot$" />
-      <option name="outputFilters">
-        <array />
-      </option>
-      <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
-      <option name="runOnExternalChanges" value="false" />
-      <option name="scopeName" value="Project Files" />
-      <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="$ProjectFileDir$" />
-      <envs />
-    </TaskOptions>
-    <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="toml" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.toml)" />
+      <option name="name" value="Bun fmt (.toml)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -442,19 +402,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="ts" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.ts)" />
+      <option name="name" value="Bun fmt (.ts)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -462,19 +422,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="tsx" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.tsx)" />
+      <option name="name" value="Bun fmt (.tsx)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -482,19 +442,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="vue" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.vue)" />
+      <option name="name" value="Bun fmt (.vue)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -502,19 +462,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="yaml" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.yaml)" />
+      <option name="name" value="Bun fmt (.yaml)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />
@@ -522,19 +482,19 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="--write --no-error-on-unmatched-pattern !**/package.json $FilePathRelativeToProjectRoot$" />
+      <option name="arguments" value="fmt --no-script --no-error-on-unmatched-pattern -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="yml" />
       <option name="immediateSync" value="false" />
-      <option name="name" value="Oxfmt (.yml)" />
+      <option name="name" value="Bun fmt (.yml)" />
       <option name="output" value="$FilePathRelativeToProjectRoot$" />
       <option name="outputFilters">
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$ProjectFileDir$/node_modules/.bin/oxfmt" />
+      <option name="program" value="bun" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />

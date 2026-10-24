@@ -1,6 +1,6 @@
 name: Lint PR title
 'on':
-  pull_request_target:
+  pull_request:
     types:
       - opened
       - edited
@@ -10,4 +10,3 @@ jobs:
     uses: WillBooster/reusable-workflows/.github/workflows/semantic-pr.yml@main
     permissions:
       pull-requests: read
-      statuses: write
