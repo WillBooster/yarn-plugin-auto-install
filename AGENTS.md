@@ -32,8 +32,8 @@
   - Never drop or weaken a `required` line to fit what was implemented: when one cannot hold in the diff, keep it and say so in Notes.
 - When creating an issue:
   - Follow the closest template under `.github/ISSUE_TEMPLATE/`: `bug.md` for wrong behavior, `change.md` for anything to build or alter; a question or note fitting neither, or a repository without templates, needs no template.
-  - Title: a Conventional Commits prefix for the type that fits the change (`feat:`, `fix:`, `refactor:`, `docs:`, `chore:`, ...); when it differs from the template's `title` prefix, replace the template's type label (`t: ...`) with the one matching the type.
-  - The YAML front matter between the `---` lines is metadata, not body text: pass its `labels` via `--label` and submit only the content below the closing `---` as the body.
+  - Title: a Conventional Commits prefix for the type that fits the change (`feat:`, `fix:`, `refactor:`, `docs:`, `chore:`, ...).
+  - The YAML front matter between the `---` lines is metadata, not body text: submit only the content below the closing `---` as the body.
 - In any explanatory text (commit messages, PR descriptions, documentation, code comments, etc.) other than the PR body's Requirements section, describe only the current implementation: drop any statement naming an identifier, feature, or concept you cannot confirm exists in the final diff or the current codebase (e.g., one added and later removed or renamed along the way). Whenever documentation or comments no longer match the current implementation, delete or rewrite them, even in files you are not otherwise changing. Mention a past state only where it is needed to understand why the current design is as it is, or when explicitly asked; files that record history by design (e.g., a changelog) are exempt.
 - Use heredoc for multi-line command input (e.g., `git commit -F -`, `gh pr create --body-file -`, `gh issue create --body-file -`).
 - Put temporary files in `.tmp`; use `/tmp` only for files that must live outside the repo.

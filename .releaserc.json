@@ -17,8 +17,8 @@
             "path": "dist/index.cjs"
           }
         ],
-        "labels": ["r: semantic-release"],
-        "releasedLabels": ["released :bookmark:"],
+        "labels": false,
+        "releasedLabels": false,
         "successCommentCondition": false,
         "failCommentCondition": false
       }

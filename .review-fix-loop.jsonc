@@ -1,0 +1,8 @@
+{
+  "rflAgent": {
+    "custom": {
+      "baseUrl": "https://llm.willbooster.com/v1",
+      "apiKeyCommand": "bunx @willbooster-private/llm-proxy token",
+    },
+  },
+}
