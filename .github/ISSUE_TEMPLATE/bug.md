@@ -2,7 +2,6 @@
 name: Bug / Problem
 about: Something behaves wrongly
 title: 'fix: '
-labels: 't: fix :bug:'
 ---
 
 <!-- Keep Problem and Proposal; delete Evidence or Impact when they add nothing. Write in English, except text whose language is part of what the code handles (e.g., UI strings, test inputs). Delete these comments. -->
