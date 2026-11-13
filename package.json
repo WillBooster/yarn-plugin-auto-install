@@ -51,8 +51,8 @@
     "build-ts": "21.0.31",
     "conventional-changelog-conventionalcommits": "10.4.1",
     "lefthook": "2.2.2",
-    "oxlint": "1.90.0",
-    "oxlint-tsgolint": "7.0.2005",
+    "oxlint": "1.92.0",
+    "oxlint-tsgolint": "7.0.2006",
     "semantic-release": "25.0.9"
   }
 }
