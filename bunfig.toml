@@ -81,6 +81,7 @@ minimumReleaseAgeExcludes = [
   "gen-i18n-ts",
   "minimal-promise-pool",
   "one-way-git-sync",
+  "reviewer-protocol",
   "slidev-check",
   "tokzip",
   "vinext-progress",
