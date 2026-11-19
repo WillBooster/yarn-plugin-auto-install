@@ -1,0 +1,17 @@
+name: Submit dependencies
+'on':
+  push:
+    branches:
+      - main
+    paths:
+      - bun.lock
+      - .github/workflows/submit-dependencies.yml
+  workflow_dispatch: null
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  submit-dependencies:
+    uses: WillBooster/reusable-workflows/.github/workflows/submit-dependencies.yml@main
+    permissions:
+      contents: write
