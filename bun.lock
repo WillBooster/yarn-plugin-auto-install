@@ -7,7 +7,7 @@
       "devDependencies": {
         "@semantic-release/exec": "7.1.0",
         "@tsconfig/bun": "1.0.12",
-        "@tsconfig/node-lts": "24.0.1",
+        "@tsconfig/node-lts": "26.0.1",
         "@tsconfig/node-ts": "23.6.5",
         "@types/bun": "1.4.4",
         "@types/node": "26.6.6",
@@ -336,7 +336,7 @@
 
     "@tsconfig/bun": ["@tsconfig/bun@1.0.12", "", {}, "sha512-/7sosWfGyWpPtJGwQtTcq8piOWZF8Xjy57lx//8MGBdn5a03Q6qcDTcZ9Zo3Qv3Ui764mp1HZiMlL+RYU6WarA=="],
 
-    "@tsconfig/node-lts": ["@tsconfig/node-lts@24.0.1", "", {}, "sha512-xo+1KtV5zVb90fyyeglG1n5cqg3cQXLlCkEpLptYlZUNk28xmwhuD5GmxoXwmrVtUTvaMyclun9kAd0TK7H+Pg=="],
+    "@tsconfig/node-lts": ["@tsconfig/node-lts@26.0.1", "", {}, "sha512-Z8DWX8MgVR006YMHZYf7d2lzWMBfYAhW4lMyhdeMG9+KGAgbJuGYuoWOAlYipfggCkiHCAZVm/Wiw6IuG5lcnw=="],
 
     "@tsconfig/node-ts": ["@tsconfig/node-ts@23.6.5", "", {}, "sha512-Wi2qMgKqBddhC/rN1CfYAB+Ayk5KxR8i8bVOQGPI26+2URbY435D9f28pRKmplWOIR0Ii/MmyWPDH12P38pRXw=="],
 
