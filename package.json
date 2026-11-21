@@ -41,7 +41,7 @@
   "devDependencies": {
     "@semantic-release/exec": "7.1.0",
     "@tsconfig/bun": "1.0.12",
-    "@tsconfig/node-lts": "24.0.1",
+    "@tsconfig/node-lts": "26.0.1",
     "@tsconfig/node-ts": "23.6.5",
     "@types/bun": "1.4.4",
     "@types/node": "26.6.6",
