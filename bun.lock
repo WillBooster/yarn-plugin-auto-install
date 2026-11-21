@@ -12,7 +12,7 @@
         "@types/bun": "1.4.4",
         "@types/node": "26.6.6",
         "@willbooster/oxlint-config": "1.4.9",
-        "@willbooster/wb": "23.4.2",
+        "@willbooster/wb": "23.4.3",
         "@yarnpkg/core": "4.9.2",
         "build-ts": "21.0.36",
         "conventional-changelog-conventionalcommits": "10.4.1",
@@ -414,7 +414,7 @@
 
     "@willbooster/shared-lib-node": ["@willbooster/shared-lib-node@13.10.0", "", { "dependencies": { "@types/yargs": "17.0.35", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3" } }, "sha512-MRUkXyP7F1cHeB6BtPABWzg+LpoCxSkCprcAa9O7CuF9en8Iz6B4TtwwO/pIR75wSwKyPvAygSnsSeAwyWH7pA=="],
 
-    "@willbooster/wb": ["@willbooster/wb@23.4.2", "", { "dependencies": { "@textlint-rule/textlint-rule-no-invalid-control-character": "3.0.0", "@textlint/kernel": "15.8.0", "@textlint/module-interop": "15.8.0", "@textlint/textlint-plugin-markdown": "15.8.0", "chalk": "6.0.1", "code-gauge": "10.4.3", "dotenv": "18.0.10", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3", "fastest-levenshtein": "1.0.16", "globby": "16.2.4", "jsonc-parser": "3.3.1", "minimal-promise-pool": "6.0.5", "semver": "7.8.6", "smol-toml": "1.9.1", "textlint-filter-rule-node-types": "1.1.0", "textlint-rule-ja-space-between-half-and-full-width": "3.0.4", "textlint-rule-no-zero-width-spaces": "1.0.1", "yaml": "2.9.1", "yargs": "18.2.0", "zod": "4.6.7" }, "bin": { "wb": "bin/index.js" } }, "sha512-RlJSFQTkElpYbHbAFe0R8zs8mdB0KANJXKEdq/Zb/hQSDWCmGbFxWRkctV3b30IWSbF2Savq26wk4VgCe3/RxQ=="],
+    "@willbooster/wb": ["@willbooster/wb@23.4.3", "", { "dependencies": { "@textlint-rule/textlint-rule-no-invalid-control-character": "3.0.0", "@textlint/kernel": "15.8.0", "@textlint/module-interop": "15.8.0", "@textlint/textlint-plugin-markdown": "15.8.0", "chalk": "6.0.1", "code-gauge": "10.5.0", "dotenv": "18.0.10", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3", "fastest-levenshtein": "1.0.16", "globby": "16.2.4", "jsonc-parser": "3.3.1", "minimal-promise-pool": "6.0.5", "semver": "7.8.6", "smol-toml": "1.9.1", "textlint-filter-rule-node-types": "1.1.0", "textlint-rule-ja-space-between-half-and-full-width": "3.0.4", "textlint-rule-no-zero-width-spaces": "1.0.1", "yaml": "2.9.1", "yargs": "18.2.0", "zod": "4.6.7" }, "bin": { "wb": "bin/index.js" } }, "sha512-LbXdZwON8whQ3tB9pZ6/fod/BR8T2yjbWXpZVcUGFHwJ36KQ8/yt6B7MdmkO0CHhCFxYty3brA+P08AUbdINqg=="],
 
     "@yarnpkg/core": ["@yarnpkg/core@4.9.2", "", { "dependencies": { "@arcanis/slice-ansi": "^1.1.1", "@types/semver": "^7.1.0", "@types/treeify": "^1.0.0", "@yarnpkg/fslib": "^3.1.5", "@yarnpkg/libzip": "^3.2.2", "@yarnpkg/parsers": "^3.1.0", "@yarnpkg/shell": "^4.1.3", "camelcase": "^5.3.1", "chalk": "^4.1.2", "ci-info": "^4.0.0", "clipanion": "^4.0.0-rc.2", "cross-spawn": "^7.0.3", "diff": "^5.1.0", "dotenv": "^16.3.1", "es-toolkit": "^1.39.7", "fast-glob": "^3.2.2", "got": "patch:got@npm%3A11.8.2#~/.yarn/patches/got-npm-11.8.2-c1eb105458.patch", "hpagent": "^1.2.0", "micromatch": "^4.0.2", "p-limit": "^2.2.0", "semver": "^7.8.5", "strip-ansi": "^6.0.0", "tar": "^7.5.3", "tinylogic": "^2.0.0", "treeify": "^1.1.0", "tslib": "^2.4.0" } }, "sha512-O3wZzM97Pp0ZEhr1CF13UIpAmaJ7u+nWSzNoZpaUnP5YDYC9EzGiza7L+6FN1f7c+WzkYHp6alyRcOGD2NmJCw=="],
 
@@ -500,21 +500,21 @@
 
     "cliui": ["cliui@9.0.1", "", { "dependencies": { "string-width": "^7.2.0", "strip-ansi": "^7.1.0", "wrap-ansi": "^9.0.0" } }, "sha512-k7ndgKhwoQveBL+/1tqGJYNz097I7WOvwbmmU2AR5+magtbjPWQTS1C5vzGkBC8Ym8UWRzfKUzUUqFLypY4Q+w=="],
 
-    "code-gauge": ["code-gauge@10.4.3", "", { "dependencies": { "@willbooster/shared-lib": "10.18.0", "commander": "15.0.0" }, "optionalDependencies": { "code-gauge-darwin-arm64": "10.4.3", "code-gauge-darwin-x64": "10.4.3", "code-gauge-linux-arm64-gnu": "10.4.3", "code-gauge-linux-arm64-musl": "10.4.3", "code-gauge-linux-x64-gnu": "10.4.3", "code-gauge-linux-x64-musl": "10.4.3", "code-gauge-win32-x64-msvc": "10.4.3" }, "bin": { "code-gauge": "dist/cli.js" } }, "sha512-QbKUDD6VZic3Y3esnLcHfqB5blxoemh00CxRONGKWrUbIaC+58fT4D4jovnWL4Rw/uKiYTjZt/5R5X5oA5y7Mg=="],
+    "code-gauge": ["code-gauge@10.5.0", "", { "dependencies": { "@willbooster/shared-lib": "10.18.0", "commander": "15.0.0" }, "optionalDependencies": { "code-gauge-darwin-arm64": "10.5.0", "code-gauge-darwin-x64": "10.5.0", "code-gauge-linux-arm64-gnu": "10.5.0", "code-gauge-linux-arm64-musl": "10.5.0", "code-gauge-linux-x64-gnu": "10.5.0", "code-gauge-linux-x64-musl": "10.5.0", "code-gauge-win32-x64-msvc": "10.5.0" }, "bin": { "code-gauge": "dist/cli.js" } }, "sha512-RaXjiTQgQgdaLsU3bCW8MS1Rd76kwEXQun9OcfYzyMis0mCvhJ1gJPY1WEduUNLZuwNah8sok3kDGetsf5HVnA=="],
 
-    "code-gauge-darwin-arm64": ["code-gauge-darwin-arm64@10.4.3", "", { "os": "darwin", "cpu": "arm64" }, "sha512-2dljQZvUuPRODmHINTFj0/IjcRJxE0rfJxMvm7YUrJMyMHa8cQqmfIwme4mty7jz3e5kS17dB3eBvnOfG2R7WA=="],
+    "code-gauge-darwin-arm64": ["code-gauge-darwin-arm64@10.5.0", "", { "os": "darwin", "cpu": "arm64" }, "sha512-Z1TGu/MlZxmWHOENqiXBe5fCy2P/YOto48FNu/wDbAzZ9u7hZVN5P2HU52bqOX6Ni1bWfNXiDEDGkIL70ruRyQ=="],
 
-    "code-gauge-darwin-x64": ["code-gauge-darwin-x64@10.4.3", "", { "os": "darwin", "cpu": "x64" }, "sha512-7IAmhz1ujk2eWzE97r/+pyu0E21i3jHfnVaKE79C0tVxmjjb5UHfA9Mi2NgdqDVHWYK2LQZHL9nak8uq6UIrBg=="],
+    "code-gauge-darwin-x64": ["code-gauge-darwin-x64@10.5.0", "", { "os": "darwin", "cpu": "x64" }, "sha512-Olm+eoN5WyPC5tV5KoqdRp8VUue5vUhwyzfoag4/lI55ujv7nYg27GrCegsPGRv/LyzaLLYdIcO1YqLtyFG8IQ=="],
 
-    "code-gauge-linux-arm64-gnu": ["code-gauge-linux-arm64-gnu@10.4.3", "", { "os": "linux", "cpu": "arm64", "libc": "glibc" }, "sha512-MaH0rINKFzMgdUv7KertTtBmbRGhMV5cYgQwq5QyAMF973ZoVbJK9KyBnKxlfJqLJwlmlQ/RPB8aIg0Y02Rm7g=="],
+    "code-gauge-linux-arm64-gnu": ["code-gauge-linux-arm64-gnu@10.5.0", "", { "os": "linux", "cpu": "arm64", "libc": "glibc" }, "sha512-bl/J1T1W9FCbu/swQiY0VBJYksHaOjLIekQv8EzOVlk81WqprkFyANuanSr0U3mb2QaOy0gakSK1SBIeMLY+ig=="],
 
-    "code-gauge-linux-arm64-musl": ["code-gauge-linux-arm64-musl@10.4.3", "", { "os": "linux", "cpu": "arm64", "libc": "musl" }, "sha512-SNbfnHwij6OeNloyCQohJjLP11YseRUCVhp6FMsLNhD+Vv178F1GhyfXNtRIM+OOdSlLpEKWqVxJyDZmVSJBcw=="],
+    "code-gauge-linux-arm64-musl": ["code-gauge-linux-arm64-musl@10.5.0", "", { "os": "linux", "cpu": "arm64", "libc": "musl" }, "sha512-5+71uWpi4DlCQymmOTUJe2X8Iqyt8a+8LC6y0uclCbDvd3j4wSsRVjvFoioPc42KtMSr6xD7Izg5ryRt7tHMgw=="],
 
-    "code-gauge-linux-x64-gnu": ["code-gauge-linux-x64-gnu@10.4.3", "", { "os": "linux", "cpu": "x64", "libc": "glibc" }, "sha512-rLNwxWKs942ewXdHYSN/2GeIaV0gQ+SGEhxNOdHtp3MrTTCoXAcDYm42mCO3gx4fnlhxhhU3cbnvRXzHzMV8iA=="],
+    "code-gauge-linux-x64-gnu": ["code-gauge-linux-x64-gnu@10.5.0", "", { "os": "linux", "cpu": "x64", "libc": "glibc" }, "sha512-Qssfred4gG/CFQrehq97NmfjOHXacqV19L5W3nJUiIZyPMlahyqXdDv1inY+q3gnBbTifZgTXb6zWBr5JAbxHg=="],
 
-    "code-gauge-linux-x64-musl": ["code-gauge-linux-x64-musl@10.4.3", "", { "os": "linux", "cpu": "x64", "libc": "musl" }, "sha512-cxLYOat/UrtqRfNFpf+aNxBd6raFONgJ10i942LJXFzwfntIXTkYfgnNIwU7Uua9tPD4w8LWpdDSnvBMAvp/pA=="],
+    "code-gauge-linux-x64-musl": ["code-gauge-linux-x64-musl@10.5.0", "", { "os": "linux", "cpu": "x64", "libc": "musl" }, "sha512-nVrnx7Z2S5z7PEAk12fkIavmLErq90uTxmbprFssuKURPCggcTGvLkZvGS42DesFyzSJnu5PS7djejj1bHORSQ=="],
 
-    "code-gauge-win32-x64-msvc": ["code-gauge-win32-x64-msvc@10.4.3", "", { "os": "win32", "cpu": "x64" }, "sha512-zNITh3LaKHFWinnBjv84Uequw+WGkXXwIP8aHPQ1pq54Akg1HeWCO+K1uPJhMC60DE7CIYB7I7gvzP6Nz52lRQ=="],
+    "code-gauge-win32-x64-msvc": ["code-gauge-win32-x64-msvc@10.5.0", "", { "os": "win32", "cpu": "x64" }, "sha512-k6HRYeNOwTb1sTcGkfrZgWr9tquj4fo2C4IRxslyjKe5LenKx7r9j3DJwUsjFfAcQ0bHdZIkQru1ViLZDRMNHQ=="],
 
     "color-convert": ["color-convert@2.0.1", "", { "dependencies": { "color-name": "~1.1.4" } }, "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ=="],
 
