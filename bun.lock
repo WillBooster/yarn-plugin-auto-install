@@ -12,7 +12,7 @@
         "@types/bun": "1.4.4",
         "@types/node": "26.6.6",
         "@willbooster/oxlint-config": "1.4.9",
-        "@willbooster/wb": "23.4.3",
+        "@willbooster/wb": "23.5.0",
         "@yarnpkg/core": "4.9.2",
         "build-ts": "21.0.36",
         "conventional-changelog-conventionalcommits": "10.4.1",
@@ -414,7 +414,7 @@
 
     "@willbooster/shared-lib-node": ["@willbooster/shared-lib-node@13.10.0", "", { "dependencies": { "@types/yargs": "17.0.35", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3" } }, "sha512-MRUkXyP7F1cHeB6BtPABWzg+LpoCxSkCprcAa9O7CuF9en8Iz6B4TtwwO/pIR75wSwKyPvAygSnsSeAwyWH7pA=="],
 
-    "@willbooster/wb": ["@willbooster/wb@23.4.3", "", { "dependencies": { "@textlint-rule/textlint-rule-no-invalid-control-character": "3.0.0", "@textlint/kernel": "15.8.0", "@textlint/module-interop": "15.8.0", "@textlint/textlint-plugin-markdown": "15.8.0", "chalk": "6.0.1", "code-gauge": "10.5.0", "dotenv": "18.0.10", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3", "fastest-levenshtein": "1.0.16", "globby": "16.2.4", "jsonc-parser": "3.3.1", "minimal-promise-pool": "6.0.5", "semver": "7.8.6", "smol-toml": "1.9.1", "textlint-filter-rule-node-types": "1.1.0", "textlint-rule-ja-space-between-half-and-full-width": "3.0.4", "textlint-rule-no-zero-width-spaces": "1.0.1", "yaml": "2.9.1", "yargs": "18.2.0", "zod": "4.6.7" }, "bin": { "wb": "bin/index.js" } }, "sha512-LbXdZwON8whQ3tB9pZ6/fod/BR8T2yjbWXpZVcUGFHwJ36KQ8/yt6B7MdmkO0CHhCFxYty3brA+P08AUbdINqg=="],
+    "@willbooster/wb": ["@willbooster/wb@23.5.0", "", { "dependencies": { "@textlint-rule/textlint-rule-no-invalid-control-character": "3.0.0", "@textlint/kernel": "15.8.0", "@textlint/module-interop": "15.8.0", "@textlint/textlint-plugin-markdown": "15.8.0", "chalk": "6.0.1", "code-gauge": "10.5.0", "dotenv": "18.0.10", "dotenv-expand": "13.0.0", "fast-glob": "3.3.3", "fastest-levenshtein": "1.0.16", "globby": "16.2.4", "jsonc-parser": "3.3.1", "semver": "7.8.6", "smol-toml": "1.9.1", "textlint-filter-rule-node-types": "1.1.0", "textlint-rule-ja-space-between-half-and-full-width": "3.0.4", "textlint-rule-no-zero-width-spaces": "1.0.1", "yaml": "2.9.1", "yargs": "18.2.0", "zod": "4.6.7" }, "bin": { "wb": "bin/index.js" } }, "sha512-6tdJIVtrM8KUHsvltjQXQwHiEk9ZOk6p8GK2s6yErnqdE1HsfvwP7SHU0ekGperl/QR+4c2prmtxygYGzb1HOw=="],
 
     "@yarnpkg/core": ["@yarnpkg/core@4.9.2", "", { "dependencies": { "@arcanis/slice-ansi": "^1.1.1", "@types/semver": "^7.1.0", "@types/treeify": "^1.0.0", "@yarnpkg/fslib": "^3.1.5", "@yarnpkg/libzip": "^3.2.2", "@yarnpkg/parsers": "^3.1.0", "@yarnpkg/shell": "^4.1.3", "camelcase": "^5.3.1", "chalk": "^4.1.2", "ci-info": "^4.0.0", "clipanion": "^4.0.0-rc.2", "cross-spawn": "^7.0.3", "diff": "^5.1.0", "dotenv": "^16.3.1", "es-toolkit": "^1.39.7", "fast-glob": "^3.2.2", "got": "patch:got@npm%3A11.8.2#~/.yarn/patches/got-npm-11.8.2-c1eb105458.patch", "hpagent": "^1.2.0", "micromatch": "^4.0.2", "p-limit": "^2.2.0", "semver": "^7.8.5", "strip-ansi": "^6.0.0", "tar": "^7.5.3", "tinylogic": "^2.0.0", "treeify": "^1.1.0", "tslib": "^2.4.0" } }, "sha512-O3wZzM97Pp0ZEhr1CF13UIpAmaJ7u+nWSzNoZpaUnP5YDYC9EzGiza7L+6FN1f7c+WzkYHp6alyRcOGD2NmJCw=="],
 
@@ -857,8 +857,6 @@
     "mimic-fn": ["mimic-fn@4.0.0", "", {}, "sha512-vqiC06CuhBTUdZH+RYl8sFrL096vA45Ok5ISO6sE/Mr1jRbGH4Csnhi8f3wKVl7x8mO4Au7Ir9D3Oyv1VYMFJw=="],
 
     "mimic-response": ["mimic-response@4.0.0", "", {}, "sha512-e5ISH9xMYU0DzrT+jl8q2ze9D6eWBto+I8CNpe+VI+K2J/F/k3PdkdTdz4wvGVH4NTpo+NRYTVIuMQEMMcsLqg=="],
-
-    "minimal-promise-pool": ["minimal-promise-pool@6.0.5", "", {}, "sha512-H4TMO7rbBPGBXJjAblvnljMby/sYHDIsLEkIy2/0ckUMu75T5pOd5k9hEryOcbp1Clg0wO/uXCydlXUZ3wAX0w=="],
 
     "minimist": ["minimist@1.2.8", "", {}, "sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA=="],
 
